@@ -152,7 +152,7 @@ than the mandala.
 
 Join the all four vertical lines this way.
 
-![sew vertical](../img/sanghati/figures/sew-vertical.jpg)
+![sew vertical](../img/sanghati/figures/sew-vertical-lines.jpg)
 
 ## Joining the Khandhas
 
@@ -173,7 +173,7 @@ To get a 5.5cm kusi, mark the cloth at 6.5cm and trim the egde.
 Place the side layers on top and bottom of the middle layer. Find the pencil
 marks of the kusi lines and align them evenly.
 
-![join the sides](../img/sanghati/figures/join-the-sides.jpg)
+![join the sides](../img/sanghati/figures/join-sides.jpg)
 
 Pin the four layers and sew them at 1cm from the edge of the cloth. Before
 sewing, you can double-check the arrangement by folding the layers out along the

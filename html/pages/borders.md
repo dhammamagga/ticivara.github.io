@@ -9,7 +9,7 @@ Find the distance at which the joined khandhas can be cut.
 Take the line of the kusis and measure which edge is the closest. Draw that
 line.
 
-![trim area](../img/sanghati/figures/trim-area.jpg)
+![trim area](../img/borders/figures/trim-area.jpg)
 
 Keep in mind that 1cm will be taken up by he hem for the border.
 
@@ -29,7 +29,7 @@ Spread the cloth on the floor with the outside up and place the borders along
 the edge. Pin it and sew both sides to about 30cm distance from the corners, so
 that the ends at the corners are free to manipulate.
 
-![sew sides](../img/sanghati/figures/sew-sides.jpg)
+![sew sides](../img/borders/figures/sew-sides.jpg)
 
 After sewing, arrange one corner on the ironing board and iron the edges flat.
 Take care that the edges should meet at the exact corner of the main cloth.
@@ -41,7 +41,7 @@ Fold them in along the diagonal. The flaps should be folded inside.
 Take care to align the corner of the two borders, the corner of the main cloth
 and the end of the diagonal mark.
 
-![align the diagonal](../img/sanghati/figures/align-the-diagonal.jpg)
+![align the diagonal](../img/borders/figures/align-the-diagonal.jpg)
 
 Fold out on border, measure 1.5cm from the diagonal on the flap and trim.
 
@@ -59,7 +59,7 @@ down along the diagonal on the other side and off the corner.
 
 Then sew the outer edge.
 
-![corner sewing sequence](../img/sanghati/figures/corner-sewing-sequence.jpg)
+![corner sewing sequence](../img/borders/figures/corner-sewing-sequence.jpg)
 
 Repeat with the other corners and the border is finished.
 

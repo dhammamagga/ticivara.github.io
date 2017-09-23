@@ -37,4 +37,4 @@ When looking at the outside of the result, only one line of sewing should be see
 
 Make a hem around the edges at 1cm.
 
-Add the borders.
+Add the [borders](borders.html).
