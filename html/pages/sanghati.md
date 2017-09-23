@@ -4,6 +4,15 @@ title: Sanghati Sewing Guide
 
 # Sanghati Sewing Guide
 
+Contents (wannabe)
+
+- Drawing and Cutting
+- Cutting the Borders
+- First Sewing
+- Joining the Layers
+- Joining the Khandhas
+- Borders
+
 ## Drawing and Cutting
 
 Cut off the length of the cloth and iron it, so that the cloth lies smooth and flat.
@@ -111,6 +120,73 @@ cross and lock it.
 [first-sewing]: ../img/sanghati/photos/first-sewing_w500.jpg
 [first-sewing-orig]: ../img/sanghati/photos/first-sewing_orig.jpg
 
-## Second Sewing
+## Joining the Layers
 
-...
+Start with the middle khandha, take both layers and arrange them with the sewing inside.
+
+Take the horizontal kusi line and fold it down on the two sides.
+
+![join layers](../img/sanghati/figures/join-layers.jpg)
+
+Pin them below the sewn line and fold back to check that the kusi will be on a
+lower level than the mandala.
+
+This is also called the "canal" and the "shore", if you imagine the kusis being
+the watering canals between rice paddy fields.
+
+Sew the layer together below the first sewing, within 1-2 mm. Sew both
+horizontal kusi lines this way.
+
+![sew horizontal](../img/sanghati/figures/sew-horizontal-lines.jpg)
+
+To join the ertical lines, the sides have to be folded back to expose the lines.
+
+It is possible to fold the first one in the wrong direction, and when you fold
+it back, the kusi ends up higher. When folded in the wrong direction, there will
+be a flap at the corner.
+
+When it is folded in the right direction, the flap will be inside.
+
+Pin the layers, and double-check by folding it back out, that the kusi is lower
+than the mandala.
+
+Join the all four vertical lines this way.
+
+![sew vertical](../img/sanghati/figures/sew-vertical.jpg)
+
+## Joining the Khandhas
+
+Join one of the side khandhas to the middle khandha.
+
+![join khandhas](../img/sanghati/figures/join-khandhas.jpg)
+
+Measure the visible kusi width on the middle khandha. If you started with a 6cm
+kusi, and did the sewing at 2mm on both lines, the result shuld be about 5.5mm
+visible kusi width on the cloth.
+
+When joining the side khandha, allow 1cm from the edge for sewing.
+
+To get a 5.5cm kusi, mark the cloth at 6.5cm and trim the egde.
+
+![trim the edge](../img/sanghati/figures/trim-the-edge.jpg)
+
+Place the side layers on top and bottom of the middle layer. Find the pencil
+marks of the kusi lines and align them evenly.
+
+![join the sides](../img/sanghati/figures/join-the-sides.jpg)
+
+Pin the four layers and sew them at 1cm from the edge of the cloth. Before
+sewing, you can double-check the arrangement by folding the layers out along the
+pins. Check that the kusi lower, and kusis are aligned across the cloth.
+
+After sewing, trim the edge at 3mm from the sewn line.
+
+The other lines of the side khandhas are joined the same way as before.
+
+Continue with joining the other side to the middle khandha and proceed outward
+until all the khandhas are joined.
+
+## Borders
+
+See [Borders](borders.html)
+
