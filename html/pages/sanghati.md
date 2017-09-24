@@ -4,14 +4,12 @@ title: Sanghati Sewing Guide
 
 # Sanghati Sewing Guide
 
-Contents (wannabe)
-
-- Drawing and Cutting
-- Cutting the Borders
-- First Sewing
-- Joining the Layers
-- Joining the Khandhas
-- Borders
+- [Drawing and Cutting](#drawing-and-cutting)
+- [Cutting the Borders](#cutting-the-borders)
+- [First Sewing](#first-sewing)
+- [Joining the Layers](#joining-the-layers)
+- [Joining the Khandhas](#joining-the-khandhas)
+- [Sewing the Borders](#sewing-the-borders)
 
 ## Drawing and Cutting
 
@@ -59,44 +57,7 @@ flipped on the vertical axis when marking, to produce a mirror image.
 
 ## Cutting the Borders
 
-If there is space for it on the cloth, use the remaining part at the top for the
-long borders, and the side for the short borders. Cutting them this way
-preserves the thread alignment.
-
-![borders vertical](../img/sanghati/figures/border-orientation-vertical.jpg)
-
-The thread has to be aligned in the same direction in the borders and the main
-cloth, otherwise during washing the border and main cloth will shrink at a
-different rate and produce wrinkles.
-
-These are ready to iron and used later.
-
-Fold and iron the edges by gently tapping with the iron. A strong force on the
-iron will push the edges out. 0.5 cm is sufficient along the edges.
-
-After ironing, roll up the borders to preserve the ironed edges. Tie up the
-rolls with the trim from the edges.
-
-[![borders rolled up][borders]][borders-orig]
-
-[borders]: ../img/sanghati/photos/borders-rolled-up_w500.jpg
-[borders-orig]: ../img/sanghati/photos/borders-rolled-up_orig.jpg
-
-When the borders have to be cut at a different orientation, sections of it
-have to be joined up to preserve the thread alignment.
-
-The short borders sometimes have to be cut horizontally from the cloth. Cut the
-length to pieces which are the width of the border, and join them one after the
-other.
-
-![borders horizontal](../img/sanghati/figures/border-orientation-horizontal.jpg)
-
-![border cut and join](../img/sanghati/figures/border-cut-and-join.jpg)
-
-This will preserve the thread orientation when the border is be placed on the
-main cloth.
-
-![border orientation](../img/sanghati/figures/border-orientation-on-cloth.jpg)
+See [the Border Sewing Guide](borders.html#cutting)
 
 ## First Sewing
 
@@ -131,6 +92,16 @@ Take the horizontal kusi line and fold it down on the two sides.
 Pin them below the sewn line and fold back to check that the kusi will be on a
 lower level than the mandala.
 
+[![join horizontal pinned][join-horizontal-pinned]][join-horizontal-pinned-orig]
+
+[join-horizontal-pinned]: ../img/sanghati/photos/join-horizontal-pinned_w500.jpg
+[join-horizontal-pinned-orig]: ../img/borders/photos/join-horizontal-pinned_orig.jpg
+
+[![join horizontal fold out][join-horizontal-fold-out]][join-horizontal-fold-out-orig]
+
+[join-horizontal-fold-out]: ../img/sanghati/photos/join-horizontal-fold-out_w500.jpg
+[join-horizontal-fold-out-orig]: ../img/borders/photos/join-horizontal-fold-out_orig.jpg
+
 This is also called the "canal" and the "shore", if you imagine the kusis being
 the watering canals between rice paddy fields.
 
@@ -139,7 +110,10 @@ horizontal kusi lines this way.
 
 ![sew horizontal](../img/sanghati/figures/sew-horizontal-lines.jpg)
 
-To join the ertical lines, the sides have to be folded back to expose the lines.
+[![join sew below line][join-sew-below-line]][join-sew-below-line-orig]
+
+[join-sew-below-line]: ../img/sanghati/photos/join-sew-below-line_w500.jpg
+[join-sew-below-line-orig]: ../img/borders/photos/join-sew-below-line_orig.jpg
 
 It is possible to fold the first one in the wrong direction, and when you fold
 it back, the kusi ends up higher. When folded in the wrong direction, there will
@@ -147,12 +121,34 @@ be a flap at the corner.
 
 When it is folded in the right direction, the flap will be inside.
 
+[![fold before join][fold-before-join]][fold-before-join-orig]
+
+[fold-before-join]: ../img/sanghati/photos/fold-before-join_w500.jpg
+[fold-before-join-orig]: ../img/borders/photos/fold-before-join_orig.jpg
+
+[![fold flap inside][fold-flap-inside]][fold-flap-inside-orig]
+
+[fold-flap-inside]: ../img/sanghati/photos/fold-flap-inside_w500.jpg
+[fold-flap-inside-orig]: ../img/borders/photos/fold-flap-inside_orig.jpg
+
 Pin the layers, and double-check by folding it back out, that the kusi is lower
 than the mandala.
 
-Join the all four vertical lines this way.
+Join the horizontal lines this way.
+
+[![fold joined][fold-joined]][fold-joined-orig]
+
+[fold-joined]: ../img/sanghati/photos/fold-joined_w500.jpg
+[fold-joined-orig]: ../img/borders/photos/fold-joined_orig.jpg
+
+Join the vertical lines in the same manner, but stop at 2mm from the horizontal lines.
 
 ![sew vertical](../img/sanghati/figures/sew-vertical-lines.jpg)
+
+[![join sew close][join-sew-close]][join-sew-close-orig]
+
+[join-sew-close]: ../img/sanghati/photos/join-sew-close_w500.jpg
+[join-sew-close-orig]: ../img/borders/photos/join-sew-close_orig.jpg
 
 ## Joining the Khandhas
 
@@ -170,23 +166,83 @@ To get a 5.5cm kusi, mark the cloth at 6.5cm and trim the egde.
 
 ![trim the edge](../img/sanghati/figures/trim-the-edge.jpg)
 
+Pull the sewing line against the edge of a ruler to straighten the cloth.
+
+[![prepare to trim][khandhas-prepare-to-trim]][khandhas-prepare-to-trim-orig]
+
+[khandhas-prepare-to-trim]: ../img/sanghati/photos/khandhas-prepare-to-trim_w500.jpg
+[khandhas-prepare-to-trim-orig]: ../img/borders/photos/khandhas-prepare-to-trim_orig.jpg
+
+Trim.
+
+[![trim before join][khandhas-trim-before-join]][khandhas-trim-before-join-orig]
+
+[khandhas-trim-before-join]: ../img/sanghati/photos/khandhas-trim-before-join_w500.jpg
+[khandhas-trim-before-join-orig]: ../img/borders/photos/khandhas-trim-before-join_orig.jpg
+
 Place the side layers on top and bottom of the middle layer. Find the pencil
 marks of the kusi lines and align them evenly.
 
 ![join the sides](../img/sanghati/figures/join-sides.jpg)
 
+[![align kusis with pencil marks][khandhas-align-kusis-pencil-mark]][khandhas-align-kusis-pencil-mark-orig]
+
+[khandhas-align-kusis-pencil-mark]: ../img/sanghati/photos/khandhas-align-kusis-pencil-mark_w500.jpg
+[khandhas-align-kusis-pencil-mark-orig]: ../img/borders/photos/khandhas-align-kusis-pencil-mark_orig.jpg
+
+[![align kusis pencil marks closeup][khandhas-align-kusis-pencil-mark-closeup]][khandhas-align-kusis-pencil-mark-closeup-orig]
+
+[khandhas-align-kusis-pencil-mark-closeup]: ../img/sanghati/photos/khandhas-align-kusis-pencil-mark-closeup_w500.jpg
+[khandhas-align-kusis-pencil-mark-closeup-orig]: ../img/borders/photos/khandhas-align-kusis-pencil-mark-closeup_orig.jpg
+
+[![align kusis][khandhas-align-kusis]][khandhas-align-kusis-orig]
+
+[khandhas-align-kusis]: ../img/sanghati/photos/khandhas-align-kusis_w500.jpg
+[khandhas-align-kusis-orig]: ../img/borders/photos/khandhas-align-kusis_orig.jpg
+
 Pin the four layers and sew them at 1cm from the edge of the cloth. Before
 sewing, you can double-check the arrangement by folding the layers out along the
 pins. Check that the kusi lower, and kusis are aligned across the cloth.
 
+[![pin edges][khandhas-pin-edges]][khandhas-pin-edges-orig]
+
+[khandhas-pin-edges]: ../img/sanghati/photos/khandhas-pin-edges_w500.jpg
+[khandhas-pin-edges-orig]: ../img/borders/photos/khandhas-pin-edges_orig.jpg
+
+[![pin edges closeup][khandhas-pin-edges-closeup]][khandhas-pin-edges-closeup-orig]
+
+[khandhas-pin-edges-closeup]: ../img/sanghati/photos/khandhas-pin-edges-closeup_w500.jpg
+[khandhas-pin-edges-closeup-orig]: ../img/borders/photos/khandhas-pin-edges-closeup_orig.jpg
+
+[![fold out][khandhas-fold-out]][khandhas-fold-out-orig]
+
+[khandhas-fold-out]: ../img/sanghati/photos/khandhas-fold-out_w500.jpg
+[khandhas-fold-out-orig]: ../img/borders/photos/khandhas-fold-out_orig.jpg
+
+[![before sewing][khandhas-before-sewing]][khandhas-before-sewing-orig]
+
+[khandhas-before-sewing]: ../img/sanghati/photos/khandhas-before-sewing_w500.jpg
+[khandhas-before-sewing-orig]: ../img/borders/photos/khandhas-before-sewing_orig.jpg
+
+[![join sewing][khandhas-join-sewing]][khandhas-join-sewing-orig]
+
+[khandhas-join-sewing]: ../img/sanghati/photos/khandhas-join-sewing_w500.jpg
+[khandhas-join-sewing-orig]: ../img/borders/photos/khandhas-join-sewing_orig.jpg
+
 After sewing, trim the edge at 3mm from the sewn line.
+
+[![trim after join][khandhas-trim-after-join]][khandhas-trim-after-join-orig]
+
+[khandhas-trim-after-join]: ../img/sanghati/photos/khandhas-trim-after-join_w500.jpg
+[khandhas-trim-after-join-orig]: ../img/borders/photos/khandhas-trim-after-join_orig.jpg
 
 The other lines of the side khandhas are joined the same way as before.
 
 Continue with joining the other side to the middle khandha and proceed outward
 until all the khandhas are joined.
 
-## Borders
+## Sewing the Borders
 
-See [Borders](borders.html)
+See [Borders](borders.html#sewing).
+
 

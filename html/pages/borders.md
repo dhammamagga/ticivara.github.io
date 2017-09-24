@@ -1,8 +1,55 @@
 ---
-title: Borders
+title: Border Sewing Guide
 ---
 
 # Borders
+
+- [Cutting](#cutting)
+- [Sewing](#sewing)
+
+## Cutting
+
+If there is space for it on the cloth, use the remaining part at the top for the
+long borders, and the side for the short borders. Cutting them this way
+preserves the thread alignment.
+
+![borders vertical](../img/sanghati/figures/border-orientation-vertical.jpg)
+
+The thread has to be aligned in the same direction in the borders and the main
+cloth, otherwise during washing the border and main cloth will shrink at a
+different rate and produce wrinkles.
+
+These are ready to iron and used later.
+
+Fold and iron the edges by gently tapping with the iron. A strong force on the
+iron will push the edges out. 0.5 cm is sufficient along the edges.
+
+After ironing, roll up the borders to preserve the ironed edges. Tie up the
+rolls with the trim from the edges.
+
+[![borders rolled up][borders]][borders-orig]
+
+[borders]: ../img/sanghati/photos/borders-rolled-up_w500.jpg
+[borders-orig]: ../img/sanghati/photos/borders-rolled-up_orig.jpg
+
+When the borders have to be cut at a different orientation, sections of it
+have to be joined up to preserve the thread alignment.
+
+The short borders sometimes have to be cut horizontally from the cloth. Cut the
+length to pieces which are the width of the border, and join them one after the
+other.
+
+![borders horizontal](../img/sanghati/figures/border-orientation-horizontal.jpg)
+
+![border cut and join](../img/sanghati/figures/border-cut-and-join.jpg)
+
+This will preserve the thread orientation when the border is be placed on the
+main cloth.
+
+![border orientation](../img/sanghati/figures/border-orientation-on-cloth.jpg)
+
+
+## Sewing
 
 Find the distance at which the joined khandhas can be cut.
 
