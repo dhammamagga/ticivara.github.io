@@ -1,4 +1,5 @@
 (ns app.core
+  (:require-macros [app.env :as env :refer [cljs-env]])
   (:require
    ;; core libs
    [reagent.core :as r]
@@ -62,6 +63,11 @@
 (defn <page> []
   (fn [] [(pages (get-pagekey))]))
 
+(defn ga [& more]
+  (when js/ga
+    (.. (aget js/window "ga")
+        (apply nil (clj->js more)))))
+
 ;; -------------------------
 ;; History
 ;; must be called after routes have been defined
@@ -70,7 +76,12 @@
     (events/listen
      HistoryEventType/NAVIGATE
      (fn [event]
-       (secretary/dispatch! (.-token event))))
+       (secretary/dispatch! (.-token event))
+       ;; send a pageview event in production
+       (when (= (cljs-env :mode) "production")
+         (do (ga "set" "page" (.-token event))
+             (ga "send" "pageview")))
+       ))
     (.setEnabled true)))
 
 (defn mount-components []

@@ -11,6 +11,8 @@
                  [cljsjs/pdfmake              "0.1.26-0"]
                  [funcool/decimal             "1.0.1"]
                  [hiccup                      "1.0.5"]
+                 [environ                     "1.1.0"]
+                 [boot-environ                "1.1.0"]
                  [perun                       "0.4.2-SNAPSHOT" :scope "test"]
                  [adzerk/boot-cljs            "2.1.3"    :scope "test"]
                  [adzerk/boot-cljs-repl       "0.3.3"    :scope "test"]
@@ -24,6 +26,7 @@
 
 (require
   '[io.perun              :as p]
+  '[environ.boot          :refer [environ]]
   '[adzerk.boot-cljs      :refer [cljs]]
   '[adzerk.boot-cljs-repl :refer [cljs-repl-env start-repl]]
   '[adzerk.boot-reload    :refer [reload]]
@@ -51,8 +54,8 @@
 
 (deftask dev []
   (comp (serve :dir "target/")
+        (environ :env {:mode "development"})
         (watch)
-        (site)
         (sass)
         (reload :on-jsload 'app.core/main)
         (cljs-repl-env) ;; doesn't start a REPL server, use with cider-jack-in
@@ -60,7 +63,7 @@
         (target :dir #{"target/"})))
 
 (deftask dist []
-  (comp (site)
-        (sass :output-style :compressed)
+  (comp (sass :output-style :compressed)
+        (environ :env {:mode "production"})
         (cljs :optimizations :advanced)
         (target :dir #{"dist"} :no-clean true)))
