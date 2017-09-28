@@ -32,6 +32,9 @@
           (doseq [header (sel [:.render-markdown :h4])] (dommy/add-class! header :s-title))
           (doseq [header (sel [:.render-markdown :h5])] (dommy/add-class! header :s-title))
           (doseq [header (sel [:.render-markdown :h6])] (dommy/add-class! header :s-title))
+          (doseq [imagelink (sel [:p :a :img])]
+            (dommy/set-attr! (dommy/parent imagelink) :target "_blank")
+            (dommy/add-class! (dommy/parent imagelink) :image-link))
           ))))
 
 ;; page-margins: [left, top, right, bottom]

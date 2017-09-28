@@ -32,3 +32,28 @@ canvas.pattern
 
 .s-content
   max-width: 100%
+
+#page
+  p > a.image-link
+    img
+      padding: 6px
+    &:hover
+      img
+        padding: 5px
+        border: 1px solid #c4c4c4
+      &::after
+        background-color: rgba(255, 255, 255, 0.8)
+    &::after
+      color: #5764c6
+      display: inline-block
+      position: relative
+      top: -16px
+      left: -43px
+      font-size: 30px
+      padding: 3px
+      border: 1px solid rgba(87, 100, 198, 0.9)
+      border-radius: 20px
+      background-color: rgba(255, 255, 255, 0.5)
+      /* right arrow */
+      content: "\2192"
+

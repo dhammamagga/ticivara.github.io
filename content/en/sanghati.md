@@ -46,7 +46,7 @@ flipped on the vertical axis when marking, to produce a mirror image.
 
 ## Cutting the Borders
 
-See [the Border Sewing Guide](borders.html#cutting)
+See [the Border Sewing Guide](/#/en/borders)
 
 ## First Sewing
 
