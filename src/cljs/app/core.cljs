@@ -18,9 +18,9 @@
    [app.helpers :as helpers]
    [app.routes :as routes]
    [app.elements :refer [<container>]]
-   [app.sabong :refer [<content-sabong>]]
-   [app.civara :refer [<content-civara>]]
-   [app.sanghati :refer [<content-sanghati>]]
+   [app.sabong :refer [<content-sabong-pattern>]]
+   [app.civara :refer [<content-civara-pattern>]]
+   [app.sanghati :refer [<content-sanghati-pattern>]]
    [app.content-page :refer [<content-page>]])
   ;; history for routing
   (:import goog.History))
@@ -28,17 +28,28 @@
 ;; -------------------------
 ;; Pages
 
+(defn <page-sabong-pattern> []
+  (fn [] [<container> <content-sabong-pattern> state/state]))
+
+(defn <page-civara-pattern> []
+  (fn [] [<container> <content-civara-pattern> state/state]))
+
+(defn <page-sanghati-pattern> []
+  (fn [] [<container> <content-sanghati-pattern> state/state]))
+
+;; TODO Refactor. These are all the same but pull in a different content key in the page.
+
 (defn <page-home> []
   (fn [] [<container> <content-page> state/state]))
 
-(defn <page-sabong> []
-  (fn [] [<container> <content-sabong> state/state]))
+(defn <page-sabong-guide> []
+  (fn [] [<container> <content-page> state/state]))
 
-(defn <page-civara> []
-  (fn [] [<container> <content-civara> state/state]))
+(defn <page-civara-guide> []
+  (fn [] [<container> <content-page> state/state]))
 
-(defn <page-sanghati> []
-  (fn [] [<container> <content-sanghati> state/state]))
+(defn <page-sanghati-guide> []
+  (fn [] [<container> <content-page> state/state]))
 
 (defn <page-borders> []
   (fn [] [<container> <content-page> state/state]))
@@ -48,9 +59,16 @@
 
 (def pages
   {:home #'<page-home>
-   :sabong #'<page-sabong>
-   :civara #'<page-civara>
-   :sanghati #'<page-sanghati>
+
+   :sabong-pattern   #'<page-sabong-pattern>
+   :sabong-guide     #'<page-sabong-guide>
+
+   :civara-pattern   #'<page-civara-pattern>
+   :civara-guide     #'<page-civara-guide>
+
+   :sanghati-pattern #'<page-sanghati-pattern>
+   :sanghati-guide   #'<page-sanghati-guide>
+
    :borders #'<page-borders>
    :tools #'<page-tools>
    })
@@ -79,7 +97,8 @@
        (secretary/dispatch! (.-token event))
        ;; send a pageview event in production
        (when (= (cljs-env :mode) "production")
-         (do (ga "set" "page" (.-token event))
+         (do (ga "create" "UA-3557338-12" "auto");
+             (ga "set" "page" (.-token event))
              (ga "send" "pageview")))
        ))
     (.setEnabled true)))

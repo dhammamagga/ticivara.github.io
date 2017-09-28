@@ -1,7 +1,3 @@
----
-title: Sabong Sewing Guide
----
-
 # Sabong Sewing Guide
 
 Determine the final size and mark the cloth.
@@ -37,4 +33,4 @@ When looking at the outside of the result, only one line of sewing should be see
 
 Make a hem around the edges at 1cm.
 
-Add the [borders](borders.html).
+Add the [borders](/#/en/borders).

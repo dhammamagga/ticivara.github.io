@@ -249,7 +249,7 @@
   (h/render-markdown)
   (draw-sanghati-pattern data))
 
-(defn <content-sanghati> [data]
+(defn <content-sanghati-pattern> [data]
   (r/create-class
    {:component-did-mount (fn [] (sanghati-update data))
     :component-did-update (fn [] (sanghati-update data))
@@ -392,9 +392,5 @@
         [:canvas.pattern {:id "sanghati-panels-7-8-9-canvas" :width 3500 :height 2400}]
        ]
 
-       [:div.docs-note
-        [:h5.s-title {:id "sanghati-guide"} "Guide"]
-        [:div.render-markdown
-         (text :sanghati-guide)]
-        ]])
+       ])
     )}))

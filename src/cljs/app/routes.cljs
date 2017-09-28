@@ -17,17 +17,29 @@
   (swap! state/state assoc-in [:params :lang] (keyword lang))
   (session/put! :page :home))
 
-(secretary/defroute sabong-path "/:lang/sabong" [lang]
+(secretary/defroute sabong-pattern-path "/:lang/sabong" [lang]
   (swap! state/state assoc-in [:params :lang] (keyword lang))
-  (session/put! :page :sabong))
+  (session/put! :page :sabong-pattern))
 
-(secretary/defroute civara-path "/:lang/civara" [lang]
+(secretary/defroute sabong-guide-path "/:lang/sabong-guide" [lang]
   (swap! state/state assoc-in [:params :lang] (keyword lang))
-  (session/put! :page :civara))
+  (session/put! :page :sabong-guide))
 
-(secretary/defroute sanghati-path "/:lang/sanghati" [lang]
+(secretary/defroute civara-pattern-path "/:lang/civara" [lang]
   (swap! state/state assoc-in [:params :lang] (keyword lang))
-  (session/put! :page :sanghati))
+  (session/put! :page :civara-pattern))
+
+(secretary/defroute civara-guide-path "/:lang/civara-guide" [lang]
+  (swap! state/state assoc-in [:params :lang] (keyword lang))
+  (session/put! :page :civara-guide))
+
+(secretary/defroute sanghati-pattern-path "/:lang/sanghati" [lang]
+  (swap! state/state assoc-in [:params :lang] (keyword lang))
+  (session/put! :page :sanghati-pattern))
+
+(secretary/defroute sanghati-guide-path "/:lang/sanghati-guide" [lang]
+  (swap! state/state assoc-in [:params :lang] (keyword lang))
+  (session/put! :page :sanghati-guide))
 
 (secretary/defroute borders-path "/:lang/borders" [lang]
   (swap! state/state assoc-in [:params :lang] (keyword lang))

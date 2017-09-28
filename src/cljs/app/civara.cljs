@@ -11,7 +11,7 @@
 (defn civara-update [data]
   (h/render-markdown))
 
-(defn <content-civara> [data]
+(defn <content-civara-pattern> [data]
   (r/create-class
    {:component-did-mount (fn [] (civara-update data))
     :component-did-update (fn [] (civara-update data))
@@ -27,8 +27,6 @@
           [:h5.s-title {:id "civara-pattern"} (text :pattern)]
           [:p "..."]]
 
-         [:div.docs-note
-          [:h5.s-title {:id "civara-guide"} (text :guide)]
-          [:div.render-markdown
-           (text :civara-guide)]]]
+         [:div.render-markdown ""];; FIXME at least one markdown item keeps h/render-markdown happy
+         ]
         ))}))

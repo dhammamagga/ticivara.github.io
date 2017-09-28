@@ -205,7 +205,7 @@
   (h/render-markdown)
   (draw-sabong-pattern data))
 
-(defn <content-sabong> [data]
+(defn <content-sabong-pattern> [data]
   (r/create-class
    {:component-did-mount (fn [] (sabong-update data))
     :component-did-update (fn [] (sabong-update data))
@@ -339,8 +339,5 @@
 
            [:canvas.pattern {:id "sabong-pattern-canvas" :width 3500 :height 2400}]]
 
-          [:div.docs-note
-           [:h5.s-title {:id "sabong-guide"} (text :guide)]
-           [:div.render-markdown
-            (text :sabong-guide)]]]
+          ]
         ))}))

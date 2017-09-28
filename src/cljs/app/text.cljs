@@ -1,4 +1,5 @@
 (ns app.text
+  (:require-macros [app.content :as ac])
   (:require [app.state :as state]))
 
 (def en-home-content-md "
@@ -17,31 +18,6 @@ Enjoy your work!
 การคำนวน และแบบการตัดเย็บผ้าไตรจีวรจะอยูในส่วนนี้
 อยู่ในระหว่างการเขียน
 
-")
-
-(def en-sabong-guide-md "
-TODO Later.
-")
-
-
-(def th-sabong-guide-md "
-TODO ผ้าสบง
-")
-
-(def en-civara-guide-md "
-TODO Later.
-")
-
-(def th-civara-guide-md "
-TODO ผ้าจีวร
-")
-
-(def en-sanghati-guide-md "
-TODO Later.
-")
-
-(def th-sanghati-guide-md "
-TODO ผ้าสังฆาฏิ
 ")
 
 (def en-robe-size-note-md "
@@ -65,43 +41,13 @@ will not accumulate errors from rounding.
 ต้องรออับเดท
 ")
 
-(def en-borders-content-md "
-TODO Later.
-")
-
-(def th-borders-content-md "
-TODO อนุวาต
-")
-
-(def en-tools-content-md "
-
-#### Checklist before sewing
-
-- thread
-- sewing machine condition
-- extra machine needle in case it breaks
-- large, sharp scissors
-- tape measure
-- long straight edge
-- ruler
-- marking pencil (2A soft)
-- fabric dye
-- rotary cutter
-- cutting board
-
-")
-
-(def th-tools-content-md "
-TODO บางสิ่ง
-")
-
-(def text-lookup {:en {:sabong-guide   en-sabong-guide-md
-                       :civara-guide   en-civara-guide-md
-                       :sanghati-guide en-sanghati-guide-md
-                       :robe-size-note en-robe-size-note-md
-                       :borders-content en-borders-content-md
-                       :tools-content en-tools-content-md
+(def text-lookup {:en {:sabong-guide-content (ac/en-sabong-md)
+                       :civara-guide-content (ac/en-civara-md)
+                       :sanghati-guide-content (ac/en-sanghati-md)
+                       :borders-content (ac/en-borders-md)
+                       :tools-content (ac/en-tools-md)
                        :home-content en-home-content-md
+                       :robe-size-note en-robe-size-note-md
                        :home "Home"
                        :robe-sewing "Robe Sewing"
                        :sabong "Sabong"
@@ -122,13 +68,13 @@ TODO บางสิ่ง
                        :cutting-buffer "Cutting buffer"
                        }
 
-                  :th {:sabong-guide   th-sabong-guide-md
-                       :civara-guide   th-civara-guide-md
-                       :sanghati-guide th-sanghati-guide-md
-                       :robe-size-note th-robe-size-note-md
-                       :borders-content th-borders-content-md
-                       :tools-content th-tools-content-md
+                  :th {:sabong-guide-content (ac/th-sabong-md)
+                       :civara-guide-content (ac/th-civara-md)
+                       :sanghati-guide-content (ac/th-sanghati-md)
+                       :borders-content (ac/th-borders-md)
+                       :tools-content (ac/th-tools-md)
                        :home-content th-home-content-md
+                       :robe-size-note th-robe-size-note-md
                        :home "โปรแกรมคำนวณ"
                        :robe-sewing "การตัดเย็บผ้าไตรจีวร"
                        :sabong "สบง"

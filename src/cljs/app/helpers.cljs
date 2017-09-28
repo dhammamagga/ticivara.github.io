@@ -15,10 +15,15 @@
 (defn nav! [loc]
   (set! (.-hash js/window.location) loc))
 
+;; FIXME this has a bug when there are no .render-markdown elements on the page.
+
 (defn render-markdown []
   (doseq [c (sel :.render-markdown)]
     (let [txt (aget c "innerHTML")
-          html (md->html txt)]
+          html (md->html txt
+                         :heading-anchors true
+                         :reference-links true
+                         :footnotes true)]
       (do (aset c "innerHTML" html)
           (doseq [table (sel [:.render-markdown :table])] (dommy/add-class! table :table))
           (doseq [header (sel [:.render-markdown :h1])] (dommy/add-class! header :s-title))
