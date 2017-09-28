@@ -18,7 +18,7 @@
         pos-pattern-width 232
         pos-pattern-height 102
         pos-img-offset-x 5
-        pos-img-offset-y 5
+        pos-img-offset-y 10
         pos-text-offset-x (+ 0.0 pos-img-offset-x)
         pos-text-offset-y (+ 0.0 pos-img-offset-y)
         pos-buffer-width 1.0
@@ -132,9 +132,27 @@
                                     :h (* pos-pattern-height pattern-scale)})
 
             (text-title title "60px" 0 -8.0)
+
+            (text (str "Final Width: " (h/num-pad val-inner-width)
+                       ", Final Height: " (h/num-pad val-inner-height))
+                  50.0 -8.0)
+
             (text (str "Cut Width: " (h/num-pad val-cut-width)
                        ", Cut Height: " (h/num-pad val-cut-height))
-                  50.0 -8.0)
+                  50.0 -11.0)
+
+            (text (str "a, border width: " (h/num-pad val-border-width))
+                  100.0 -8.0)
+            (text (str "b, border height: " (h/num-pad val-border-height))
+                  100.0 -11.0)
+            (text (str "c, cutting buffer: " (h/num-pad val-buffer-width))
+                  100.0 -14.0)
+            (text (str "k, kusi width: " (h/num-pad val-kusi-width))
+                  100.0 -17.0)
+            (text (str "m, mandala width: " (h/num-pad val-mandala-width))
+                  100.0 -20.0)
+            (text (str "d, mandala height: " (h/num-pad val-mandala-height))
+                  100.0 -23.0)
 
             ;; buffer at the edges
             (text-num val-buffer-width 1.5 10.2)
