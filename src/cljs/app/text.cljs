@@ -3,6 +3,7 @@
   (:require [app.state :as state]))
 
 (def en-home-content-md "
+# Ticivara
 
 This is a calculating tool and instruction guide for sewing robes.
 
@@ -14,6 +15,7 @@ Enjoy your work!
 ")
 
 (def th-home-content-md "
+# ไตรจีวร
 
 การคำนวน และแบบการตัดเย็บผ้าไตรจีวรจะอยูในส่วนนี้
 อยู่ในระหว่างการเขียน

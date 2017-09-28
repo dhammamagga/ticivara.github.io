@@ -1,12 +1,5 @@
 # Sanghati Sewing Guide
 
-- [Drawing and Cutting](#drawing-and-cutting)
-- [Cutting the Borders](#cutting-the-borders)
-- [First Sewing](#first-sewing)
-- [Joining the Layers](#joining-the-layers)
-- [Joining the Khandhas](#joining-the-khandhas)
-- [Sewing the Borders](#sewing-the-borders)
-
 ## Drawing and Cutting
 
 Cut off the length of the cloth and iron it, so that the cloth lies smooth and flat.

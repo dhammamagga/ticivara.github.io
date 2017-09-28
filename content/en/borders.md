@@ -1,8 +1,5 @@
 # Borders
 
-- [Cutting](#cutting)
-- [Sewing](#sewing)
-
 ## Cutting
 
 If there is space for it on the cloth, use the remaining part at the top for the

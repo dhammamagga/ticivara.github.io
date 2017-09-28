@@ -34,19 +34,19 @@
 
      [:li.divider {:data-content (text :sabong)}]
      [:li.menu-item
-      [:a {:href (h/href-to "sabong")} (text :pattern)]]
+      [:a {:href (h/href-to "sabong-pattern")} (text :pattern)]]
      [:li.menu-item
       [:a {:href (h/href-to "sabong-guide")} (text :guide)]]
 
      [:li.divider {:data-content (text :civara)}]
      [:li.menu-item
-      [:a {:href (h/href-to "civara")} (text :pattern)]]
+      [:a {:href (h/href-to "civara-pattern")} (text :pattern)]]
      [:li.menu-item
       [:a {:href (h/href-to "civara-guide")} (text :guide)]]
 
      [:li.divider {:data-content (text :sanghati)}]
      [:li.menu-item
-      [:a {:href (h/href-to "sanghati")} (text :pattern)]]
+      [:a {:href (h/href-to "sanghati-pattern")} (text :pattern)]]
      [:li.menu-item
       [:a {:href (h/href-to "sanghati-guide")} (text :guide)]]
 
