@@ -23,7 +23,7 @@ difference should be possible to tell when looking at the cloth at a low angle.
 
 ![fold over](../../html/img/sanghati/figures/fold-over-for-top-bottom.jpg)
 
-Draw the marks on the top side. (TOOD: confirm)
+Draw the marks on the top side.
 
 Mark the lenghts and draw the pattern.
 

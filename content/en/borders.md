@@ -87,30 +87,22 @@ Draw the diagonal on both border layers.
 
 [![draw diagonal bottom](../../html/img/borders/photos/corner-03-mark-diagonal-bottom-w500.jpg)](../../html/img/borders/photos/corner-03-mark-diagonal-bottom-orig.jpg)
 
-Fold them in along the diagonal. The flaps should be folded inside.
+Fold out the border, measure 1cm from the diagonal on the flap and trim.
 
-[![fold flaps inside](../../html/img/borders/photos/corner-04-fold-flaps-inside-w500.jpg)](../../html/img/borders/photos/corner-04-fold-flaps-inside-orig.jpg)
+It is difficult to align the flaps using the diagonal mark, since it is covered.
+Use the 1cm distance cut edge to align the flaps and pin them before joining.
 
-Take care to align the corner of the two borders, the corner of the main cloth
-and the end of the diagonal mark.
+![corner 01 cut](../../html/img/borders/figures/corner-01-cut.jpg)
 
-![align the diagonal](../../html/img/borders/figures/align-the-diagonal.jpg)
+![corner 02 cut](../../html/img/borders/figures/corner-02-cut.jpg)
 
-Fold out on border, measure 1.5cm from the diagonal on the flap and trim.
+![corner 03 reverse](../../html/img/borders/figures/corner-03-reverse.jpg)
 
 [![mark flap to trim](../../html/img/borders/photos/corner-05-mark-flap-to-trim-w500.jpg)](../../html/img/borders/photos/corner-05-mark-flap-to-trim-orig.jpg)
 
 [![trim the flap](../../html/img/borders/photos/corner-06-trim-flap-w500.jpg)](../../html/img/borders/photos/corner-06-trim-flap-orig.jpg)
 
-Fold out both borders and arrange one on top of the other and pin it.
-
-[![pin flaps](../../html/img/borders/photos/corner-07-pin-flaps-w500.jpg)](../../html/img/borders/photos/corner-07-pin-flaps-orig.jpg)
-
 Join the two flaps.
-
-[![join flaps](../../html/img/borders/photos/corner-08-joined-w500.jpg)](../../html/img/borders/photos/corner-08-joined-orig.jpg)
-
-Trim the other flap as well.
 
 [![trim other flap](../../html/img/borders/photos/corner-09-trim-w500.jpg)](../../html/img/borders/photos/corner-09-trim-orig.jpg)
 
