@@ -31,6 +31,15 @@
 
 (2) เมื่อเสร็จการขึ้นกระดูกแล้ว เริ่มประกบเส้นอัฑฒกุสิ (เส้นขวาง) ของขัณฑ์ที 5 หรือขัณฑ์กลางด้านบน จุดสังเกตุคือ แนวกระดูกเส้นขาดของขัณฑ์ และขัณ์ที่เป็นเงาต้องตรงกันทั้งสองด้าน ชายผ้าไม่เสมอไม่เป็นไร เมื่อได้ตำแหน่งที่ดีแล้วใช้เข็มหมุดยึดไว้ แล้วเย็บให้ชิดแนวตะเข็บเดิม ให้แนวตะเข็บใหม่อยู่ทางด้านผ้าชิ้นใหญ่ แนวตะเข็บเดิมอยู่ริมผ้า
 
+<table>
+<tbody>
+<tr>
+<td> <img src="img/sanghati/photos/th\_saghathi\_sewing02.jpg"> </td>
+<td> <img src="img/sanghati/photos/th\_saghathi\_sewing02.jpg"> </td>
+</tr>
+</tbod>
+<table>
+
 |    |    |
 | -- | -- |
 | ![join layers 1](../../html/img/sanghati/photos/th_sanghati_sewing02.jpg) | ![jion layers 2](../../html/img/sanghati/photos/th_sanghati_sewing03.jpg) |
