@@ -17,6 +17,18 @@
 
 ;; FIXME this has a bug when there are no .render-markdown elements on the page.
 
+(defn page-content-style [dom-sel]
+  (do (doseq [table  (sel [dom-sel :table])] (dommy/add-class! table :table))
+      (doseq [header (sel [dom-sel :h1])] (dommy/add-class! header :s-title))
+      (doseq [header (sel [dom-sel :h2])] (dommy/add-class! header :s-title))
+      (doseq [header (sel [dom-sel :h3])] (dommy/add-class! header :s-title))
+      (doseq [header (sel [dom-sel :h4])] (dommy/add-class! header :s-title))
+      (doseq [header (sel [dom-sel :h5])] (dommy/add-class! header :s-title))
+      (doseq [header (sel [dom-sel :h6])] (dommy/add-class! header :s-title))
+      (doseq [imagelink (sel [:p :a :img])]
+        (dommy/set-attr! (dommy/parent imagelink) :target "_blank")
+        (dommy/add-class! (dommy/parent imagelink) :image-link))))
+
 (defn render-markdown []
   (doseq [c (sel :.render-markdown)]
     (let [txt (aget c "innerHTML")
@@ -24,18 +36,8 @@
                          :heading-anchors true
                          :reference-links true
                          :footnotes true)]
-      (do (aset c "innerHTML" html)
-          (doseq [table (sel [:.render-markdown :table])] (dommy/add-class! table :table))
-          (doseq [header (sel [:.render-markdown :h1])] (dommy/add-class! header :s-title))
-          (doseq [header (sel [:.render-markdown :h2])] (dommy/add-class! header :s-title))
-          (doseq [header (sel [:.render-markdown :h3])] (dommy/add-class! header :s-title))
-          (doseq [header (sel [:.render-markdown :h4])] (dommy/add-class! header :s-title))
-          (doseq [header (sel [:.render-markdown :h5])] (dommy/add-class! header :s-title))
-          (doseq [header (sel [:.render-markdown :h6])] (dommy/add-class! header :s-title))
-          (doseq [imagelink (sel [:p :a :img])]
-            (dommy/set-attr! (dommy/parent imagelink) :target "_blank")
-            (dommy/add-class! (dommy/parent imagelink) :image-link))
-          ))))
+      (aset c "innerHTML" html)
+      (page-content-style :.render-markdown))))
 
 ;; page-margins: [left, top, right, bottom]
 
