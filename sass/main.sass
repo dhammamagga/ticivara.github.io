@@ -1,4 +1,7 @@
 @import "typefaces"
+
+$base-font-family: "Fira Sans"
+
 @import "spectre/spectre"
 @import "spectre/spectre-icons"
 @import "docs"
@@ -14,11 +17,31 @@ body
   -webkit-animation: androidBugfix infinite 1s
 /* end workaround */
 
+body.th
+  font-family: "Garuda", $fallback-font-family
+  h1
+    font-size: 1.8em
+  h2
+    font-size: 1.6em
+  h3
+    font-size: 1.4em
+  #sidebar .s-brand h2
+    font-size: 1.4em
+
+body.en
+  h1, h2, h3
+    font-family: "Butler"
+
 #sidebar
   border-right: 5px solid #888
   .s-brand
     h1, h2
       font-size: 25px
+
+#content.s-content.sabong-pattern,
+#content.s-content.civara-pattern,
+#content.s-content.sanghati-pattern
+  max-width: 100%
 
 .menu .menu-item
   padding-left: 0.9rem
@@ -42,13 +65,13 @@ canvas.pattern
     margin: 0px 20px 0px 0px
     width: 22px
 
-.s-content
-  max-width: 100%
-
 #page
+  p > img
+    max-width: 100%
   p > a.image-link
     img
       padding: 6px
+      max-width: 100%
     &:hover
       img
         padding: 5px
@@ -56,15 +79,16 @@ canvas.pattern
       &::after
         background-color: rgba(255, 255, 255, 0.8)
     &::after
+      font-family: "Fira Sans"
       color: #5764c6
       display: inline-block
       position: relative
-      top: -16px
-      left: -43px
-      font-size: 30px
+      top: -18px
+      left: -45px
+      font-size: 28px
       padding: 3px
       border: 1px solid rgba(87, 100, 198, 0.9)
-      border-radius: 20px
+      border-radius: 15px
       background-color: rgba(255, 255, 255, 0.5)
       /* right arrow */
       content: "\2192"

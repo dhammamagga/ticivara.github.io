@@ -2,67 +2,62 @@
   (:require
    [app.state :as state]
    [reagent.session :as session]
+   [dommy.core :as dommy :refer-macros [sel sel1]]
    [secretary.core :as secretary :include-macros true]
    [clojure.string :as string]))
+
+(defn post-route [lang page-key]
+  (let [app (sel1 :body)]
+    (dommy/remove-class! app :en)
+    (dommy/remove-class! app :th)
+    (dommy/add-class! app (keyword lang)))
+  (swap! state/state assoc-in [:params :lang] (keyword lang))
+  (session/put! :page page-key))
 
 ;; -------------------------
 ;; Routes
 (secretary/set-config! :prefix "#")
 
 (secretary/defroute home-path "/:lang" [lang]
-  (swap! state/state assoc-in [:params :lang] (keyword lang))
-  (session/put! :page :home))
+  (post-route lang :home))
 
 (secretary/defroute home-alt-path "/:lang/home" [lang]
-  (swap! state/state assoc-in [:params :lang] (keyword lang))
-  (session/put! :page :home))
+  (post-route lang :home))
 
 (secretary/defroute sabong-pattern-path "/:lang/sabong-pattern" [lang]
-  (swap! state/state assoc-in [:params :lang] (keyword lang))
-  (session/put! :page :sabong-pattern))
+  (post-route lang :sabong-pattern))
 
 (secretary/defroute sabong-pattern-alt-path "/:lang/sabong" [lang]
-  (swap! state/state assoc-in [:params :lang] (keyword lang))
-  (session/put! :page :sabong-pattern))
+  (post-route lang :sabong-pattern))
 
 (secretary/defroute sabong-guide-path "/:lang/sabong-guide" [lang]
-  (swap! state/state assoc-in [:params :lang] (keyword lang))
-  (session/put! :page :sabong-guide))
+  (post-route lang :sabong-guide))
 
 (secretary/defroute civara-pattern-path "/:lang/civara-pattern" [lang]
-  (swap! state/state assoc-in [:params :lang] (keyword lang))
-  (session/put! :page :civara-pattern))
+  (post-route lang :civara-pattern))
 
 (secretary/defroute civara-pattern-alt-path "/:lang/civara" [lang]
-  (swap! state/state assoc-in [:params :lang] (keyword lang))
-  (session/put! :page :civara-pattern))
+  (post-route lang :civara-pattern))
 
 (secretary/defroute civara-guide-path "/:lang/civara-guide" [lang]
-  (swap! state/state assoc-in [:params :lang] (keyword lang))
-  (session/put! :page :civara-guide))
+  (post-route lang :civara-guide))
 
 (secretary/defroute sanghati-pattern-path "/:lang/sanghati-pattern" [lang]
-  (swap! state/state assoc-in [:params :lang] (keyword lang))
-  (session/put! :page :sanghati-pattern))
+  (post-route lang :sanghati-pattern))
 
 (secretary/defroute sanghati-pattern-alt-path "/:lang/sanghati" [lang]
-  (swap! state/state assoc-in [:params :lang] (keyword lang))
-  (session/put! :page :sanghati-pattern))
+  (post-route lang :sanghati-pattern))
 
 (secretary/defroute sanghati-guide-path "/:lang/sanghati-guide" [lang]
-  (swap! state/state assoc-in [:params :lang] (keyword lang))
-  (session/put! :page :sanghati-guide))
+  (post-route lang :sanghati-guide))
 
 (secretary/defroute borders-path "/:lang/borders" [lang]
-  (swap! state/state assoc-in [:params :lang] (keyword lang))
-  (session/put! :page :borders))
+  (post-route lang :borders))
 
 (secretary/defroute tools-path "/:lang/tools" [lang]
-  (swap! state/state assoc-in [:params :lang] (keyword lang))
-  (session/put! :page :tools))
+  (post-route lang :tools))
 
 ;; === Default path ===
 
 (secretary/defroute default-path "*" []
-  (swap! state/state assoc-in [:params :lang] :en)
-  (session/put! :page :home))
+  (post-route "en" :home))

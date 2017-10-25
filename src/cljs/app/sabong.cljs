@@ -233,9 +233,9 @@
       (let [sabong (:sabong @data)]
 
          [:div.container {:id "sabong"}
-          [:h3.s-title (text :sabong)]
+          [:h2.s-title (text :sabong)]
           [:div.docs-note
-           [:h5.s-title {:id "sabong-pattern"} (text :pattern)]
+           [:h3.s-title {:id "sabong-pattern"} (text :pattern)]
 
            ;; Forms
            [:div.columns

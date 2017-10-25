@@ -1,5 +1,6 @@
 (ns app.elements
   (:require
+   [reagent.session :as session]
    [app.text :refer [text]]
    [app.helpers :as h]))
 
@@ -14,7 +15,7 @@
       [:a#sidebar-close.docs-nav-clear {:href "#sidebar-close"}]
       [<navbar>]
 
-      [:div#content.s-content
+      [:div#content.s-content {:class (subs (str (session/get :page)) 1)}
        [content data]
 
        [<footer>]]]]
