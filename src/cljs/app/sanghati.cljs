@@ -259,10 +259,10 @@
       (let [sanghati (:sanghati @data)]
 
       [:div.container {:id "sanghati"}
-       [:h3.s-title (text :sanghati)]
+       [:h2.s-title (text :sanghati)]
 
        [:div.docs-note
-        [:h5.s-title {:id "sanghati-pattern"} "Pattern"]
+        [:h3.s-title {:id "sanghati-pattern"} "Pattern"]
 
            ;; Forms
            [:div.columns

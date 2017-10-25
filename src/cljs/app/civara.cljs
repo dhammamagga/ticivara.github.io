@@ -22,9 +22,9 @@
             _ (:lang (:params @data))]
 
         [:div.container {:id "civara"}
-         [:h3.s-title (text :civara)]
+         [:h2.s-title (text :civara)]
          [:div.docs-note
-          [:h5.s-title {:id "civara-pattern"} (text :pattern)]
+          [:h3.s-title {:id "civara-pattern"} (text :pattern)]
           [:p "..."]]
 
          [:div.render-markdown ""];; FIXME at least one markdown item keeps h/render-markdown happy

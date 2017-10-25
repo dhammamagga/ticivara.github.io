@@ -60,7 +60,7 @@ will not accumulate errors from rounding.
                        :pattern "Pattern"
                        :download-pdf "Download PDF"
                        :guide "Guide"
-                       :title "Title:"
+                       :title "Title"
                        :final-width "Final width"
                        :final-height "Final height"
                        :shrinking-width-percent "Shrinking width percent"
