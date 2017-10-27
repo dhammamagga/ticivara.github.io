@@ -306,7 +306,7 @@
                [:form.form-horizontal
                 [:div.form-group
                  [:div.col-6
-                  [:label.form-label {:for "kusi_width"} (str (text :kusi) ":")]]
+                  [:label.form-label {:for "kusi_width"} (str (text :kusi-width) ":")]]
                  [:div.col-6
                   [:input.form-input {:id "kusi_width" :type "number"
                                       :value (:kusi-width sabong)
