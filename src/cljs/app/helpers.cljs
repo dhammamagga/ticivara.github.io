@@ -137,6 +137,9 @@
 (defn calc-civara-shrinking-lengths [robe]
   (calc-shrinking-lengths robe 9))
 
+(defn calc-sanghati-shrinking-lengths [robe]
+  (calc-shrinking-lengths robe 9))
+
 ;; draws text with x y from the bottom left corner of the pattern image
 ;; bottom-left corner is 0,0 in Inkscape as well
 (defn draw-text [ctx s x y
