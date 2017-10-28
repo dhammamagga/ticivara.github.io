@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="260.2359mm"
-   height="134.70956mm"
-   viewBox="0 0 260.2359 134.70956"
+   width="260mm"
+   height="135mm"
+   viewBox="0 0 260 135"
    version="1.1"
    id="svg4706"
    inkscape:version="0.92.1 r15371"
@@ -26,15 +26,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
-     inkscape:cx="350.39025"
-     inkscape:cy="168.13429"
+     inkscape:cx="1219.679"
+     inkscape:cy="-101.10077"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer9"
+     inkscape:current-layer="g5756"
      showgrid="false"
-     inkscape:snap-bbox="false"
+     inkscape:snap-bbox="true"
      inkscape:snap-smooth-nodes="true"
      inkscape:snap-intersection-paths="true"
-     showguides="false"
+     showguides="true"
      inkscape:guide-bbox="true"
      inkscape:measure-start="631.92,59.3465"
      inkscape:measure-end="657.111,59.3465"
@@ -44,7 +44,7 @@
      fit-margin-bottom="0"
      inkscape:showpageshadow="false"
      inkscape:snap-page="true"
-     inkscape:snap-bbox-edge-midpoints="false"
+     inkscape:snap-bbox-edge-midpoints="true"
      inkscape:snap-nodes="true"
      inkscape:bbox-nodes="true"
      inkscape:window-width="1920"
@@ -53,23 +53,10 @@
      inkscape:window-y="37"
      inkscape:window-maximized="0"
      inkscape:snap-others="false"
-     inkscape:snap-grids="false">
-    <sodipodi:guide
-       position="0.14996058,139.00456"
-       orientation="1,0"
-       id="guide7315"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="260.08587,139.00456"
-       orientation="1,0"
-       id="guide7317"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="162.33224,134.5596"
-       orientation="0,1"
-       id="guide6737"
-       inkscape:locked="false" />
-  </sodipodi:namedview>
+     inkscape:snap-grids="false"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:object-paths="true"
+     inkscape:bbox-paths="true" />
   <metadata
      id="metadata4703">
     <rdf:RDF>
@@ -78,7 +65,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -87,16 +74,28 @@
      id="layer9"
      inkscape:label="7-8-9"
      style="display:inline"
-     transform="translate(-4.8633793,-4.7904263)"
+     transform="translate(-4.8633793,-4.4999905)"
      sodipodi:insensitive="true">
     <g
-       transform="matrix(0.18940107,0,0,0.18940107,-276.24719,-202.27802)"
+       transform="matrix(0.18922939,0,0,0.18922939,-275.99238,-202.38076)"
        style="display:inline"
        id="g5522">
       <g
          transform="translate(-21.600799,-224.38169)"
          id="g5756"
          style="display:inline">
+        <path
+           sodipodi:nodetypes="cc"
+           inkscape:connector-curvature="0"
+           id="path6773"
+           d="M 1987.5316,2028.1099 V 1318.4537"
+           style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:1.58537745;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:6.34150994, 6.34150994;stroke-dashoffset:0;stroke-opacity:1" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:1.58537745;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:6.34150994, 6.34150994;stroke-dashoffset:0;stroke-opacity:1"
+           d="M 2022.7216,2028.1099 V 1318.4537"
+           id="path6771"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
         <path
            style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.58354986;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
            d="m 2879.0107,2028.1099 -3e-4,-709.6562 H 1506.6005 l 3e-4,709.6562 z"

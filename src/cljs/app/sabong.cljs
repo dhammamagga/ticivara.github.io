@@ -39,23 +39,15 @@
          val-mandala-width
          val-mandala-height
          val-border-width
-         val-border-height] (h/calc-shrinking-lengths (:sabong @data))
+         val-border-height] (h/calc-sabong-shrinking-lengths (:sabong @data))
 
-        ;; draws text with x y from the bottom left corner of the pattern image
-        text (fn [ctx s x y] (let [sc pattern-scale
-                                   x (* (+ x pos-text-offset-x) sc)
-                                   y (* (+ (- pos-pattern-height y) pos-text-offset-y) sc)]
-                               (canvas/font-style ctx "28px \"Fira Sans\"")
-                               (canvas/fill-style ctx "#000000")
-                               (canvas/text ctx {:text s :x x :y y})))
+        text (fn [ctx s x y]
+               (h/draw-text
+                ctx s x y pattern-scale pos-text-offset-x pos-text-offset-y pos-pattern-height))
 
         text-title (fn [ctx s size x y]
-                     (let [sc pattern-scale
-                           x (* (+ x pos-text-offset-x) sc)
-                           y (* (+ (- pos-pattern-height y) pos-text-offset-y) sc)]
-                       (canvas/font-style ctx (str size " \"Butler\""))
-                       (canvas/fill-style ctx "#000000")
-                       (canvas/text ctx {:text s :x x :y y})))
+                     (h/draw-text-title
+                      ctx s size x y pattern-scale pos-text-offset-x pos-text-offset-y pos-pattern-height))
 
         text-num (fn [ctx s x y]
                    (text ctx (h/num-pad s) x y))

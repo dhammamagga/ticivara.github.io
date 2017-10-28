@@ -68,6 +68,7 @@ will not accumulate errors from rounding.
                        :kusi-width "Kusi width"
                        :border "Border"
                        :cutting-buffer "Cutting buffer"
+                       :vertical-cutting-buffer "Vertical cutting buffer"
                        }
 
                   :th {:sabong-guide-content (ac/th-sabong-md)
@@ -95,6 +96,7 @@ will not accumulate errors from rounding.
                        :kusi-width "ขนาดกุสิ"
                        :border "ขนาดอนุวาต"
                        :cutting-buffer "ขนาดเผื่อการตัดเย็บ"
+                       :vertical-cutting-buffer "Vertical cutting buffer"
                        }})
 
 (defn text [key]

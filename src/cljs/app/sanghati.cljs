@@ -2,7 +2,6 @@
   (:require
    ;; core libs
    [reagent.core :as r]
-   [dommy.core :as dommy :refer-macros [sel sel1]]
    [clojure.string :as string]
    ;; app
    [app.canvas :as canvas]

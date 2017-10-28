@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="260.23587mm"
-   height="132.33797mm"
-   viewBox="0 0 260.23587 132.33797"
+   width="260mm"
+   height="135mm"
+   viewBox="0 0 260 135"
    version="1.1"
    id="svg4706"
    inkscape:version="0.92.1 r15371"
@@ -25,16 +25,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="431.67845"
-     inkscape:cy="208.18283"
+     inkscape:zoom="0.7"
+     inkscape:cx="235.64003"
+     inkscape:cy="181.26135"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer7"
+     inkscape:current-layer="g5399"
      showgrid="false"
-     inkscape:snap-bbox="false"
+     inkscape:snap-bbox="true"
      inkscape:snap-smooth-nodes="true"
      inkscape:snap-intersection-paths="true"
-     showguides="false"
+     showguides="true"
      inkscape:guide-bbox="true"
      inkscape:measure-start="631.92,170.394"
      inkscape:measure-end="631.92,178.791"
@@ -44,7 +44,7 @@
      fit-margin-bottom="0"
      inkscape:showpageshadow="false"
      inkscape:snap-page="true"
-     inkscape:snap-bbox-edge-midpoints="false"
+     inkscape:snap-bbox-edge-midpoints="true"
      inkscape:snap-nodes="true"
      inkscape:bbox-nodes="true"
      inkscape:window-width="1920"
@@ -53,23 +53,10 @@
      inkscape:window-y="37"
      inkscape:window-maximized="0"
      inkscape:snap-others="false"
-     inkscape:snap-grids="false">
-    <sodipodi:guide
-       position="0.14997362,136.78298"
-       orientation="1,0"
-       id="guide7315"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="260.0859,136.78298"
-       orientation="1,0"
-       id="guide7317"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="162.3322,132.18801"
-       orientation="0,1"
-       id="guide6071"
-       inkscape:locked="false" />
-  </sodipodi:namedview>
+     inkscape:snap-grids="false"
+     inkscape:object-paths="true"
+     inkscape:snap-bbox-midpoints="false"
+     inkscape:bbox-paths="true" />
   <metadata
      id="metadata4703">
     <rdf:RDF>
@@ -78,7 +65,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -87,16 +74,28 @@
      id="layer7"
      inkscape:label="4-5-6"
      style="display:inline;opacity:1"
-     transform="translate(-4.8633663,-4.9404372)"
+     transform="translate(-4.8633723,-2.2784054)"
      sodipodi:insensitive="true">
     <g
-       transform="matrix(0.18940109,0,0,0.18940109,-276.24726,-27.914718)"
+       transform="matrix(0.18922942,0,0,0.18922942,-275.99246,-30.54697)"
        style="display:inline"
        id="g5424">
       <g
          id="g5399"
          style="display:inline"
          transform="matrix(0,-0.58650001,0.58650001,0,2732.5734,1989.0503)">
+        <path
+           sodipodi:nodetypes="cc"
+           inkscape:connector-curvature="0"
+           id="path6118"
+           d="M 1904.2856,-1307.1514 H 3094.2708"
+           style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:2.70311522;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:10.81246125, 10.81246125;stroke-dashoffset:0;stroke-opacity:1" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#8c8c8c;stroke-width:2.70311522;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:10.81246125, 10.81246125;stroke-dashoffset:0;stroke-opacity:1"
+           d="M 1904.2856,-1247.1487 H 3094.2708"
+           id="path6116"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
         <path
            style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.69999981;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
            d="M 1905.6357,-2127.1501 H 3094.2708 V 212.84985 H 1905.6357 Z"
