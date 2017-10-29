@@ -37,40 +37,25 @@
 (defn <page-sanghati-pattern> []
   (fn [] [<container> <content-sanghati-pattern> state/state]))
 
-;; TODO Refactor. These are all the same but pull in a different content key in the page.
+;; The content is loaded by the session :page key.
 
-(defn <page-home> []
-  (fn [] [<container> <content-page> state/state]))
-
-(defn <page-sabong-guide> []
-  (fn [] [<container> <content-page> state/state]))
-
-(defn <page-civara-guide> []
-  (fn [] [<container> <content-page> state/state]))
-
-(defn <page-sanghati-guide> []
-  (fn [] [<container> <content-page> state/state]))
-
-(defn <page-borders> []
-  (fn [] [<container> <content-page> state/state]))
-
-(defn <page-tools> []
+(defn <page-key> []
   (fn [] [<container> <content-page> state/state]))
 
 (def pages
-  {:home #'<page-home>
+  {:home #'<page-key>
 
    :sabong-pattern   #'<page-sabong-pattern>
-   :sabong-guide     #'<page-sabong-guide>
+   :sabong-guide     #'<page-key>
 
    :civara-pattern   #'<page-civara-pattern>
-   :civara-guide     #'<page-civara-guide>
+   :civara-guide     #'<page-key>
 
    :sanghati-pattern #'<page-sanghati-pattern>
-   :sanghati-guide   #'<page-sanghati-guide>
+   :sanghati-guide   #'<page-key>
 
-   :borders #'<page-borders>
-   :tools #'<page-tools>
+   :borders #'<page-key>
+   :tools #'<page-key>
    })
 
 (defn get-pagekey []

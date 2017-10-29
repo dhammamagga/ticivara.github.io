@@ -101,9 +101,9 @@
         pos-kusi-width 6.66
         pos-mandala-width 64.37
         pos-mandala-height 34.4
-        pos-img-offset-x 10
+        pos-img-offset-x 5
         pos-img-offset-y 20
-        pos-text-offset-x (+ 0.0 pos-img-offset-x)
+        pos-text-offset-x (+ 5.0 pos-img-offset-x)
         pos-text-offset-y (+ 0.0 pos-img-offset-y)
         ;; scale
         pattern-scale 12
@@ -147,7 +147,7 @@
                                                 (* k val-kusi-width)
                                                 (* b val-border-width)
                                                 (* c val-buffer-width))
-                                         (+ 1.0 pos-pattern-width)
+                                         (+ -9.0 pos-pattern-width)
                                          (+ 1.0 y-offset
                                             (* m pos-mandala-height)
                                             (* k pos-kusi-width)
@@ -177,12 +177,14 @@
 
             (text-accumulate-vert 0 0 0 1 0)
             (text-accumulate-vert 0 0 1 1 0)
-            (text-accumulate-vert 1 0 1 1 0)
-            (text-accumulate-vert 1 1 1 1 0)
-            (text-accumulate-vert 2 1 1 1 0)
-            (text-accumulate-vert 2 2 1 1 0)
-            (text-accumulate-vert 3 2 1 1 0)
-            (text-accumulate-vert 3 2 1 2 2.0)
+            (text-accumulate-vert 1 0 1 1 -1)
+            (text-accumulate-vert 1 0 1 3 0)
+            (text-accumulate-vert 1 1 1 3 0)
+            (text-accumulate-vert 2 1 1 3 -1)
+            (text-accumulate-vert 2 1 1 5 0)
+            (text-accumulate-vert 2 2 1 5 0)
+            (text-accumulate-vert 3 2 1 5 0)
+            (text-accumulate-vert 3 2 1 6 2.0)
 
             ))))
 
@@ -200,109 +202,9 @@
         pos-kusi-width 6.66
         pos-mandala-width 64.37
         pos-mandala-height 34.4
-        pos-img-offset-x 10
+        pos-img-offset-x 5
         pos-img-offset-y 20
-        pos-text-offset-x (+ 0.0 pos-img-offset-x)
-        pos-text-offset-y (+ 0.0 pos-img-offset-y)
-        ;; scale
-        pattern-scale 12
-
-        ;; calcualted size values to display
-        val-buffer-width (js/Number (:buffer-width sanghati))
-        val-vertical-buffer-width (js/Number (:vertical-buffer-width sanghati))
-        val-inner-width (js/Number (:width sanghati))
-        val-inner-height (js/Number (:height sanghati))
-        val-kusi-width (js/Number (:kusi-width sanghati))
-        [val-cut-width
-         val-cut-height
-         val-mandala-width
-         val-mandala-height
-         val-border-width
-         val-border-height] (h/calc-sanghati-shrinking-lengths (:sanghati @data))
-
-        text (fn [ctx s x y]
-               (h/draw-text
-                ctx s x y pattern-scale pos-text-offset-x pos-text-offset-y pos-pattern-height))
-
-        text-num (fn [ctx s x y]
-                   (text ctx (h/num-pad s) x y))
-
-        ;; mandala, kusi, border, cut buffer
-        text-accumulate-horiz (fn [ctx m k b c x-offset]
-                                (text-num ctx (+ (* m val-mandala-height)
-                                                 (* k val-kusi-width)
-                                                 (* b val-border-height)
-                                                 (* c val-vertical-buffer-width))
-                                          (+ 0.5 x-offset
-                                             (* m pos-mandala-width)
-                                             (* k pos-kusi-width)
-                                             (* b pos-border-width)
-                                             (* c pos-vertical-buffer-width))
-                                          0.0))
-
-        ;; mandala, kusi, border, cut buffer
-        text-accumulate-vert (fn [ctx m k b c y-offset]
-                               (text-num ctx (+ (* m val-mandala-width)
-                                                (* k val-kusi-width)
-                                                (* b val-border-width)
-                                                (* c val-buffer-width))
-                                         (+ 1.0 pos-pattern-width)
-                                         (+ 3.0 y-offset
-                                            (* m pos-mandala-height)
-                                            (* k pos-kusi-width)
-                                            (* b pos-border-width)
-                                            (* c pos-buffer-width))))
-
-        [canvas-panels-4 img-4] (h/init-canvas :#sanghati-panels-4-5-6-canvas "img/sanghati-panels-4-5-6.svg")]
-
-    (canvas/add-entity canvas-panels-4 :background
-     (canvas/entity nil nil
-      (fn [ctx val]
-        (-> ctx
-            (canvas/draw-image img-4 {:x (* pos-img-offset-x pattern-scale)
-                                      :y (* pos-img-offset-y pattern-scale)
-                                      :w (* pos-pattern-width pattern-scale)
-                                      :h (* pos-pattern-height pattern-scale)})
-
-            (text-accumulate-horiz 0 0 0 1 0)
-            (text-accumulate-horiz 0 0 1 1 0)
-            (text-accumulate-horiz 1 0 1 1 0)
-            (text-accumulate-horiz 1 1 1 1 0)
-            (text-accumulate-horiz 2 1 1 1 0)
-            (text-accumulate-horiz 2 2 1 1 0)
-            (text-accumulate-horiz 3 2 1 1 0)
-            (text-accumulate-horiz 3 2 2 1 0)
-            (text-accumulate-horiz 3 2 2 2 0)
-
-            (text-accumulate-vert 0 0 0 1 0)
-            (text-accumulate-vert 0 1 0 1 0)
-            (text-accumulate-vert 1 1 0 1 0)
-            (text-accumulate-vert 1 2 0 1 0)
-            (text-accumulate-vert 2 2 0 1 0)
-            (text-accumulate-vert 2 3 0 1 0)
-            (text-accumulate-vert 3 3 0 1 0)
-            (text-accumulate-vert 3 4 0 1 0)
-            (text-accumulate-vert 3 4 0 2 2.0)
-
-            ))))
-
-    (canvas/draw-once canvas-panels-4)
-    ))
-
-(defn draw-panels-7 [data]
-  (let [sanghati (:sanghati @data)
-        ;; values from the SVG for positioning
-        pos-pattern-width 270
-        pos-pattern-height 140
-        pos-buffer-width 1.11
-        pos-vertical-buffer-width 11.1
-        pos-border-width 15.54
-        pos-kusi-width 6.66
-        pos-mandala-width 64.37
-        pos-mandala-height 34.4
-        pos-img-offset-x 10
-        pos-img-offset-y 20
-        pos-text-offset-x (+ 0.0 pos-img-offset-x)
+        pos-text-offset-x (+ 5.0 pos-img-offset-x)
         pos-text-offset-y (+ 0.0 pos-img-offset-y)
         ;; scale
         pattern-scale 12
@@ -346,7 +248,109 @@
                                                 (* k val-kusi-width)
                                                 (* b val-border-width)
                                                 (* c val-buffer-width))
-                                         (+ 1.0 pos-pattern-width)
+                                         (+ -9.0 pos-pattern-width)
+                                         (+ 1.0 y-offset
+                                            (* m pos-mandala-height)
+                                            (* k pos-kusi-width)
+                                            (* b pos-border-width)
+                                            (* c pos-buffer-width))))
+
+        [canvas-panels-4 img-4] (h/init-canvas :#sanghati-panels-4-5-6-canvas "img/sanghati-panels-4-5-6.svg")]
+
+    (canvas/add-entity canvas-panels-4 :background
+     (canvas/entity nil nil
+      (fn [ctx val]
+        (-> ctx
+            (canvas/draw-image img-4 {:x (* pos-img-offset-x pattern-scale)
+                                      :y (* pos-img-offset-y pattern-scale)
+                                      :w (* pos-pattern-width pattern-scale)
+                                      :h (* pos-pattern-height pattern-scale)})
+
+            (text-accumulate-horiz 0 0 0 1 0)
+            (text-accumulate-horiz 0 0 1 1 0)
+            (text-accumulate-horiz 1 0 1 1 0)
+            (text-accumulate-horiz 1 1 1 1 0)
+            (text-accumulate-horiz 2 1 1 1 0)
+            (text-accumulate-horiz 2 2 1 1 0)
+            (text-accumulate-horiz 3 2 1 1 0)
+            (text-accumulate-horiz 3 2 2 1 0)
+            (text-accumulate-horiz 3 2 2 2 0)
+
+            (text-accumulate-vert 0 0 0 1 0)
+            (text-accumulate-vert 0 1 0 1 0)
+            (text-accumulate-vert 1 1 0 1 -2)
+            (text-accumulate-vert 1 1 0 3 0)
+            (text-accumulate-vert 1 2 0 3 0)
+            (text-accumulate-vert 2 2 0 3 0)
+            (text-accumulate-vert 2 3 0 3 -2)
+            (text-accumulate-vert 2 3 0 5 0)
+            (text-accumulate-vert 3 3 0 5 0)
+            (text-accumulate-vert 3 4 0 5 0)
+            (text-accumulate-vert 3 4 0 6 2.0)
+
+            ))))
+
+    (canvas/draw-once canvas-panels-4)
+    ))
+
+(defn draw-panels-7 [data]
+  (let [sanghati (:sanghati @data)
+        ;; values from the SVG for positioning
+        pos-pattern-width 270
+        pos-pattern-height 140
+        pos-buffer-width 1.11
+        pos-vertical-buffer-width 11.1
+        pos-border-width 15.54
+        pos-kusi-width 6.66
+        pos-mandala-width 64.37
+        pos-mandala-height 34.4
+        pos-img-offset-x 5
+        pos-img-offset-y 20
+        pos-text-offset-x (+ 5.0 pos-img-offset-x)
+        pos-text-offset-y (+ 0.0 pos-img-offset-y)
+        ;; scale
+        pattern-scale 12
+
+        ;; calcualted size values to display
+        val-buffer-width (js/Number (:buffer-width sanghati))
+        val-vertical-buffer-width (js/Number (:vertical-buffer-width sanghati))
+        val-inner-width (js/Number (:width sanghati))
+        val-inner-height (js/Number (:height sanghati))
+        val-kusi-width (js/Number (:kusi-width sanghati))
+        [val-cut-width
+         val-cut-height
+         val-mandala-width
+         val-mandala-height
+         val-border-width
+         val-border-height] (h/calc-sanghati-shrinking-lengths (:sanghati @data))
+
+        text (fn [ctx s x y]
+               (h/draw-text
+                ctx s x y pattern-scale pos-text-offset-x pos-text-offset-y pos-pattern-height))
+
+        text-num (fn [ctx s x y]
+                   (text ctx (h/num-pad s) x y))
+
+        ;; mandala, kusi, border, cut buffer
+        text-accumulate-horiz (fn [ctx m k b c x-offset]
+                                (text-num ctx (+ (* m val-mandala-height)
+                                                 (* k val-kusi-width)
+                                                 (* b val-border-height)
+                                                 (* c val-vertical-buffer-width))
+                                          (+ 0.5 x-offset
+                                             (* m pos-mandala-width)
+                                             (* k pos-kusi-width)
+                                             (* b pos-border-width)
+                                             (* c pos-vertical-buffer-width))
+                                          -2.0))
+
+        ;; mandala, kusi, border, cut buffer
+        text-accumulate-vert (fn [ctx m k b c y-offset]
+                               (text-num ctx (+ (* m val-mandala-width)
+                                                (* k val-kusi-width)
+                                                (* b val-border-width)
+                                                (* c val-buffer-width))
+                                         (+ -9.0 pos-pattern-width)
                                          (+ 1.0 y-offset
                                             (* m pos-mandala-height)
                                             (* k pos-kusi-width)
@@ -376,12 +380,14 @@
 
             (text-accumulate-vert 0 0 0 1 0)
             (text-accumulate-vert 0 0 1 1 0)
-            (text-accumulate-vert 1 0 1 1 0)
-            (text-accumulate-vert 1 1 1 1 0)
-            (text-accumulate-vert 2 1 1 1 0)
-            (text-accumulate-vert 2 2 1 1 0)
-            (text-accumulate-vert 3 2 1 1 0)
-            (text-accumulate-vert 3 2 1 2 2.0)
+            (text-accumulate-vert 1 0 1 1 -1)
+            (text-accumulate-vert 1 0 1 3 0)
+            (text-accumulate-vert 1 1 1 3 0)
+            (text-accumulate-vert 2 1 1 3 -1)
+            (text-accumulate-vert 2 1 1 5 0)
+            (text-accumulate-vert 2 2 1 5 0)
+            (text-accumulate-vert 3 2 1 5 0)
+            (text-accumulate-vert 3 2 1 6 2.0)
 
             ))))
 
