@@ -388,60 +388,6 @@
     (canvas/draw-once canvas-panels-7)
     ))
 
-(defn draw-panels-7-old [data]
-  (let [civara (:civara @data)
-        title (:title civara)
-        ;; values from the SVG for positioning
-        pos-pattern-width 260
-        pos-pattern-height 135
-        pos-img-offset-x 5
-        pos-img-offset-y 5
-        pos-text-offset-x (+ 4.8 pos-img-offset-x)
-        pos-text-offset-y (+ -0.7 pos-img-offset-y)
-        ;; scale
-        pattern-scale 11.8
-
-        ;; draws text with x y from the bottom left corner of the pattern image
-        text (fn [ctx s x y] (let [sc pattern-scale
-                                   x (* (+ x pos-text-offset-x) sc)
-                                   y (* (+ (- pos-pattern-height y) pos-text-offset-y) sc)]
-                               (canvas/font-style ctx "24px \"Fira Sans\"")
-                               (canvas/fill-style ctx "#000000")
-                               (canvas/text ctx {:text s :x x :y y})))
-
-        text-title (fn [ctx s size x y]
-                     (let [sc pattern-scale
-                           x (* (+ x pos-text-offset-x) sc)
-                           y (* (+ (- pos-pattern-height y) pos-text-offset-y) sc)]
-                       (canvas/font-style ctx (str size " \"Butler\""))
-                       (canvas/fill-style ctx "#000000")
-                       (canvas/text ctx {:text s :x x :y y})))
-
-        text-num (fn [ctx s x y]
-                   (text ctx (h/num-pad s) x y))
-
-        [canvas-panels-7 img-7] (h/init-canvas :#civara-panels-7-8-9-canvas "img/civara-panels-7-8-9.svg")]
-
-    (canvas/add-entity
-     canvas-panels-7
-     :background
-     (canvas/entity
-      nil nil
-      (fn [ctx val]
-        (-> ctx
-            (canvas/draw-image img-7 {:x (* pos-img-offset-x pattern-scale)
-                                      :y (* pos-img-offset-y pattern-scale)
-                                      :w (* pos-pattern-width pattern-scale)
-                                      :h (* pos-pattern-height pattern-scale)})
-
-            ;;(text-title title "60px" 0 0)
-            ;;(text (str "Pos Width: " pos-pattern-width ", Pos Height: " pos-pattern-height) 50.0 -8.0)
-
-            ))))
-
-    (canvas/draw-once canvas-panels-7)
-    ))
-
 (defn draw-civara-pattern [data]
   (h/render-markdown)
   (draw-guide data)
@@ -465,11 +411,16 @@
         [:div.container {:id "civara"}
          [:h2.s-title (text :civara)]
          [:div.docs-note
+
+          [:h3.s-title (text :notes)]
+          [:div.s-content.render-markdown.pattern-notes
+           (text :robe-size-note)]
+
           [:h3.s-title {:id "civara-pattern"} (text :pattern)]
 
           ;; Forms
           [:div.columns
-           [:div.col-6
+           [:div.col-xl-12.col-xxl-8.col-xxxl-6
 
             [:form
              [:div.form-group
@@ -593,12 +544,7 @@
                                   [0 0 0 0]))}
               (text :download-pdf)]]]
 
-           [:div.col-1]
-
-           [:div.col-5
-
-            [:div.docs-note.render-markdown
-             (text :robe-size-note)]]]
+           ]
           ;; end of Forms
 
           [:canvas.pattern {:id "civara-guide-canvas" :width 3500 :height 2400}]

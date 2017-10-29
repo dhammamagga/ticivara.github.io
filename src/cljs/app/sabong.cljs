@@ -227,11 +227,16 @@
          [:div.container {:id "sabong"}
           [:h2.s-title (text :sabong)]
           [:div.docs-note
+
+           [:h3.s-title (text :notes)]
+           [:div.s-content.render-markdown.pattern-notes
+            (text :robe-size-note)]
+
            [:h3.s-title {:id "sabong-pattern"} (text :pattern)]
 
            ;; Forms
            [:div.columns
-            [:div.col-6
+            [:div.col-xl-12.col-xxl-8.col-xxxl-6
 
              [:form
               [:div.form-group
@@ -339,12 +344,7 @@
                                                   [0 0 0 0]))}
                (text :download-pdf)]]]
 
-            [:div.col-1]
-
-            [:div.col-5
-
-             [:div.docs-note.render-markdown
-              (text :robe-size-note)]]]
+            ]
            ;; end of Forms
 
            [:canvas.pattern {:id "sabong-pattern-canvas" :width 3500 :height 2400}]]
