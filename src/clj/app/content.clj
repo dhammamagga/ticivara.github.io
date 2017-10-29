@@ -7,6 +7,9 @@
   ;; serving as webpage)
   (str/replace md "../../html/img/" "/img/"))
 
+(defmacro en-home-md []
+  (mdfmt (slurp "./content/en/home.md") ))
+
 (defmacro en-sabong-md []
   (mdfmt (slurp "./content/en/sabong.md") ))
 
@@ -21,6 +24,9 @@
 
 (defmacro en-tools-md []
   (mdfmt (slurp "./content/en/tools.md")))
+
+(defmacro th-home-md []
+  (mdfmt (slurp "./content/th/home.md") ))
 
 (defmacro th-sabong-md []
   (mdfmt (slurp "./content/th/sabong.md") ))

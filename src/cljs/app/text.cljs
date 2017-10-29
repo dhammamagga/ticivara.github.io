@@ -2,26 +2,6 @@
   (:require-macros [app.content :as ac])
   (:require [app.state :as state]))
 
-(def en-home-content-md "
-# Ticivara
-
-This is a calculating tool and instruction guide for sewing robes.
-
-As you will see it is very much work-in-progress, but the [Sabong](/#/en/sabong)
-pattern is ready to use.
-
-Enjoy your work!
-
-")
-
-(def th-home-content-md "
-# ไตรจีวร
-
-การคำนวน และแบบการตัดเย็บผ้าไตรจีวรจะอยูในส่วนนี้
-อยู่ในระหว่างการเขียน
-
-")
-
 (def en-robe-size-note-md "
 The final size is reached when the cloth shrinks after the first washing. The
 total cut size is scaled up to account for shrinking. The kusi size is not
@@ -48,7 +28,7 @@ will not accumulate errors from rounding.
                        :sanghati-guide-content (ac/en-sanghati-md)
                        :borders-content (ac/en-borders-md)
                        :tools-content (ac/en-tools-md)
-                       :home-content en-home-content-md
+                       :home-content (ac/en-home-md)
                        :robe-size-note en-robe-size-note-md
                        :home "Home"
                        :robe-sewing "Robe Sewing"
@@ -77,7 +57,7 @@ will not accumulate errors from rounding.
                        :sanghati-guide-content (ac/th-sanghati-md)
                        :borders-content (ac/th-borders-md)
                        :tools-content (ac/th-tools-md)
-                       :home-content th-home-content-md
+                       :home-content (ac/th-home-md)
                        :robe-size-note th-robe-size-note-md
                        :home "โปรแกรมคำนวณ"
                        :robe-sewing "การตัดเย็บผ้าไตรจีวร"
