@@ -2,34 +2,13 @@
   (:require-macros [app.content :as ac])
   (:require [app.state :as state]))
 
-(def en-robe-size-note-md "
-The final size is reached when the cloth shrinks after the first washing. The
-total cut size is scaled up to account for shrinking. The kusi size is not
-changed for easier marking, the extra size is added by increasing only the
-border and the mandala.
-
-Units are in centimeters. On the pattern, fractions are rounded to millimeters
-only when displayed, the internal calculations don't round the values.
-
-Use the increasing width values along the edges for marking on the cloth, this
-will not accumulate errors from rounding.
-")
-
-(def th-robe-size-note-md "
-ขนาดผ้าไตรจีวร ที่ต้องการ
-
-จะปรากฏตรงนี้
-
-ต้องรออับเดท
-")
-
 (def text-lookup {:en {:sabong-guide-content (ac/en-sabong-md)
                        :civara-guide-content (ac/en-civara-md)
                        :sanghati-guide-content (ac/en-sanghati-md)
                        :borders-content (ac/en-borders-md)
                        :tools-content (ac/en-tools-md)
                        :home-content (ac/en-home-md)
-                       :robe-size-note en-robe-size-note-md
+                       :robe-size-note (ac/en-robe-size-note-md)
                        :home "Home"
                        :robe-sewing "Robe Sewing"
                        :sabong "Sabong"
@@ -58,7 +37,7 @@ will not accumulate errors from rounding.
                        :borders-content (ac/th-borders-md)
                        :tools-content (ac/th-tools-md)
                        :home-content (ac/th-home-md)
-                       :robe-size-note th-robe-size-note-md
+                       :robe-size-note (ac/th-robe-size-note-md)
                        :home "โปรแกรมคำนวณ"
                        :robe-sewing "การตัดเย็บผ้าไตรจีวร"
                        :sabong "สบง"

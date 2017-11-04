@@ -19,9 +19,11 @@
                        :reference-links true
                        :footnotes true)
         c (sel1 :#page)]
-    (aset c "innerHTML" html)
-    (h/page-content-style :#page))
-  (h/render-markdown))
+    (do
+      (js/console.log "msg");; FIXME somehow this is is necessary, otherwise the page content is blank.
+      (aset c "innerHTML" html)
+      (h/page-content-style :#page)
+      (h/render-markdown))))
 
 (defn <content-page> [data]
   (r/create-class
