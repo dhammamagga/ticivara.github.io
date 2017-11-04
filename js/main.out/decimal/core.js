@@ -70,14 +70,14 @@ decimal.core.modulo_mapping = new cljs.core.PersistentArrayMap(null, 5, [cljs.co
  *   http://mikemcl.github.io/decimal.js/#Dconfig
  */
 decimal.core.config_BANG_ = (function decimal$core$config_BANG_(options){
-var opts = ({"precision": cljs.core.cst$kw$precision.cljs$core$IFn$_invoke$arity$2(options,decimal.core._PLUS_decimal_PLUS_.precision), "rounding": (function (){var G__14957 = decimal.core.round_mapping;
-var G__14958 = decimal.core._PLUS_decimal_PLUS_.rounding;
-var fexpr__14956 = cljs.core.cst$kw$rounding.cljs$core$IFn$_invoke$arity$1(options);
-return (fexpr__14956.cljs$core$IFn$_invoke$arity$2 ? fexpr__14956.cljs$core$IFn$_invoke$arity$2(G__14957,G__14958) : fexpr__14956.call(null,G__14957,G__14958));
-})(), "modulo": (function (){var G__14960 = decimal.core.modulo_mapping;
-var G__14961 = decimal.core._PLUS_decimal_PLUS_.modulo;
-var fexpr__14959 = cljs.core.cst$kw$modulo.cljs$core$IFn$_invoke$arity$2(options,cljs.core.cst$kw$round_DASH_down);
-return (fexpr__14959.cljs$core$IFn$_invoke$arity$2 ? fexpr__14959.cljs$core$IFn$_invoke$arity$2(G__14960,G__14961) : fexpr__14959.call(null,G__14960,G__14961));
+var opts = ({"precision": cljs.core.cst$kw$precision.cljs$core$IFn$_invoke$arity$2(options,decimal.core._PLUS_decimal_PLUS_.precision), "rounding": (function (){var G__15037 = decimal.core.round_mapping;
+var G__15038 = decimal.core._PLUS_decimal_PLUS_.rounding;
+var fexpr__15036 = cljs.core.cst$kw$rounding.cljs$core$IFn$_invoke$arity$1(options);
+return (fexpr__15036.cljs$core$IFn$_invoke$arity$2 ? fexpr__15036.cljs$core$IFn$_invoke$arity$2(G__15037,G__15038) : fexpr__15036.call(null,G__15037,G__15038));
+})(), "modulo": (function (){var G__15040 = decimal.core.modulo_mapping;
+var G__15041 = decimal.core._PLUS_decimal_PLUS_.modulo;
+var fexpr__15039 = cljs.core.cst$kw$modulo.cljs$core$IFn$_invoke$arity$2(options,cljs.core.cst$kw$round_DASH_down);
+return (fexpr__15039.cljs$core$IFn$_invoke$arity$2 ? fexpr__15039.cljs$core$IFn$_invoke$arity$2(G__15040,G__15041) : fexpr__15039.call(null,G__15040,G__15041));
 })(), "minE": cljs.core.cst$kw$min_DASH_e.cljs$core$IFn$_invoke$arity$2(options,decimal.core._PLUS_decimal_PLUS_.minE), "maxE": cljs.core.cst$kw$max_DASH_e.cljs$core$IFn$_invoke$arity$2(options,decimal.core._PLUS_decimal_PLUS_.maxE), "toExpNeg": cljs.core.cst$kw$to_DASH_exp_DASH_neg.cljs$core$IFn$_invoke$arity$2(options,decimal.core._PLUS_decimal_PLUS_.toExpNeg), "toExpPos": cljs.core.cst$kw$to_DASH_exp_DASH_pos.cljs$core$IFn$_invoke$arity$2(options,decimal.core._PLUS_decimal_PLUS_.toExpPos), "crypto": cljs.core.cst$kw$crypto.cljs$core$IFn$_invoke$arity$2(options,decimal.core._PLUS_decimal_PLUS_.crypto)});
 decimal.core._STAR_decimal_STAR_.set(opts);
 
@@ -89,14 +89,14 @@ return null;
  *   with provided configuration.
  */
 decimal.core.config = (function decimal$core$config(options){
-var opts = ({"precision": cljs.core.cst$kw$precision.cljs$core$IFn$_invoke$arity$2(options,decimal.core._PLUS_decimal_PLUS_.precision), "rounding": (function (){var G__14963 = decimal.core.round_mapping;
-var G__14964 = decimal.core._PLUS_decimal_PLUS_.rounding;
-var fexpr__14962 = cljs.core.cst$kw$rounding.cljs$core$IFn$_invoke$arity$1(options);
-return (fexpr__14962.cljs$core$IFn$_invoke$arity$2 ? fexpr__14962.cljs$core$IFn$_invoke$arity$2(G__14963,G__14964) : fexpr__14962.call(null,G__14963,G__14964));
-})(), "modulo": (function (){var G__14966 = decimal.core.modulo_mapping;
-var G__14967 = decimal.core._PLUS_decimal_PLUS_.modulo;
-var fexpr__14965 = cljs.core.cst$kw$modulo.cljs$core$IFn$_invoke$arity$2(options,cljs.core.cst$kw$round_DASH_down);
-return (fexpr__14965.cljs$core$IFn$_invoke$arity$2 ? fexpr__14965.cljs$core$IFn$_invoke$arity$2(G__14966,G__14967) : fexpr__14965.call(null,G__14966,G__14967));
+var opts = ({"precision": cljs.core.cst$kw$precision.cljs$core$IFn$_invoke$arity$2(options,decimal.core._PLUS_decimal_PLUS_.precision), "rounding": (function (){var G__15043 = decimal.core.round_mapping;
+var G__15044 = decimal.core._PLUS_decimal_PLUS_.rounding;
+var fexpr__15042 = cljs.core.cst$kw$rounding.cljs$core$IFn$_invoke$arity$1(options);
+return (fexpr__15042.cljs$core$IFn$_invoke$arity$2 ? fexpr__15042.cljs$core$IFn$_invoke$arity$2(G__15043,G__15044) : fexpr__15042.call(null,G__15043,G__15044));
+})(), "modulo": (function (){var G__15046 = decimal.core.modulo_mapping;
+var G__15047 = decimal.core._PLUS_decimal_PLUS_.modulo;
+var fexpr__15045 = cljs.core.cst$kw$modulo.cljs$core$IFn$_invoke$arity$2(options,cljs.core.cst$kw$round_DASH_down);
+return (fexpr__15045.cljs$core$IFn$_invoke$arity$2 ? fexpr__15045.cljs$core$IFn$_invoke$arity$2(G__15046,G__15047) : fexpr__15045.call(null,G__15046,G__15047));
 })(), "minE": cljs.core.cst$kw$min_DASH_e.cljs$core$IFn$_invoke$arity$2(options,decimal.core._PLUS_decimal_PLUS_.minE), "maxE": cljs.core.cst$kw$max_DASH_e.cljs$core$IFn$_invoke$arity$2(options,decimal.core._PLUS_decimal_PLUS_.maxE), "toExpNeg": cljs.core.cst$kw$to_DASH_exp_DASH_neg.cljs$core$IFn$_invoke$arity$2(options,decimal.core._PLUS_decimal_PLUS_.toExpNeg), "toExpPos": cljs.core.cst$kw$to_DASH_exp_DASH_pos.cljs$core$IFn$_invoke$arity$2(options,decimal.core._PLUS_decimal_PLUS_.toExpPos), "crypto": cljs.core.cst$kw$crypto.cljs$core$IFn$_invoke$arity$2(options,decimal.core._PLUS_decimal_PLUS_.crypto)});
 return decimal.core._PLUS_decimal_PLUS_.clone(opts);
 });
@@ -189,22 +189,22 @@ return decimal.core._decimal(v).isZero();
  *   the value of x, otherwise returns false.
  */
 decimal.core._LT_ = (function decimal$core$_LT_(var_args){
-var G__14972 = arguments.length;
-switch (G__14972) {
+var G__15052 = arguments.length;
+switch (G__15052) {
 case 2:
 return decimal.core._LT_.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
 break;
 default:
 var args_arr__9141__auto__ = [];
-var len__9122__auto___14974 = arguments.length;
-var i__9123__auto___14975 = (0);
+var len__9122__auto___15054 = arguments.length;
+var i__9123__auto___15055 = (0);
 while(true){
-if((i__9123__auto___14975 < len__9122__auto___14974)){
-args_arr__9141__auto__.push((arguments[i__9123__auto___14975]));
+if((i__9123__auto___15055 < len__9122__auto___15054)){
+args_arr__9141__auto__.push((arguments[i__9123__auto___15055]));
 
-var G__14976 = (i__9123__auto___14975 + (1));
-i__9123__auto___14975 = G__14976;
+var G__15056 = (i__9123__auto___15055 + (1));
+i__9123__auto___15055 = G__15056;
 continue;
 } else {
 }
@@ -225,12 +225,12 @@ decimal.core._LT_.cljs$core$IFn$_invoke$arity$variadic = (function (v,x,more){
 while(true){
 if(decimal.core._LT_.cljs$core$IFn$_invoke$arity$2(v,x)){
 if(cljs.core.next(more)){
-var G__14977 = x;
-var G__14978 = cljs.core.first(more);
-var G__14979 = cljs.core.next(more);
-v = G__14977;
-x = G__14978;
-more = G__14979;
+var G__15057 = x;
+var G__15058 = cljs.core.first(more);
+var G__15059 = cljs.core.next(more);
+v = G__15057;
+x = G__15058;
+more = G__15059;
 continue;
 } else {
 return decimal.core._LT_.cljs$core$IFn$_invoke$arity$2(x,cljs.core.first(more));
@@ -242,12 +242,12 @@ break;
 }
 });
 
-decimal.core._LT_.cljs$lang$applyTo = (function (seq14969){
-var G__14970 = cljs.core.first(seq14969);
-var seq14969__$1 = cljs.core.next(seq14969);
-var G__14971 = cljs.core.first(seq14969__$1);
-var seq14969__$2 = cljs.core.next(seq14969__$1);
-return decimal.core._LT_.cljs$core$IFn$_invoke$arity$variadic(G__14970,G__14971,seq14969__$2);
+decimal.core._LT_.cljs$lang$applyTo = (function (seq15049){
+var G__15050 = cljs.core.first(seq15049);
+var seq15049__$1 = cljs.core.next(seq15049);
+var G__15051 = cljs.core.first(seq15049__$1);
+var seq15049__$2 = cljs.core.next(seq15049__$1);
+return decimal.core._LT_.cljs$core$IFn$_invoke$arity$variadic(G__15050,G__15051,seq15049__$2);
 });
 
 decimal.core._LT_.cljs$lang$maxFixedArity = (2);
@@ -257,22 +257,22 @@ decimal.core._LT_.cljs$lang$maxFixedArity = (2);
  *   or equal to the value of x, otherwise returns false.
  */
 decimal.core._LT__EQ_ = (function decimal$core$_LT__EQ_(var_args){
-var G__14984 = arguments.length;
-switch (G__14984) {
+var G__15064 = arguments.length;
+switch (G__15064) {
 case 2:
 return decimal.core._LT__EQ_.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
 break;
 default:
 var args_arr__9141__auto__ = [];
-var len__9122__auto___14986 = arguments.length;
-var i__9123__auto___14987 = (0);
+var len__9122__auto___15066 = arguments.length;
+var i__9123__auto___15067 = (0);
 while(true){
-if((i__9123__auto___14987 < len__9122__auto___14986)){
-args_arr__9141__auto__.push((arguments[i__9123__auto___14987]));
+if((i__9123__auto___15067 < len__9122__auto___15066)){
+args_arr__9141__auto__.push((arguments[i__9123__auto___15067]));
 
-var G__14988 = (i__9123__auto___14987 + (1));
-i__9123__auto___14987 = G__14988;
+var G__15068 = (i__9123__auto___15067 + (1));
+i__9123__auto___15067 = G__15068;
 continue;
 } else {
 }
@@ -293,12 +293,12 @@ decimal.core._LT__EQ_.cljs$core$IFn$_invoke$arity$variadic = (function (v,x,more
 while(true){
 if(decimal.core._LT__EQ_.cljs$core$IFn$_invoke$arity$2(v,x)){
 if(cljs.core.next(more)){
-var G__14989 = x;
-var G__14990 = cljs.core.first(more);
-var G__14991 = cljs.core.next(more);
-v = G__14989;
-x = G__14990;
-more = G__14991;
+var G__15069 = x;
+var G__15070 = cljs.core.first(more);
+var G__15071 = cljs.core.next(more);
+v = G__15069;
+x = G__15070;
+more = G__15071;
 continue;
 } else {
 return decimal.core._LT__EQ_.cljs$core$IFn$_invoke$arity$2(x,cljs.core.first(more));
@@ -310,12 +310,12 @@ break;
 }
 });
 
-decimal.core._LT__EQ_.cljs$lang$applyTo = (function (seq14981){
-var G__14982 = cljs.core.first(seq14981);
-var seq14981__$1 = cljs.core.next(seq14981);
-var G__14983 = cljs.core.first(seq14981__$1);
-var seq14981__$2 = cljs.core.next(seq14981__$1);
-return decimal.core._LT__EQ_.cljs$core$IFn$_invoke$arity$variadic(G__14982,G__14983,seq14981__$2);
+decimal.core._LT__EQ_.cljs$lang$applyTo = (function (seq15061){
+var G__15062 = cljs.core.first(seq15061);
+var seq15061__$1 = cljs.core.next(seq15061);
+var G__15063 = cljs.core.first(seq15061__$1);
+var seq15061__$2 = cljs.core.next(seq15061__$1);
+return decimal.core._LT__EQ_.cljs$core$IFn$_invoke$arity$variadic(G__15062,G__15063,seq15061__$2);
 });
 
 decimal.core._LT__EQ_.cljs$lang$maxFixedArity = (2);
@@ -325,22 +325,22 @@ decimal.core._LT__EQ_.cljs$lang$maxFixedArity = (2);
  *   the value of x, otherwise returns false.
  */
 decimal.core._GT_ = (function decimal$core$_GT_(var_args){
-var G__14996 = arguments.length;
-switch (G__14996) {
+var G__15076 = arguments.length;
+switch (G__15076) {
 case 2:
 return decimal.core._GT_.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
 break;
 default:
 var args_arr__9141__auto__ = [];
-var len__9122__auto___14998 = arguments.length;
-var i__9123__auto___14999 = (0);
+var len__9122__auto___15078 = arguments.length;
+var i__9123__auto___15079 = (0);
 while(true){
-if((i__9123__auto___14999 < len__9122__auto___14998)){
-args_arr__9141__auto__.push((arguments[i__9123__auto___14999]));
+if((i__9123__auto___15079 < len__9122__auto___15078)){
+args_arr__9141__auto__.push((arguments[i__9123__auto___15079]));
 
-var G__15000 = (i__9123__auto___14999 + (1));
-i__9123__auto___14999 = G__15000;
+var G__15080 = (i__9123__auto___15079 + (1));
+i__9123__auto___15079 = G__15080;
 continue;
 } else {
 }
@@ -361,12 +361,12 @@ decimal.core._GT_.cljs$core$IFn$_invoke$arity$variadic = (function (v,x,more){
 while(true){
 if(decimal.core._GT_.cljs$core$IFn$_invoke$arity$2(v,x)){
 if(cljs.core.next(more)){
-var G__15001 = x;
-var G__15002 = cljs.core.first(more);
-var G__15003 = cljs.core.next(more);
-v = G__15001;
-x = G__15002;
-more = G__15003;
+var G__15081 = x;
+var G__15082 = cljs.core.first(more);
+var G__15083 = cljs.core.next(more);
+v = G__15081;
+x = G__15082;
+more = G__15083;
 continue;
 } else {
 return decimal.core._GT_.cljs$core$IFn$_invoke$arity$2(x,cljs.core.first(more));
@@ -378,12 +378,12 @@ break;
 }
 });
 
-decimal.core._GT_.cljs$lang$applyTo = (function (seq14993){
-var G__14994 = cljs.core.first(seq14993);
-var seq14993__$1 = cljs.core.next(seq14993);
-var G__14995 = cljs.core.first(seq14993__$1);
-var seq14993__$2 = cljs.core.next(seq14993__$1);
-return decimal.core._GT_.cljs$core$IFn$_invoke$arity$variadic(G__14994,G__14995,seq14993__$2);
+decimal.core._GT_.cljs$lang$applyTo = (function (seq15073){
+var G__15074 = cljs.core.first(seq15073);
+var seq15073__$1 = cljs.core.next(seq15073);
+var G__15075 = cljs.core.first(seq15073__$1);
+var seq15073__$2 = cljs.core.next(seq15073__$1);
+return decimal.core._GT_.cljs$core$IFn$_invoke$arity$variadic(G__15074,G__15075,seq15073__$2);
 });
 
 decimal.core._GT_.cljs$lang$maxFixedArity = (2);
@@ -393,22 +393,22 @@ decimal.core._GT_.cljs$lang$maxFixedArity = (2);
  *   or equal to the value of x, otherwise returns false.
  */
 decimal.core._GT__EQ_ = (function decimal$core$_GT__EQ_(var_args){
-var G__15008 = arguments.length;
-switch (G__15008) {
+var G__15088 = arguments.length;
+switch (G__15088) {
 case 2:
 return decimal.core._GT__EQ_.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
 break;
 default:
 var args_arr__9141__auto__ = [];
-var len__9122__auto___15010 = arguments.length;
-var i__9123__auto___15011 = (0);
+var len__9122__auto___15090 = arguments.length;
+var i__9123__auto___15091 = (0);
 while(true){
-if((i__9123__auto___15011 < len__9122__auto___15010)){
-args_arr__9141__auto__.push((arguments[i__9123__auto___15011]));
+if((i__9123__auto___15091 < len__9122__auto___15090)){
+args_arr__9141__auto__.push((arguments[i__9123__auto___15091]));
 
-var G__15012 = (i__9123__auto___15011 + (1));
-i__9123__auto___15011 = G__15012;
+var G__15092 = (i__9123__auto___15091 + (1));
+i__9123__auto___15091 = G__15092;
 continue;
 } else {
 }
@@ -429,12 +429,12 @@ decimal.core._GT__EQ_.cljs$core$IFn$_invoke$arity$variadic = (function (v,x,more
 while(true){
 if(decimal.core._GT__EQ_.cljs$core$IFn$_invoke$arity$2(v,x)){
 if(cljs.core.next(more)){
-var G__15013 = x;
-var G__15014 = cljs.core.first(more);
-var G__15015 = cljs.core.next(more);
-v = G__15013;
-x = G__15014;
-more = G__15015;
+var G__15093 = x;
+var G__15094 = cljs.core.first(more);
+var G__15095 = cljs.core.next(more);
+v = G__15093;
+x = G__15094;
+more = G__15095;
 continue;
 } else {
 return decimal.core._GT__EQ_.cljs$core$IFn$_invoke$arity$2(x,cljs.core.first(more));
@@ -446,12 +446,12 @@ break;
 }
 });
 
-decimal.core._GT__EQ_.cljs$lang$applyTo = (function (seq15005){
-var G__15006 = cljs.core.first(seq15005);
-var seq15005__$1 = cljs.core.next(seq15005);
-var G__15007 = cljs.core.first(seq15005__$1);
-var seq15005__$2 = cljs.core.next(seq15005__$1);
-return decimal.core._GT__EQ_.cljs$core$IFn$_invoke$arity$variadic(G__15006,G__15007,seq15005__$2);
+decimal.core._GT__EQ_.cljs$lang$applyTo = (function (seq15085){
+var G__15086 = cljs.core.first(seq15085);
+var seq15085__$1 = cljs.core.next(seq15085);
+var G__15087 = cljs.core.first(seq15085__$1);
+var seq15085__$2 = cljs.core.next(seq15085__$1);
+return decimal.core._GT__EQ_.cljs$core$IFn$_invoke$arity$variadic(G__15086,G__15087,seq15085__$2);
 });
 
 decimal.core._GT__EQ_.cljs$lang$maxFixedArity = (2);
@@ -461,22 +461,22 @@ decimal.core._GT__EQ_.cljs$lang$maxFixedArity = (2);
  *   value of x, otherwise returns false.
  */
 decimal.core._EQ_ = (function decimal$core$_EQ_(var_args){
-var G__15020 = arguments.length;
-switch (G__15020) {
+var G__15100 = arguments.length;
+switch (G__15100) {
 case 2:
 return decimal.core._EQ_.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
 break;
 default:
 var args_arr__9141__auto__ = [];
-var len__9122__auto___15022 = arguments.length;
-var i__9123__auto___15023 = (0);
+var len__9122__auto___15102 = arguments.length;
+var i__9123__auto___15103 = (0);
 while(true){
-if((i__9123__auto___15023 < len__9122__auto___15022)){
-args_arr__9141__auto__.push((arguments[i__9123__auto___15023]));
+if((i__9123__auto___15103 < len__9122__auto___15102)){
+args_arr__9141__auto__.push((arguments[i__9123__auto___15103]));
 
-var G__15024 = (i__9123__auto___15023 + (1));
-i__9123__auto___15023 = G__15024;
+var G__15104 = (i__9123__auto___15103 + (1));
+i__9123__auto___15103 = G__15104;
 continue;
 } else {
 }
@@ -497,12 +497,12 @@ decimal.core._EQ_.cljs$core$IFn$_invoke$arity$variadic = (function (v,x,more){
 while(true){
 if(decimal.core._GT__EQ_.cljs$core$IFn$_invoke$arity$2(v,x)){
 if(cljs.core.next(more)){
-var G__15025 = x;
-var G__15026 = cljs.core.first(more);
-var G__15027 = cljs.core.next(more);
-v = G__15025;
-x = G__15026;
-more = G__15027;
+var G__15105 = x;
+var G__15106 = cljs.core.first(more);
+var G__15107 = cljs.core.next(more);
+v = G__15105;
+x = G__15106;
+more = G__15107;
 continue;
 } else {
 return decimal.core._GT__EQ_.cljs$core$IFn$_invoke$arity$2(x,cljs.core.first(more));
@@ -514,12 +514,12 @@ break;
 }
 });
 
-decimal.core._EQ_.cljs$lang$applyTo = (function (seq15017){
-var G__15018 = cljs.core.first(seq15017);
-var seq15017__$1 = cljs.core.next(seq15017);
-var G__15019 = cljs.core.first(seq15017__$1);
-var seq15017__$2 = cljs.core.next(seq15017__$1);
-return decimal.core._EQ_.cljs$core$IFn$_invoke$arity$variadic(G__15018,G__15019,seq15017__$2);
+decimal.core._EQ_.cljs$lang$applyTo = (function (seq15097){
+var G__15098 = cljs.core.first(seq15097);
+var seq15097__$1 = cljs.core.next(seq15097);
+var G__15099 = cljs.core.first(seq15097__$1);
+var seq15097__$2 = cljs.core.next(seq15097__$1);
+return decimal.core._EQ_.cljs$core$IFn$_invoke$arity$variadic(G__15098,G__15099,seq15097__$2);
 });
 
 decimal.core._EQ_.cljs$lang$maxFixedArity = (2);
@@ -573,8 +573,8 @@ return decimal.core._decimal(v).divToInt(x);
  * Returns a new Decimal whose value is the maximum.
  */
 decimal.core.max = (function decimal$core$max(var_args){
-var G__15032 = arguments.length;
-switch (G__15032) {
+var G__15112 = arguments.length;
+switch (G__15112) {
 case 1:
 return decimal.core.max.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -585,14 +585,14 @@ return decimal.core.max.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(argument
 break;
 default:
 var args_arr__9141__auto__ = [];
-var len__9122__auto___15034 = arguments.length;
-var i__9123__auto___15035 = (0);
+var len__9122__auto___15114 = arguments.length;
+var i__9123__auto___15115 = (0);
 while(true){
-if((i__9123__auto___15035 < len__9122__auto___15034)){
-args_arr__9141__auto__.push((arguments[i__9123__auto___15035]));
+if((i__9123__auto___15115 < len__9122__auto___15114)){
+args_arr__9141__auto__.push((arguments[i__9123__auto___15115]));
 
-var G__15036 = (i__9123__auto___15035 + (1));
-i__9123__auto___15035 = G__15036;
+var G__15116 = (i__9123__auto___15115 + (1));
+i__9123__auto___15115 = G__15116;
 continue;
 } else {
 }
@@ -623,12 +623,12 @@ decimal.core.max.cljs$core$IFn$_invoke$arity$variadic = (function (a,b,more){
 return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3(decimal.core.max,decimal.core.max.cljs$core$IFn$_invoke$arity$2(a,b),more);
 });
 
-decimal.core.max.cljs$lang$applyTo = (function (seq15029){
-var G__15030 = cljs.core.first(seq15029);
-var seq15029__$1 = cljs.core.next(seq15029);
-var G__15031 = cljs.core.first(seq15029__$1);
-var seq15029__$2 = cljs.core.next(seq15029__$1);
-return decimal.core.max.cljs$core$IFn$_invoke$arity$variadic(G__15030,G__15031,seq15029__$2);
+decimal.core.max.cljs$lang$applyTo = (function (seq15109){
+var G__15110 = cljs.core.first(seq15109);
+var seq15109__$1 = cljs.core.next(seq15109);
+var G__15111 = cljs.core.first(seq15109__$1);
+var seq15109__$2 = cljs.core.next(seq15109__$1);
+return decimal.core.max.cljs$core$IFn$_invoke$arity$variadic(G__15110,G__15111,seq15109__$2);
 });
 
 decimal.core.max.cljs$lang$maxFixedArity = (2);
@@ -637,8 +637,8 @@ decimal.core.max.cljs$lang$maxFixedArity = (2);
  * Returns a new Decimal whose value is the minimum.
  */
 decimal.core.min = (function decimal$core$min(var_args){
-var G__15041 = arguments.length;
-switch (G__15041) {
+var G__15121 = arguments.length;
+switch (G__15121) {
 case 1:
 return decimal.core.min.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -649,14 +649,14 @@ return decimal.core.min.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(argument
 break;
 default:
 var args_arr__9141__auto__ = [];
-var len__9122__auto___15043 = arguments.length;
-var i__9123__auto___15044 = (0);
+var len__9122__auto___15123 = arguments.length;
+var i__9123__auto___15124 = (0);
 while(true){
-if((i__9123__auto___15044 < len__9122__auto___15043)){
-args_arr__9141__auto__.push((arguments[i__9123__auto___15044]));
+if((i__9123__auto___15124 < len__9122__auto___15123)){
+args_arr__9141__auto__.push((arguments[i__9123__auto___15124]));
 
-var G__15045 = (i__9123__auto___15044 + (1));
-i__9123__auto___15044 = G__15045;
+var G__15125 = (i__9123__auto___15124 + (1));
+i__9123__auto___15124 = G__15125;
 continue;
 } else {
 }
@@ -687,12 +687,12 @@ decimal.core.min.cljs$core$IFn$_invoke$arity$variadic = (function (a,b,more){
 return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3(decimal.core.min,decimal.core.min.cljs$core$IFn$_invoke$arity$2(a,b),more);
 });
 
-decimal.core.min.cljs$lang$applyTo = (function (seq15038){
-var G__15039 = cljs.core.first(seq15038);
-var seq15038__$1 = cljs.core.next(seq15038);
-var G__15040 = cljs.core.first(seq15038__$1);
-var seq15038__$2 = cljs.core.next(seq15038__$1);
-return decimal.core.min.cljs$core$IFn$_invoke$arity$variadic(G__15039,G__15040,seq15038__$2);
+decimal.core.min.cljs$lang$applyTo = (function (seq15118){
+var G__15119 = cljs.core.first(seq15118);
+var seq15118__$1 = cljs.core.next(seq15118);
+var G__15120 = cljs.core.first(seq15118__$1);
+var seq15118__$2 = cljs.core.next(seq15118__$1);
+return decimal.core.min.cljs$core$IFn$_invoke$arity$variadic(G__15119,G__15120,seq15118__$2);
 });
 
 decimal.core.min.cljs$lang$maxFixedArity = (2);
@@ -833,8 +833,8 @@ return decimal.core._decimal(v).squareRoot();
  *   this Decimal will be returned.
  */
 decimal.core.log = (function decimal$core$log(var_args){
-var G__15047 = arguments.length;
-switch (G__15047) {
+var G__15127 = arguments.length;
+switch (G__15127) {
 case 1:
 return decimal.core.log.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -912,14 +912,14 @@ return decimal.core._decimal(v).naturalLogarithm();
  */
 decimal.core.hypot = (function decimal$core$hypot(var_args){
 var args__9129__auto__ = [];
-var len__9122__auto___15050 = arguments.length;
-var i__9123__auto___15051 = (0);
+var len__9122__auto___15130 = arguments.length;
+var i__9123__auto___15131 = (0);
 while(true){
-if((i__9123__auto___15051 < len__9122__auto___15050)){
-args__9129__auto__.push((arguments[i__9123__auto___15051]));
+if((i__9123__auto___15131 < len__9122__auto___15130)){
+args__9129__auto__.push((arguments[i__9123__auto___15131]));
 
-var G__15052 = (i__9123__auto___15051 + (1));
-i__9123__auto___15051 = G__15052;
+var G__15132 = (i__9123__auto___15131 + (1));
+i__9123__auto___15131 = G__15132;
 continue;
 } else {
 }
@@ -936,8 +936,8 @@ return decimal.core._STAR_decimal_STAR_.hypot.apply(decimal.core._STAR_decimal_S
 
 decimal.core.hypot.cljs$lang$maxFixedArity = (0);
 
-decimal.core.hypot.cljs$lang$applyTo = (function (seq15049){
-return decimal.core.hypot.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq15049));
+decimal.core.hypot.cljs$lang$applyTo = (function (seq15129){
+return decimal.core.hypot.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq15129));
 });
 
 /**
@@ -978,8 +978,8 @@ return decimal.core._decimal(v).truncated();
  *   part will be included in the counter of significant digits.
  */
 decimal.core.precision = (function decimal$core$precision(var_args){
-var G__15054 = arguments.length;
-switch (G__15054) {
+var G__15134 = arguments.length;
+switch (G__15134) {
 case 1:
 return decimal.core.precision.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -1018,8 +1018,8 @@ return decimal.core._STAR_decimal_STAR_.sign(v);
  *   digits. If `rm` is omitted, default rounding mode will be used.
  */
 decimal.core.to_binary = (function decimal$core$to_binary(var_args){
-var G__15057 = arguments.length;
-switch (G__15057) {
+var G__15137 = arguments.length;
+switch (G__15137) {
 case 1:
 return decimal.core.to_binary.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -1071,8 +1071,8 @@ decimal.core.to_binary.cljs$lang$maxFixedArity = 3;
  *   Throws on an invalid `dp` or `rm` value.
  */
 decimal.core.to_exponential = (function decimal$core$to_exponential(var_args){
-var G__15060 = arguments.length;
-switch (G__15060) {
+var G__15140 = arguments.length;
+switch (G__15140) {
 case 1:
 return decimal.core.to_exponential.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -1129,8 +1129,8 @@ decimal.core.to_exponential.cljs$lang$maxFixedArity = 3;
  *   Throws on an invalid `dp` or `rm` value.
  */
 decimal.core.to_fixed = (function decimal$core$to_fixed(var_args){
-var G__15063 = arguments.length;
-switch (G__15063) {
+var G__15143 = arguments.length;
+switch (G__15143) {
 case 1:
 return decimal.core.to_fixed.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -1179,8 +1179,8 @@ decimal.core.to_fixed.cljs$lang$maxFixedArity = 3;
  *   Throws on an invalid `sd` or `rm` value.
  */
 decimal.core.to_octal = (function decimal$core$to_octal(var_args){
-var G__15066 = arguments.length;
-switch (G__15066) {
+var G__15146 = arguments.length;
+switch (G__15146) {
 case 1:
 return decimal.core.to_octal.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -1229,8 +1229,8 @@ decimal.core.to_octal.cljs$lang$maxFixedArity = 3;
  *   Throws on an invalid `sd` or `rm` value.
  */
 decimal.core.to_hex = (function decimal$core$to_hex(var_args){
-var G__15069 = arguments.length;
-switch (G__15069) {
+var G__15149 = arguments.length;
+switch (G__15149) {
 case 1:
 return decimal.core.to_hex.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -1304,8 +1304,8 @@ return decimal.core._decimal(v).valueOf();
  *   Throws on an invalid `sd` or `rm` value.
  */
 decimal.core.to_precision = (function decimal$core$to_precision(var_args){
-var G__15072 = arguments.length;
-switch (G__15072) {
+var G__15152 = arguments.length;
+switch (G__15152) {
 case 1:
 return decimal.core.to_precision.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -1350,8 +1350,8 @@ decimal.core.to_precision.cljs$lang$maxFixedArity = 3;
  *   Throws on an invalid `sd` or `rm` value.
  */
 decimal.core.to_significant_digits = (function decimal$core$to_significant_digits(var_args){
-var G__15075 = arguments.length;
-switch (G__15075) {
+var G__15155 = arguments.length;
+switch (G__15155) {
 case 1:
 return decimal.core.to_significant_digits.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -1396,8 +1396,8 @@ decimal.core.to_significant_digits.cljs$lang$maxFixedArity = 3;
  *   Throws on an invalid `dp` or `rm` value.
  */
 decimal.core.to_decimal_places = (function decimal$core$to_decimal_places(var_args){
-var G__15078 = arguments.length;
-switch (G__15078) {
+var G__15158 = arguments.length;
+switch (G__15158) {
 case 1:
 return decimal.core.to_decimal_places.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -1442,8 +1442,8 @@ decimal.core.to_decimal_places.cljs$lang$maxFixedArity = 3;
  *   Throws on an invalid `max_denominator` value.
  */
 decimal.core.to_fraction = (function decimal$core$to_fraction(var_args){
-var G__15081 = arguments.length;
-switch (G__15081) {
+var G__15161 = arguments.length;
+switch (G__15161) {
 case 1:
 return decimal.core.to_fraction.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -1499,8 +1499,8 @@ return decimal.core._decimal(v).toPower(x);
  *   The return value is not affected by the value of the `precision` setting.
  */
 decimal.core.to_nearest = (function decimal$core$to_nearest(var_args){
-var G__15084 = arguments.length;
-switch (G__15084) {
+var G__15164 = arguments.length;
+switch (G__15164) {
 case 2:
 return decimal.core.to_nearest.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -1562,22 +1562,22 @@ return v__$1;
 
 goog.object.set(decimal.core.IDecimal,"string",true);
 
-var G__15086_15092 = decimal.core._decimal;
-var G__15087_15093 = "string";
-var G__15088_15094 = ((function (G__15086_15092,G__15087_15093){
+var G__15166_15172 = decimal.core._decimal;
+var G__15167_15173 = "string";
+var G__15168_15174 = ((function (G__15166_15172,G__15167_15173){
 return (function (v){
 return (new decimal.core._STAR_decimal_STAR_(v));
-});})(G__15086_15092,G__15087_15093))
+});})(G__15166_15172,G__15167_15173))
 ;
-goog.object.set(G__15086_15092,G__15087_15093,G__15088_15094);
+goog.object.set(G__15166_15172,G__15167_15173,G__15168_15174);
 
 goog.object.set(decimal.core.IDecimal,"number",true);
 
-var G__15089_15095 = decimal.core._decimal;
-var G__15090_15096 = "number";
-var G__15091_15097 = ((function (G__15089_15095,G__15090_15096){
+var G__15169_15175 = decimal.core._decimal;
+var G__15170_15176 = "number";
+var G__15171_15177 = ((function (G__15169_15175,G__15170_15176){
 return (function (v){
 return (new decimal.core._STAR_decimal_STAR_(v));
-});})(G__15089_15095,G__15090_15096))
+});})(G__15169_15175,G__15170_15176))
 ;
-goog.object.set(G__15089_15095,G__15090_15096,G__15091_15097);
+goog.object.set(G__15169_15175,G__15170_15176,G__15171_15177);

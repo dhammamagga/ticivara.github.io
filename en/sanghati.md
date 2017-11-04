@@ -82,7 +82,7 @@ lower level than the mandala.
 
 [![join horizontal fold out](/img/sanghati/photos/join-horizontal-fold-out-w500.jpg)](/img/borders/photos/join-horizontal-fold-out-orig.jpg)
 
-This is also called the \"canal\" and the \"shore\", if you imagine the kusis being
+This is also called the "canal" and the "shore", if you imagine the kusis being
 the watering canals between rice paddy fields.
 
 Sew the layer together below the first sewing, within 1-2 mm. Sew both

@@ -10,11 +10,13 @@ goog.require('clojure.string');
 goog.require('app.helpers');
 goog.require('app.text');
 app.content_page.page_update = (function app$content_page$page_update(data){
-var text_key_18701 = cljs.core.keyword.cljs$core$IFn$_invoke$arity$1([cljs.core.str.cljs$core$IFn$_invoke$arity$1(cljs.core.subs.cljs$core$IFn$_invoke$arity$2([cljs.core.str.cljs$core$IFn$_invoke$arity$1(reagent.session.get(cljs.core.cst$kw$page))].join(''),(1))),"-content"].join(''));
-var txt_18702 = app.text.text(text_key_18701);
-var html_18703 = markdown.core.md__GT_html.cljs$core$IFn$_invoke$arity$variadic(txt_18702,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([cljs.core.cst$kw$heading_DASH_anchors,true,cljs.core.cst$kw$reference_DASH_links,true,cljs.core.cst$kw$footnotes,true], 0));
-var c_18704 = document.getElementById("page");
-(c_18704["innerHTML"] = html_18703);
+var text_key = cljs.core.keyword.cljs$core$IFn$_invoke$arity$1([cljs.core.str.cljs$core$IFn$_invoke$arity$1(cljs.core.subs.cljs$core$IFn$_invoke$arity$2([cljs.core.str.cljs$core$IFn$_invoke$arity$1(reagent.session.get(cljs.core.cst$kw$page))].join(''),(1))),"-content"].join(''));
+var txt = app.text.text(text_key);
+var html = markdown.core.md__GT_html.cljs$core$IFn$_invoke$arity$variadic(txt,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([cljs.core.cst$kw$heading_DASH_anchors,true,cljs.core.cst$kw$reference_DASH_links,true,cljs.core.cst$kw$footnotes,true], 0));
+var c = document.getElementById("page");
+console.log("msg");
+
+(c["innerHTML"] = html);
 
 app.helpers.page_content_style(cljs.core.cst$kw$_SHARP_page);
 
