@@ -1,6 +1,6 @@
 # Tools
 
-![sewing tools](../../html/img/tools/sewing-tools_w500.jpg)
+![sewing tools](/img/tools/sewing-tools_w500.jpg)
 
 ## Checklist before sewing
 
