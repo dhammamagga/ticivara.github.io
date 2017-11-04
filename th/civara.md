@@ -5,7 +5,7 @@
 จีวร ผ้าที่เหมาะต่อการตัดจีวรควรเป็นผ้าไม่หนามาก เช่นผ้าป่านมัสลิน ป่านสวิส ลีนิน หรือป่านอินเดียเป็นต้น ทั้งนี้ขึ้นอยู่กับความชอบของผู้ใช้
 
 <figure>
-  <img src="/img/civara/photos/th-civara-parts.jpg" title="ส่วนต่างๆ ของจีวร" alt="Civara parts" width="500">
+  <img src="/img/civara/th-civara-parts.jpg" title="ส่วนต่างๆ ของจีวร" alt="Civara parts" width="500">
   <figcaption>ส่วนต่างๆ ของจีวร</figcaption>
 </figure>
 
@@ -14,14 +14,14 @@
 **ด้านกว้าง:** เพื่อให้ไม่เกิดความสับสนจะเรียกว่า _"ด้านสูง"_มีวิธีการกะขนาดจีวรให้เท่ากับตัวผู้ใส่จะมีวิธีกะขนาดดังนี้ ให้เจ้าของจีวรจับตลับเมตร สายวัด หรือเชือกให้ยกแขนขึ้นด้านบนให้สูงทีสุด แล้ววัดขนาดจากตำแหน่งที่จับ ถึงตำแหน่งหนึ่งผ่ามือขึ้นมาครึ่งแข้ง ขนาดที่ได้ได้จะนำมาคำนวนต่อไป
 
 <figure>
-  <img src="/img/civara/photos/th-civara-measuring01.jpg" title="วัดด้านสูง(กว้าง)" alt="Hight Measuring" width="500">
+  <img src="/img/civara/th-civara-measuring01.jpg" title="วัดด้านสูง(กว้าง)" alt="Hight Measuring" width="500">
   <figcaption>การวัดหาด้านสูงของผ้า</figcaption>
 </figure>
 
 **ด้านยาว:** ให้ผู้ต้องการจีวรยืนตัวตรงเท้าชิด จะใช้สายวัดหรือเชือกทบครึ่ง คล้องคอของผู้ต้องการจีวร ปล่อยให้ปลายเชือกทั้งสองด้านแตะพื้นพอดี แลัววัดดูความยาวของเชือกนั่นคือขนาดความยาวของจีวรที่เหมาะกับตัว
 
 <figure>
-  <img src="/img/civara/photos/th-civara-measuring02.jpg" title="วัดด้านยาว" alt="Lenght Measuring" width="500">
+  <img src="/img/civara/th-civara-measuring02.jpg" title="วัดด้านยาว" alt="Lenght Measuring" width="500">
   <figcaption>การวัดหาความยาวของผ้า</figcaption>
 </figure>
 
@@ -44,7 +44,7 @@
 (5) วัดดูว่าผ้าหดไปกี่เซ็นติเมตร เมื่อเทียบกับค่าก่อนการทดลอง ค่าที่ได้ตรงนี้เรียกว่า “ค่าผ้าหดในการย้อม” มีหน่วยเป็นเปอร์เซ็นต์ ซึ่งจะนำไปใช้ในการคำนวณเวลาคำนวนเพิ่มความยาวผ้าในการตัด
 
 <figure>
-  <img src="/img/civara/photos/th-civara-shrink-test01.jpg" title="ผ้าหด" alt="Shrinking test" width="500">
+  <img src="/img/civara/th-civara-shrink-test01.jpg" title="ผ้าหด" alt="Shrinking test" width="500">
   <figcaption>ตัวอย่างการตัดผ้าในการการทดลองหาค่าผ้าหด</figcaption>
 </figure>
 
