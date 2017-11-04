@@ -8,47 +8,47 @@ goog.require('dommy.core');
 goog.require('secretary.core');
 goog.require('clojure.string');
 app.routes.post_route = (function app$routes$post_route(lang,page_key){
-var app_18629__$1 = document.body;
-dommy.core.remove_class_BANG_.cljs$core$IFn$_invoke$arity$2(app_18629__$1,cljs.core.cst$kw$en);
+var app_18558__$1 = document.body;
+dommy.core.remove_class_BANG_.cljs$core$IFn$_invoke$arity$2(app_18558__$1,cljs.core.cst$kw$en);
 
-dommy.core.remove_class_BANG_.cljs$core$IFn$_invoke$arity$2(app_18629__$1,cljs.core.cst$kw$th);
+dommy.core.remove_class_BANG_.cljs$core$IFn$_invoke$arity$2(app_18558__$1,cljs.core.cst$kw$th);
 
-dommy.core.add_class_BANG_.cljs$core$IFn$_invoke$arity$2(app_18629__$1,cljs.core.keyword.cljs$core$IFn$_invoke$arity$1(lang));
+dommy.core.add_class_BANG_.cljs$core$IFn$_invoke$arity$2(app_18558__$1,cljs.core.keyword.cljs$core$IFn$_invoke$arity$1(lang));
 
 cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(app.state.state,cljs.core.assoc_in,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$params,cljs.core.cst$kw$lang], null),cljs.core.keyword.cljs$core$IFn$_invoke$arity$1(lang));
 
 return reagent.session.put_BANG_(cljs.core.cst$kw$page,page_key);
 });
 secretary.core.set_config_BANG_(cljs.core.cst$kw$prefix,"#");
-var action__18484__auto___18636 = (function (params__18485__auto__){
-if(cljs.core.map_QMARK_(params__18485__auto__)){
-var map__18630 = params__18485__auto__;
-var map__18630__$1 = ((((!((map__18630 == null)))?((((map__18630.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__18630.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__18630):map__18630);
-var lang = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__18630__$1,cljs.core.cst$kw$lang);
+var action__18413__auto___18565 = (function (params__18414__auto__){
+if(cljs.core.map_QMARK_(params__18414__auto__)){
+var map__18559 = params__18414__auto__;
+var map__18559__$1 = ((((!((map__18559 == null)))?((((map__18559.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__18559.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__18559):map__18559);
+var lang = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__18559__$1,cljs.core.cst$kw$lang);
 return app.routes.post_route(lang,cljs.core.cst$kw$home);
 } else {
-if(cljs.core.vector_QMARK_(params__18485__auto__)){
-var vec__18632 = params__18485__auto__;
-var lang = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18632,(0),null);
+if(cljs.core.vector_QMARK_(params__18414__auto__)){
+var vec__18561 = params__18414__auto__;
+var lang = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18561,(0),null);
 return app.routes.post_route(lang,cljs.core.cst$kw$home);
 } else {
 return null;
 }
 }
 });
-secretary.core.add_route_BANG_("/:lang",action__18484__auto___18636);
+secretary.core.add_route_BANG_("/:lang",action__18413__auto___18565);
 
-app.routes.home_path = ((function (action__18484__auto___18636){
+app.routes.home_path = ((function (action__18413__auto___18565){
 return (function app$routes$home_path(var_args){
 var args__9129__auto__ = [];
-var len__9122__auto___18637 = arguments.length;
-var i__9123__auto___18638 = (0);
+var len__9122__auto___18566 = arguments.length;
+var i__9123__auto___18567 = (0);
 while(true){
-if((i__9123__auto___18638 < len__9122__auto___18637)){
-args__9129__auto__.push((arguments[i__9123__auto___18638]));
+if((i__9123__auto___18567 < len__9122__auto___18566)){
+args__9129__auto__.push((arguments[i__9123__auto___18567]));
 
-var G__18639 = (i__9123__auto___18638 + (1));
-i__9123__auto___18638 = G__18639;
+var G__18568 = (i__9123__auto___18567 + (1));
+i__9123__auto___18567 = G__18568;
 continue;
 } else {
 }
@@ -57,52 +57,52 @@ break;
 
 var argseq__9130__auto__ = ((((0) < args__9129__auto__.length))?(new cljs.core.IndexedSeq(args__9129__auto__.slice((0)),(0),null)):null);
 return app.routes.home_path.cljs$core$IFn$_invoke$arity$variadic(argseq__9130__auto__);
-});})(action__18484__auto___18636))
+});})(action__18413__auto___18565))
 ;
 
-app.routes.home_path.cljs$core$IFn$_invoke$arity$variadic = ((function (action__18484__auto___18636){
-return (function (args__18483__auto__){
-return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(secretary.core.render_route_STAR_,"/:lang",args__18483__auto__);
-});})(action__18484__auto___18636))
+app.routes.home_path.cljs$core$IFn$_invoke$arity$variadic = ((function (action__18413__auto___18565){
+return (function (args__18412__auto__){
+return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(secretary.core.render_route_STAR_,"/:lang",args__18412__auto__);
+});})(action__18413__auto___18565))
 ;
 
 app.routes.home_path.cljs$lang$maxFixedArity = (0);
 
-app.routes.home_path.cljs$lang$applyTo = ((function (action__18484__auto___18636){
-return (function (seq18635){
-return app.routes.home_path.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq18635));
-});})(action__18484__auto___18636))
+app.routes.home_path.cljs$lang$applyTo = ((function (action__18413__auto___18565){
+return (function (seq18564){
+return app.routes.home_path.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq18564));
+});})(action__18413__auto___18565))
 ;
 
-var action__18484__auto___18646 = (function (params__18485__auto__){
-if(cljs.core.map_QMARK_(params__18485__auto__)){
-var map__18640 = params__18485__auto__;
-var map__18640__$1 = ((((!((map__18640 == null)))?((((map__18640.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__18640.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__18640):map__18640);
-var lang = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__18640__$1,cljs.core.cst$kw$lang);
+var action__18413__auto___18575 = (function (params__18414__auto__){
+if(cljs.core.map_QMARK_(params__18414__auto__)){
+var map__18569 = params__18414__auto__;
+var map__18569__$1 = ((((!((map__18569 == null)))?((((map__18569.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__18569.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__18569):map__18569);
+var lang = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__18569__$1,cljs.core.cst$kw$lang);
 return app.routes.post_route(lang,cljs.core.cst$kw$home);
 } else {
-if(cljs.core.vector_QMARK_(params__18485__auto__)){
-var vec__18642 = params__18485__auto__;
-var lang = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18642,(0),null);
+if(cljs.core.vector_QMARK_(params__18414__auto__)){
+var vec__18571 = params__18414__auto__;
+var lang = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18571,(0),null);
 return app.routes.post_route(lang,cljs.core.cst$kw$home);
 } else {
 return null;
 }
 }
 });
-secretary.core.add_route_BANG_("/:lang/home",action__18484__auto___18646);
+secretary.core.add_route_BANG_("/:lang/home",action__18413__auto___18575);
 
-app.routes.home_alt_path = ((function (action__18484__auto___18646){
+app.routes.home_alt_path = ((function (action__18413__auto___18575){
 return (function app$routes$home_alt_path(var_args){
 var args__9129__auto__ = [];
-var len__9122__auto___18647 = arguments.length;
-var i__9123__auto___18648 = (0);
+var len__9122__auto___18576 = arguments.length;
+var i__9123__auto___18577 = (0);
 while(true){
-if((i__9123__auto___18648 < len__9122__auto___18647)){
-args__9129__auto__.push((arguments[i__9123__auto___18648]));
+if((i__9123__auto___18577 < len__9122__auto___18576)){
+args__9129__auto__.push((arguments[i__9123__auto___18577]));
 
-var G__18649 = (i__9123__auto___18648 + (1));
-i__9123__auto___18648 = G__18649;
+var G__18578 = (i__9123__auto___18577 + (1));
+i__9123__auto___18577 = G__18578;
 continue;
 } else {
 }
@@ -111,52 +111,52 @@ break;
 
 var argseq__9130__auto__ = ((((0) < args__9129__auto__.length))?(new cljs.core.IndexedSeq(args__9129__auto__.slice((0)),(0),null)):null);
 return app.routes.home_alt_path.cljs$core$IFn$_invoke$arity$variadic(argseq__9130__auto__);
-});})(action__18484__auto___18646))
+});})(action__18413__auto___18575))
 ;
 
-app.routes.home_alt_path.cljs$core$IFn$_invoke$arity$variadic = ((function (action__18484__auto___18646){
-return (function (args__18483__auto__){
-return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(secretary.core.render_route_STAR_,"/:lang/home",args__18483__auto__);
-});})(action__18484__auto___18646))
+app.routes.home_alt_path.cljs$core$IFn$_invoke$arity$variadic = ((function (action__18413__auto___18575){
+return (function (args__18412__auto__){
+return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(secretary.core.render_route_STAR_,"/:lang/home",args__18412__auto__);
+});})(action__18413__auto___18575))
 ;
 
 app.routes.home_alt_path.cljs$lang$maxFixedArity = (0);
 
-app.routes.home_alt_path.cljs$lang$applyTo = ((function (action__18484__auto___18646){
-return (function (seq18645){
-return app.routes.home_alt_path.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq18645));
-});})(action__18484__auto___18646))
+app.routes.home_alt_path.cljs$lang$applyTo = ((function (action__18413__auto___18575){
+return (function (seq18574){
+return app.routes.home_alt_path.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq18574));
+});})(action__18413__auto___18575))
 ;
 
-var action__18484__auto___18656 = (function (params__18485__auto__){
-if(cljs.core.map_QMARK_(params__18485__auto__)){
-var map__18650 = params__18485__auto__;
-var map__18650__$1 = ((((!((map__18650 == null)))?((((map__18650.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__18650.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__18650):map__18650);
-var lang = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__18650__$1,cljs.core.cst$kw$lang);
+var action__18413__auto___18585 = (function (params__18414__auto__){
+if(cljs.core.map_QMARK_(params__18414__auto__)){
+var map__18579 = params__18414__auto__;
+var map__18579__$1 = ((((!((map__18579 == null)))?((((map__18579.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__18579.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__18579):map__18579);
+var lang = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__18579__$1,cljs.core.cst$kw$lang);
 return app.routes.post_route(lang,cljs.core.cst$kw$sabong_DASH_pattern);
 } else {
-if(cljs.core.vector_QMARK_(params__18485__auto__)){
-var vec__18652 = params__18485__auto__;
-var lang = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18652,(0),null);
+if(cljs.core.vector_QMARK_(params__18414__auto__)){
+var vec__18581 = params__18414__auto__;
+var lang = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18581,(0),null);
 return app.routes.post_route(lang,cljs.core.cst$kw$sabong_DASH_pattern);
 } else {
 return null;
 }
 }
 });
-secretary.core.add_route_BANG_("/:lang/sabong-pattern",action__18484__auto___18656);
+secretary.core.add_route_BANG_("/:lang/sabong-pattern",action__18413__auto___18585);
 
-app.routes.sabong_pattern_path = ((function (action__18484__auto___18656){
+app.routes.sabong_pattern_path = ((function (action__18413__auto___18585){
 return (function app$routes$sabong_pattern_path(var_args){
 var args__9129__auto__ = [];
-var len__9122__auto___18657 = arguments.length;
-var i__9123__auto___18658 = (0);
+var len__9122__auto___18586 = arguments.length;
+var i__9123__auto___18587 = (0);
 while(true){
-if((i__9123__auto___18658 < len__9122__auto___18657)){
-args__9129__auto__.push((arguments[i__9123__auto___18658]));
+if((i__9123__auto___18587 < len__9122__auto___18586)){
+args__9129__auto__.push((arguments[i__9123__auto___18587]));
 
-var G__18659 = (i__9123__auto___18658 + (1));
-i__9123__auto___18658 = G__18659;
+var G__18588 = (i__9123__auto___18587 + (1));
+i__9123__auto___18587 = G__18588;
 continue;
 } else {
 }
@@ -165,52 +165,52 @@ break;
 
 var argseq__9130__auto__ = ((((0) < args__9129__auto__.length))?(new cljs.core.IndexedSeq(args__9129__auto__.slice((0)),(0),null)):null);
 return app.routes.sabong_pattern_path.cljs$core$IFn$_invoke$arity$variadic(argseq__9130__auto__);
-});})(action__18484__auto___18656))
+});})(action__18413__auto___18585))
 ;
 
-app.routes.sabong_pattern_path.cljs$core$IFn$_invoke$arity$variadic = ((function (action__18484__auto___18656){
-return (function (args__18483__auto__){
-return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(secretary.core.render_route_STAR_,"/:lang/sabong-pattern",args__18483__auto__);
-});})(action__18484__auto___18656))
+app.routes.sabong_pattern_path.cljs$core$IFn$_invoke$arity$variadic = ((function (action__18413__auto___18585){
+return (function (args__18412__auto__){
+return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(secretary.core.render_route_STAR_,"/:lang/sabong-pattern",args__18412__auto__);
+});})(action__18413__auto___18585))
 ;
 
 app.routes.sabong_pattern_path.cljs$lang$maxFixedArity = (0);
 
-app.routes.sabong_pattern_path.cljs$lang$applyTo = ((function (action__18484__auto___18656){
-return (function (seq18655){
-return app.routes.sabong_pattern_path.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq18655));
-});})(action__18484__auto___18656))
+app.routes.sabong_pattern_path.cljs$lang$applyTo = ((function (action__18413__auto___18585){
+return (function (seq18584){
+return app.routes.sabong_pattern_path.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq18584));
+});})(action__18413__auto___18585))
 ;
 
-var action__18484__auto___18666 = (function (params__18485__auto__){
-if(cljs.core.map_QMARK_(params__18485__auto__)){
-var map__18660 = params__18485__auto__;
-var map__18660__$1 = ((((!((map__18660 == null)))?((((map__18660.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__18660.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__18660):map__18660);
-var lang = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__18660__$1,cljs.core.cst$kw$lang);
+var action__18413__auto___18595 = (function (params__18414__auto__){
+if(cljs.core.map_QMARK_(params__18414__auto__)){
+var map__18589 = params__18414__auto__;
+var map__18589__$1 = ((((!((map__18589 == null)))?((((map__18589.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__18589.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__18589):map__18589);
+var lang = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__18589__$1,cljs.core.cst$kw$lang);
 return app.routes.post_route(lang,cljs.core.cst$kw$sabong_DASH_pattern);
 } else {
-if(cljs.core.vector_QMARK_(params__18485__auto__)){
-var vec__18662 = params__18485__auto__;
-var lang = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18662,(0),null);
+if(cljs.core.vector_QMARK_(params__18414__auto__)){
+var vec__18591 = params__18414__auto__;
+var lang = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18591,(0),null);
 return app.routes.post_route(lang,cljs.core.cst$kw$sabong_DASH_pattern);
 } else {
 return null;
 }
 }
 });
-secretary.core.add_route_BANG_("/:lang/sabong",action__18484__auto___18666);
+secretary.core.add_route_BANG_("/:lang/sabong",action__18413__auto___18595);
 
-app.routes.sabong_pattern_alt_path = ((function (action__18484__auto___18666){
+app.routes.sabong_pattern_alt_path = ((function (action__18413__auto___18595){
 return (function app$routes$sabong_pattern_alt_path(var_args){
 var args__9129__auto__ = [];
-var len__9122__auto___18667 = arguments.length;
-var i__9123__auto___18668 = (0);
+var len__9122__auto___18596 = arguments.length;
+var i__9123__auto___18597 = (0);
 while(true){
-if((i__9123__auto___18668 < len__9122__auto___18667)){
-args__9129__auto__.push((arguments[i__9123__auto___18668]));
+if((i__9123__auto___18597 < len__9122__auto___18596)){
+args__9129__auto__.push((arguments[i__9123__auto___18597]));
 
-var G__18669 = (i__9123__auto___18668 + (1));
-i__9123__auto___18668 = G__18669;
+var G__18598 = (i__9123__auto___18597 + (1));
+i__9123__auto___18597 = G__18598;
 continue;
 } else {
 }
@@ -219,52 +219,52 @@ break;
 
 var argseq__9130__auto__ = ((((0) < args__9129__auto__.length))?(new cljs.core.IndexedSeq(args__9129__auto__.slice((0)),(0),null)):null);
 return app.routes.sabong_pattern_alt_path.cljs$core$IFn$_invoke$arity$variadic(argseq__9130__auto__);
-});})(action__18484__auto___18666))
+});})(action__18413__auto___18595))
 ;
 
-app.routes.sabong_pattern_alt_path.cljs$core$IFn$_invoke$arity$variadic = ((function (action__18484__auto___18666){
-return (function (args__18483__auto__){
-return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(secretary.core.render_route_STAR_,"/:lang/sabong",args__18483__auto__);
-});})(action__18484__auto___18666))
+app.routes.sabong_pattern_alt_path.cljs$core$IFn$_invoke$arity$variadic = ((function (action__18413__auto___18595){
+return (function (args__18412__auto__){
+return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(secretary.core.render_route_STAR_,"/:lang/sabong",args__18412__auto__);
+});})(action__18413__auto___18595))
 ;
 
 app.routes.sabong_pattern_alt_path.cljs$lang$maxFixedArity = (0);
 
-app.routes.sabong_pattern_alt_path.cljs$lang$applyTo = ((function (action__18484__auto___18666){
-return (function (seq18665){
-return app.routes.sabong_pattern_alt_path.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq18665));
-});})(action__18484__auto___18666))
+app.routes.sabong_pattern_alt_path.cljs$lang$applyTo = ((function (action__18413__auto___18595){
+return (function (seq18594){
+return app.routes.sabong_pattern_alt_path.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq18594));
+});})(action__18413__auto___18595))
 ;
 
-var action__18484__auto___18676 = (function (params__18485__auto__){
-if(cljs.core.map_QMARK_(params__18485__auto__)){
-var map__18670 = params__18485__auto__;
-var map__18670__$1 = ((((!((map__18670 == null)))?((((map__18670.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__18670.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__18670):map__18670);
-var lang = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__18670__$1,cljs.core.cst$kw$lang);
+var action__18413__auto___18605 = (function (params__18414__auto__){
+if(cljs.core.map_QMARK_(params__18414__auto__)){
+var map__18599 = params__18414__auto__;
+var map__18599__$1 = ((((!((map__18599 == null)))?((((map__18599.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__18599.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__18599):map__18599);
+var lang = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__18599__$1,cljs.core.cst$kw$lang);
 return app.routes.post_route(lang,cljs.core.cst$kw$sabong_DASH_guide);
 } else {
-if(cljs.core.vector_QMARK_(params__18485__auto__)){
-var vec__18672 = params__18485__auto__;
-var lang = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18672,(0),null);
+if(cljs.core.vector_QMARK_(params__18414__auto__)){
+var vec__18601 = params__18414__auto__;
+var lang = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18601,(0),null);
 return app.routes.post_route(lang,cljs.core.cst$kw$sabong_DASH_guide);
 } else {
 return null;
 }
 }
 });
-secretary.core.add_route_BANG_("/:lang/sabong-guide",action__18484__auto___18676);
+secretary.core.add_route_BANG_("/:lang/sabong-guide",action__18413__auto___18605);
 
-app.routes.sabong_guide_path = ((function (action__18484__auto___18676){
+app.routes.sabong_guide_path = ((function (action__18413__auto___18605){
 return (function app$routes$sabong_guide_path(var_args){
 var args__9129__auto__ = [];
-var len__9122__auto___18677 = arguments.length;
-var i__9123__auto___18678 = (0);
+var len__9122__auto___18606 = arguments.length;
+var i__9123__auto___18607 = (0);
 while(true){
-if((i__9123__auto___18678 < len__9122__auto___18677)){
-args__9129__auto__.push((arguments[i__9123__auto___18678]));
+if((i__9123__auto___18607 < len__9122__auto___18606)){
+args__9129__auto__.push((arguments[i__9123__auto___18607]));
 
-var G__18679 = (i__9123__auto___18678 + (1));
-i__9123__auto___18678 = G__18679;
+var G__18608 = (i__9123__auto___18607 + (1));
+i__9123__auto___18607 = G__18608;
 continue;
 } else {
 }
@@ -273,52 +273,52 @@ break;
 
 var argseq__9130__auto__ = ((((0) < args__9129__auto__.length))?(new cljs.core.IndexedSeq(args__9129__auto__.slice((0)),(0),null)):null);
 return app.routes.sabong_guide_path.cljs$core$IFn$_invoke$arity$variadic(argseq__9130__auto__);
-});})(action__18484__auto___18676))
+});})(action__18413__auto___18605))
 ;
 
-app.routes.sabong_guide_path.cljs$core$IFn$_invoke$arity$variadic = ((function (action__18484__auto___18676){
-return (function (args__18483__auto__){
-return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(secretary.core.render_route_STAR_,"/:lang/sabong-guide",args__18483__auto__);
-});})(action__18484__auto___18676))
+app.routes.sabong_guide_path.cljs$core$IFn$_invoke$arity$variadic = ((function (action__18413__auto___18605){
+return (function (args__18412__auto__){
+return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(secretary.core.render_route_STAR_,"/:lang/sabong-guide",args__18412__auto__);
+});})(action__18413__auto___18605))
 ;
 
 app.routes.sabong_guide_path.cljs$lang$maxFixedArity = (0);
 
-app.routes.sabong_guide_path.cljs$lang$applyTo = ((function (action__18484__auto___18676){
-return (function (seq18675){
-return app.routes.sabong_guide_path.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq18675));
-});})(action__18484__auto___18676))
+app.routes.sabong_guide_path.cljs$lang$applyTo = ((function (action__18413__auto___18605){
+return (function (seq18604){
+return app.routes.sabong_guide_path.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq18604));
+});})(action__18413__auto___18605))
 ;
 
-var action__18484__auto___18686 = (function (params__18485__auto__){
-if(cljs.core.map_QMARK_(params__18485__auto__)){
-var map__18680 = params__18485__auto__;
-var map__18680__$1 = ((((!((map__18680 == null)))?((((map__18680.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__18680.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__18680):map__18680);
-var lang = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__18680__$1,cljs.core.cst$kw$lang);
+var action__18413__auto___18615 = (function (params__18414__auto__){
+if(cljs.core.map_QMARK_(params__18414__auto__)){
+var map__18609 = params__18414__auto__;
+var map__18609__$1 = ((((!((map__18609 == null)))?((((map__18609.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__18609.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__18609):map__18609);
+var lang = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__18609__$1,cljs.core.cst$kw$lang);
 return app.routes.post_route(lang,cljs.core.cst$kw$civara_DASH_pattern);
 } else {
-if(cljs.core.vector_QMARK_(params__18485__auto__)){
-var vec__18682 = params__18485__auto__;
-var lang = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18682,(0),null);
+if(cljs.core.vector_QMARK_(params__18414__auto__)){
+var vec__18611 = params__18414__auto__;
+var lang = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18611,(0),null);
 return app.routes.post_route(lang,cljs.core.cst$kw$civara_DASH_pattern);
 } else {
 return null;
 }
 }
 });
-secretary.core.add_route_BANG_("/:lang/civara-pattern",action__18484__auto___18686);
+secretary.core.add_route_BANG_("/:lang/civara-pattern",action__18413__auto___18615);
 
-app.routes.civara_pattern_path = ((function (action__18484__auto___18686){
+app.routes.civara_pattern_path = ((function (action__18413__auto___18615){
 return (function app$routes$civara_pattern_path(var_args){
 var args__9129__auto__ = [];
-var len__9122__auto___18687 = arguments.length;
-var i__9123__auto___18688 = (0);
+var len__9122__auto___18616 = arguments.length;
+var i__9123__auto___18617 = (0);
 while(true){
-if((i__9123__auto___18688 < len__9122__auto___18687)){
-args__9129__auto__.push((arguments[i__9123__auto___18688]));
+if((i__9123__auto___18617 < len__9122__auto___18616)){
+args__9129__auto__.push((arguments[i__9123__auto___18617]));
 
-var G__18689 = (i__9123__auto___18688 + (1));
-i__9123__auto___18688 = G__18689;
+var G__18618 = (i__9123__auto___18617 + (1));
+i__9123__auto___18617 = G__18618;
 continue;
 } else {
 }
@@ -327,52 +327,52 @@ break;
 
 var argseq__9130__auto__ = ((((0) < args__9129__auto__.length))?(new cljs.core.IndexedSeq(args__9129__auto__.slice((0)),(0),null)):null);
 return app.routes.civara_pattern_path.cljs$core$IFn$_invoke$arity$variadic(argseq__9130__auto__);
-});})(action__18484__auto___18686))
+});})(action__18413__auto___18615))
 ;
 
-app.routes.civara_pattern_path.cljs$core$IFn$_invoke$arity$variadic = ((function (action__18484__auto___18686){
-return (function (args__18483__auto__){
-return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(secretary.core.render_route_STAR_,"/:lang/civara-pattern",args__18483__auto__);
-});})(action__18484__auto___18686))
+app.routes.civara_pattern_path.cljs$core$IFn$_invoke$arity$variadic = ((function (action__18413__auto___18615){
+return (function (args__18412__auto__){
+return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(secretary.core.render_route_STAR_,"/:lang/civara-pattern",args__18412__auto__);
+});})(action__18413__auto___18615))
 ;
 
 app.routes.civara_pattern_path.cljs$lang$maxFixedArity = (0);
 
-app.routes.civara_pattern_path.cljs$lang$applyTo = ((function (action__18484__auto___18686){
-return (function (seq18685){
-return app.routes.civara_pattern_path.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq18685));
-});})(action__18484__auto___18686))
+app.routes.civara_pattern_path.cljs$lang$applyTo = ((function (action__18413__auto___18615){
+return (function (seq18614){
+return app.routes.civara_pattern_path.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq18614));
+});})(action__18413__auto___18615))
 ;
 
-var action__18484__auto___18696 = (function (params__18485__auto__){
-if(cljs.core.map_QMARK_(params__18485__auto__)){
-var map__18690 = params__18485__auto__;
-var map__18690__$1 = ((((!((map__18690 == null)))?((((map__18690.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__18690.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__18690):map__18690);
-var lang = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__18690__$1,cljs.core.cst$kw$lang);
+var action__18413__auto___18625 = (function (params__18414__auto__){
+if(cljs.core.map_QMARK_(params__18414__auto__)){
+var map__18619 = params__18414__auto__;
+var map__18619__$1 = ((((!((map__18619 == null)))?((((map__18619.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__18619.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__18619):map__18619);
+var lang = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__18619__$1,cljs.core.cst$kw$lang);
 return app.routes.post_route(lang,cljs.core.cst$kw$civara_DASH_pattern);
 } else {
-if(cljs.core.vector_QMARK_(params__18485__auto__)){
-var vec__18692 = params__18485__auto__;
-var lang = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18692,(0),null);
+if(cljs.core.vector_QMARK_(params__18414__auto__)){
+var vec__18621 = params__18414__auto__;
+var lang = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18621,(0),null);
 return app.routes.post_route(lang,cljs.core.cst$kw$civara_DASH_pattern);
 } else {
 return null;
 }
 }
 });
-secretary.core.add_route_BANG_("/:lang/civara",action__18484__auto___18696);
+secretary.core.add_route_BANG_("/:lang/civara",action__18413__auto___18625);
 
-app.routes.civara_pattern_alt_path = ((function (action__18484__auto___18696){
+app.routes.civara_pattern_alt_path = ((function (action__18413__auto___18625){
 return (function app$routes$civara_pattern_alt_path(var_args){
 var args__9129__auto__ = [];
-var len__9122__auto___18697 = arguments.length;
-var i__9123__auto___18698 = (0);
+var len__9122__auto___18626 = arguments.length;
+var i__9123__auto___18627 = (0);
 while(true){
-if((i__9123__auto___18698 < len__9122__auto___18697)){
-args__9129__auto__.push((arguments[i__9123__auto___18698]));
+if((i__9123__auto___18627 < len__9122__auto___18626)){
+args__9129__auto__.push((arguments[i__9123__auto___18627]));
 
-var G__18699 = (i__9123__auto___18698 + (1));
-i__9123__auto___18698 = G__18699;
+var G__18628 = (i__9123__auto___18627 + (1));
+i__9123__auto___18627 = G__18628;
 continue;
 } else {
 }
@@ -381,52 +381,52 @@ break;
 
 var argseq__9130__auto__ = ((((0) < args__9129__auto__.length))?(new cljs.core.IndexedSeq(args__9129__auto__.slice((0)),(0),null)):null);
 return app.routes.civara_pattern_alt_path.cljs$core$IFn$_invoke$arity$variadic(argseq__9130__auto__);
-});})(action__18484__auto___18696))
+});})(action__18413__auto___18625))
 ;
 
-app.routes.civara_pattern_alt_path.cljs$core$IFn$_invoke$arity$variadic = ((function (action__18484__auto___18696){
-return (function (args__18483__auto__){
-return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(secretary.core.render_route_STAR_,"/:lang/civara",args__18483__auto__);
-});})(action__18484__auto___18696))
+app.routes.civara_pattern_alt_path.cljs$core$IFn$_invoke$arity$variadic = ((function (action__18413__auto___18625){
+return (function (args__18412__auto__){
+return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(secretary.core.render_route_STAR_,"/:lang/civara",args__18412__auto__);
+});})(action__18413__auto___18625))
 ;
 
 app.routes.civara_pattern_alt_path.cljs$lang$maxFixedArity = (0);
 
-app.routes.civara_pattern_alt_path.cljs$lang$applyTo = ((function (action__18484__auto___18696){
-return (function (seq18695){
-return app.routes.civara_pattern_alt_path.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq18695));
-});})(action__18484__auto___18696))
+app.routes.civara_pattern_alt_path.cljs$lang$applyTo = ((function (action__18413__auto___18625){
+return (function (seq18624){
+return app.routes.civara_pattern_alt_path.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq18624));
+});})(action__18413__auto___18625))
 ;
 
-var action__18484__auto___18706 = (function (params__18485__auto__){
-if(cljs.core.map_QMARK_(params__18485__auto__)){
-var map__18700 = params__18485__auto__;
-var map__18700__$1 = ((((!((map__18700 == null)))?((((map__18700.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__18700.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__18700):map__18700);
-var lang = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__18700__$1,cljs.core.cst$kw$lang);
+var action__18413__auto___18635 = (function (params__18414__auto__){
+if(cljs.core.map_QMARK_(params__18414__auto__)){
+var map__18629 = params__18414__auto__;
+var map__18629__$1 = ((((!((map__18629 == null)))?((((map__18629.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__18629.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__18629):map__18629);
+var lang = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__18629__$1,cljs.core.cst$kw$lang);
 return app.routes.post_route(lang,cljs.core.cst$kw$civara_DASH_guide);
 } else {
-if(cljs.core.vector_QMARK_(params__18485__auto__)){
-var vec__18702 = params__18485__auto__;
-var lang = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18702,(0),null);
+if(cljs.core.vector_QMARK_(params__18414__auto__)){
+var vec__18631 = params__18414__auto__;
+var lang = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18631,(0),null);
 return app.routes.post_route(lang,cljs.core.cst$kw$civara_DASH_guide);
 } else {
 return null;
 }
 }
 });
-secretary.core.add_route_BANG_("/:lang/civara-guide",action__18484__auto___18706);
+secretary.core.add_route_BANG_("/:lang/civara-guide",action__18413__auto___18635);
 
-app.routes.civara_guide_path = ((function (action__18484__auto___18706){
+app.routes.civara_guide_path = ((function (action__18413__auto___18635){
 return (function app$routes$civara_guide_path(var_args){
 var args__9129__auto__ = [];
-var len__9122__auto___18707 = arguments.length;
-var i__9123__auto___18708 = (0);
+var len__9122__auto___18636 = arguments.length;
+var i__9123__auto___18637 = (0);
 while(true){
-if((i__9123__auto___18708 < len__9122__auto___18707)){
-args__9129__auto__.push((arguments[i__9123__auto___18708]));
+if((i__9123__auto___18637 < len__9122__auto___18636)){
+args__9129__auto__.push((arguments[i__9123__auto___18637]));
 
-var G__18709 = (i__9123__auto___18708 + (1));
-i__9123__auto___18708 = G__18709;
+var G__18638 = (i__9123__auto___18637 + (1));
+i__9123__auto___18637 = G__18638;
 continue;
 } else {
 }
@@ -435,52 +435,52 @@ break;
 
 var argseq__9130__auto__ = ((((0) < args__9129__auto__.length))?(new cljs.core.IndexedSeq(args__9129__auto__.slice((0)),(0),null)):null);
 return app.routes.civara_guide_path.cljs$core$IFn$_invoke$arity$variadic(argseq__9130__auto__);
-});})(action__18484__auto___18706))
+});})(action__18413__auto___18635))
 ;
 
-app.routes.civara_guide_path.cljs$core$IFn$_invoke$arity$variadic = ((function (action__18484__auto___18706){
-return (function (args__18483__auto__){
-return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(secretary.core.render_route_STAR_,"/:lang/civara-guide",args__18483__auto__);
-});})(action__18484__auto___18706))
+app.routes.civara_guide_path.cljs$core$IFn$_invoke$arity$variadic = ((function (action__18413__auto___18635){
+return (function (args__18412__auto__){
+return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(secretary.core.render_route_STAR_,"/:lang/civara-guide",args__18412__auto__);
+});})(action__18413__auto___18635))
 ;
 
 app.routes.civara_guide_path.cljs$lang$maxFixedArity = (0);
 
-app.routes.civara_guide_path.cljs$lang$applyTo = ((function (action__18484__auto___18706){
-return (function (seq18705){
-return app.routes.civara_guide_path.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq18705));
-});})(action__18484__auto___18706))
+app.routes.civara_guide_path.cljs$lang$applyTo = ((function (action__18413__auto___18635){
+return (function (seq18634){
+return app.routes.civara_guide_path.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq18634));
+});})(action__18413__auto___18635))
 ;
 
-var action__18484__auto___18716 = (function (params__18485__auto__){
-if(cljs.core.map_QMARK_(params__18485__auto__)){
-var map__18710 = params__18485__auto__;
-var map__18710__$1 = ((((!((map__18710 == null)))?((((map__18710.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__18710.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__18710):map__18710);
-var lang = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__18710__$1,cljs.core.cst$kw$lang);
+var action__18413__auto___18645 = (function (params__18414__auto__){
+if(cljs.core.map_QMARK_(params__18414__auto__)){
+var map__18639 = params__18414__auto__;
+var map__18639__$1 = ((((!((map__18639 == null)))?((((map__18639.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__18639.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__18639):map__18639);
+var lang = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__18639__$1,cljs.core.cst$kw$lang);
 return app.routes.post_route(lang,cljs.core.cst$kw$sanghati_DASH_pattern);
 } else {
-if(cljs.core.vector_QMARK_(params__18485__auto__)){
-var vec__18712 = params__18485__auto__;
-var lang = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18712,(0),null);
+if(cljs.core.vector_QMARK_(params__18414__auto__)){
+var vec__18641 = params__18414__auto__;
+var lang = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18641,(0),null);
 return app.routes.post_route(lang,cljs.core.cst$kw$sanghati_DASH_pattern);
 } else {
 return null;
 }
 }
 });
-secretary.core.add_route_BANG_("/:lang/sanghati-pattern",action__18484__auto___18716);
+secretary.core.add_route_BANG_("/:lang/sanghati-pattern",action__18413__auto___18645);
 
-app.routes.sanghati_pattern_path = ((function (action__18484__auto___18716){
+app.routes.sanghati_pattern_path = ((function (action__18413__auto___18645){
 return (function app$routes$sanghati_pattern_path(var_args){
 var args__9129__auto__ = [];
-var len__9122__auto___18717 = arguments.length;
-var i__9123__auto___18718 = (0);
+var len__9122__auto___18646 = arguments.length;
+var i__9123__auto___18647 = (0);
 while(true){
-if((i__9123__auto___18718 < len__9122__auto___18717)){
-args__9129__auto__.push((arguments[i__9123__auto___18718]));
+if((i__9123__auto___18647 < len__9122__auto___18646)){
+args__9129__auto__.push((arguments[i__9123__auto___18647]));
 
-var G__18719 = (i__9123__auto___18718 + (1));
-i__9123__auto___18718 = G__18719;
+var G__18648 = (i__9123__auto___18647 + (1));
+i__9123__auto___18647 = G__18648;
 continue;
 } else {
 }
@@ -489,52 +489,52 @@ break;
 
 var argseq__9130__auto__ = ((((0) < args__9129__auto__.length))?(new cljs.core.IndexedSeq(args__9129__auto__.slice((0)),(0),null)):null);
 return app.routes.sanghati_pattern_path.cljs$core$IFn$_invoke$arity$variadic(argseq__9130__auto__);
-});})(action__18484__auto___18716))
+});})(action__18413__auto___18645))
 ;
 
-app.routes.sanghati_pattern_path.cljs$core$IFn$_invoke$arity$variadic = ((function (action__18484__auto___18716){
-return (function (args__18483__auto__){
-return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(secretary.core.render_route_STAR_,"/:lang/sanghati-pattern",args__18483__auto__);
-});})(action__18484__auto___18716))
+app.routes.sanghati_pattern_path.cljs$core$IFn$_invoke$arity$variadic = ((function (action__18413__auto___18645){
+return (function (args__18412__auto__){
+return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(secretary.core.render_route_STAR_,"/:lang/sanghati-pattern",args__18412__auto__);
+});})(action__18413__auto___18645))
 ;
 
 app.routes.sanghati_pattern_path.cljs$lang$maxFixedArity = (0);
 
-app.routes.sanghati_pattern_path.cljs$lang$applyTo = ((function (action__18484__auto___18716){
-return (function (seq18715){
-return app.routes.sanghati_pattern_path.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq18715));
-});})(action__18484__auto___18716))
+app.routes.sanghati_pattern_path.cljs$lang$applyTo = ((function (action__18413__auto___18645){
+return (function (seq18644){
+return app.routes.sanghati_pattern_path.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq18644));
+});})(action__18413__auto___18645))
 ;
 
-var action__18484__auto___18726 = (function (params__18485__auto__){
-if(cljs.core.map_QMARK_(params__18485__auto__)){
-var map__18720 = params__18485__auto__;
-var map__18720__$1 = ((((!((map__18720 == null)))?((((map__18720.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__18720.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__18720):map__18720);
-var lang = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__18720__$1,cljs.core.cst$kw$lang);
+var action__18413__auto___18655 = (function (params__18414__auto__){
+if(cljs.core.map_QMARK_(params__18414__auto__)){
+var map__18649 = params__18414__auto__;
+var map__18649__$1 = ((((!((map__18649 == null)))?((((map__18649.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__18649.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__18649):map__18649);
+var lang = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__18649__$1,cljs.core.cst$kw$lang);
 return app.routes.post_route(lang,cljs.core.cst$kw$sanghati_DASH_pattern);
 } else {
-if(cljs.core.vector_QMARK_(params__18485__auto__)){
-var vec__18722 = params__18485__auto__;
-var lang = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18722,(0),null);
+if(cljs.core.vector_QMARK_(params__18414__auto__)){
+var vec__18651 = params__18414__auto__;
+var lang = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18651,(0),null);
 return app.routes.post_route(lang,cljs.core.cst$kw$sanghati_DASH_pattern);
 } else {
 return null;
 }
 }
 });
-secretary.core.add_route_BANG_("/:lang/sanghati",action__18484__auto___18726);
+secretary.core.add_route_BANG_("/:lang/sanghati",action__18413__auto___18655);
 
-app.routes.sanghati_pattern_alt_path = ((function (action__18484__auto___18726){
+app.routes.sanghati_pattern_alt_path = ((function (action__18413__auto___18655){
 return (function app$routes$sanghati_pattern_alt_path(var_args){
 var args__9129__auto__ = [];
-var len__9122__auto___18727 = arguments.length;
-var i__9123__auto___18728 = (0);
+var len__9122__auto___18656 = arguments.length;
+var i__9123__auto___18657 = (0);
 while(true){
-if((i__9123__auto___18728 < len__9122__auto___18727)){
-args__9129__auto__.push((arguments[i__9123__auto___18728]));
+if((i__9123__auto___18657 < len__9122__auto___18656)){
+args__9129__auto__.push((arguments[i__9123__auto___18657]));
 
-var G__18729 = (i__9123__auto___18728 + (1));
-i__9123__auto___18728 = G__18729;
+var G__18658 = (i__9123__auto___18657 + (1));
+i__9123__auto___18657 = G__18658;
 continue;
 } else {
 }
@@ -543,52 +543,52 @@ break;
 
 var argseq__9130__auto__ = ((((0) < args__9129__auto__.length))?(new cljs.core.IndexedSeq(args__9129__auto__.slice((0)),(0),null)):null);
 return app.routes.sanghati_pattern_alt_path.cljs$core$IFn$_invoke$arity$variadic(argseq__9130__auto__);
-});})(action__18484__auto___18726))
+});})(action__18413__auto___18655))
 ;
 
-app.routes.sanghati_pattern_alt_path.cljs$core$IFn$_invoke$arity$variadic = ((function (action__18484__auto___18726){
-return (function (args__18483__auto__){
-return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(secretary.core.render_route_STAR_,"/:lang/sanghati",args__18483__auto__);
-});})(action__18484__auto___18726))
+app.routes.sanghati_pattern_alt_path.cljs$core$IFn$_invoke$arity$variadic = ((function (action__18413__auto___18655){
+return (function (args__18412__auto__){
+return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(secretary.core.render_route_STAR_,"/:lang/sanghati",args__18412__auto__);
+});})(action__18413__auto___18655))
 ;
 
 app.routes.sanghati_pattern_alt_path.cljs$lang$maxFixedArity = (0);
 
-app.routes.sanghati_pattern_alt_path.cljs$lang$applyTo = ((function (action__18484__auto___18726){
-return (function (seq18725){
-return app.routes.sanghati_pattern_alt_path.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq18725));
-});})(action__18484__auto___18726))
+app.routes.sanghati_pattern_alt_path.cljs$lang$applyTo = ((function (action__18413__auto___18655){
+return (function (seq18654){
+return app.routes.sanghati_pattern_alt_path.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq18654));
+});})(action__18413__auto___18655))
 ;
 
-var action__18484__auto___18736 = (function (params__18485__auto__){
-if(cljs.core.map_QMARK_(params__18485__auto__)){
-var map__18730 = params__18485__auto__;
-var map__18730__$1 = ((((!((map__18730 == null)))?((((map__18730.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__18730.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__18730):map__18730);
-var lang = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__18730__$1,cljs.core.cst$kw$lang);
+var action__18413__auto___18665 = (function (params__18414__auto__){
+if(cljs.core.map_QMARK_(params__18414__auto__)){
+var map__18659 = params__18414__auto__;
+var map__18659__$1 = ((((!((map__18659 == null)))?((((map__18659.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__18659.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__18659):map__18659);
+var lang = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__18659__$1,cljs.core.cst$kw$lang);
 return app.routes.post_route(lang,cljs.core.cst$kw$sanghati_DASH_guide);
 } else {
-if(cljs.core.vector_QMARK_(params__18485__auto__)){
-var vec__18732 = params__18485__auto__;
-var lang = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18732,(0),null);
+if(cljs.core.vector_QMARK_(params__18414__auto__)){
+var vec__18661 = params__18414__auto__;
+var lang = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18661,(0),null);
 return app.routes.post_route(lang,cljs.core.cst$kw$sanghati_DASH_guide);
 } else {
 return null;
 }
 }
 });
-secretary.core.add_route_BANG_("/:lang/sanghati-guide",action__18484__auto___18736);
+secretary.core.add_route_BANG_("/:lang/sanghati-guide",action__18413__auto___18665);
 
-app.routes.sanghati_guide_path = ((function (action__18484__auto___18736){
+app.routes.sanghati_guide_path = ((function (action__18413__auto___18665){
 return (function app$routes$sanghati_guide_path(var_args){
 var args__9129__auto__ = [];
-var len__9122__auto___18737 = arguments.length;
-var i__9123__auto___18738 = (0);
+var len__9122__auto___18666 = arguments.length;
+var i__9123__auto___18667 = (0);
 while(true){
-if((i__9123__auto___18738 < len__9122__auto___18737)){
-args__9129__auto__.push((arguments[i__9123__auto___18738]));
+if((i__9123__auto___18667 < len__9122__auto___18666)){
+args__9129__auto__.push((arguments[i__9123__auto___18667]));
 
-var G__18739 = (i__9123__auto___18738 + (1));
-i__9123__auto___18738 = G__18739;
+var G__18668 = (i__9123__auto___18667 + (1));
+i__9123__auto___18667 = G__18668;
 continue;
 } else {
 }
@@ -597,52 +597,52 @@ break;
 
 var argseq__9130__auto__ = ((((0) < args__9129__auto__.length))?(new cljs.core.IndexedSeq(args__9129__auto__.slice((0)),(0),null)):null);
 return app.routes.sanghati_guide_path.cljs$core$IFn$_invoke$arity$variadic(argseq__9130__auto__);
-});})(action__18484__auto___18736))
+});})(action__18413__auto___18665))
 ;
 
-app.routes.sanghati_guide_path.cljs$core$IFn$_invoke$arity$variadic = ((function (action__18484__auto___18736){
-return (function (args__18483__auto__){
-return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(secretary.core.render_route_STAR_,"/:lang/sanghati-guide",args__18483__auto__);
-});})(action__18484__auto___18736))
+app.routes.sanghati_guide_path.cljs$core$IFn$_invoke$arity$variadic = ((function (action__18413__auto___18665){
+return (function (args__18412__auto__){
+return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(secretary.core.render_route_STAR_,"/:lang/sanghati-guide",args__18412__auto__);
+});})(action__18413__auto___18665))
 ;
 
 app.routes.sanghati_guide_path.cljs$lang$maxFixedArity = (0);
 
-app.routes.sanghati_guide_path.cljs$lang$applyTo = ((function (action__18484__auto___18736){
-return (function (seq18735){
-return app.routes.sanghati_guide_path.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq18735));
-});})(action__18484__auto___18736))
+app.routes.sanghati_guide_path.cljs$lang$applyTo = ((function (action__18413__auto___18665){
+return (function (seq18664){
+return app.routes.sanghati_guide_path.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq18664));
+});})(action__18413__auto___18665))
 ;
 
-var action__18484__auto___18746 = (function (params__18485__auto__){
-if(cljs.core.map_QMARK_(params__18485__auto__)){
-var map__18740 = params__18485__auto__;
-var map__18740__$1 = ((((!((map__18740 == null)))?((((map__18740.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__18740.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__18740):map__18740);
-var lang = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__18740__$1,cljs.core.cst$kw$lang);
+var action__18413__auto___18675 = (function (params__18414__auto__){
+if(cljs.core.map_QMARK_(params__18414__auto__)){
+var map__18669 = params__18414__auto__;
+var map__18669__$1 = ((((!((map__18669 == null)))?((((map__18669.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__18669.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__18669):map__18669);
+var lang = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__18669__$1,cljs.core.cst$kw$lang);
 return app.routes.post_route(lang,cljs.core.cst$kw$borders);
 } else {
-if(cljs.core.vector_QMARK_(params__18485__auto__)){
-var vec__18742 = params__18485__auto__;
-var lang = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18742,(0),null);
+if(cljs.core.vector_QMARK_(params__18414__auto__)){
+var vec__18671 = params__18414__auto__;
+var lang = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18671,(0),null);
 return app.routes.post_route(lang,cljs.core.cst$kw$borders);
 } else {
 return null;
 }
 }
 });
-secretary.core.add_route_BANG_("/:lang/borders",action__18484__auto___18746);
+secretary.core.add_route_BANG_("/:lang/borders",action__18413__auto___18675);
 
-app.routes.borders_path = ((function (action__18484__auto___18746){
+app.routes.borders_path = ((function (action__18413__auto___18675){
 return (function app$routes$borders_path(var_args){
 var args__9129__auto__ = [];
-var len__9122__auto___18747 = arguments.length;
-var i__9123__auto___18748 = (0);
+var len__9122__auto___18676 = arguments.length;
+var i__9123__auto___18677 = (0);
 while(true){
-if((i__9123__auto___18748 < len__9122__auto___18747)){
-args__9129__auto__.push((arguments[i__9123__auto___18748]));
+if((i__9123__auto___18677 < len__9122__auto___18676)){
+args__9129__auto__.push((arguments[i__9123__auto___18677]));
 
-var G__18749 = (i__9123__auto___18748 + (1));
-i__9123__auto___18748 = G__18749;
+var G__18678 = (i__9123__auto___18677 + (1));
+i__9123__auto___18677 = G__18678;
 continue;
 } else {
 }
@@ -651,52 +651,52 @@ break;
 
 var argseq__9130__auto__ = ((((0) < args__9129__auto__.length))?(new cljs.core.IndexedSeq(args__9129__auto__.slice((0)),(0),null)):null);
 return app.routes.borders_path.cljs$core$IFn$_invoke$arity$variadic(argseq__9130__auto__);
-});})(action__18484__auto___18746))
+});})(action__18413__auto___18675))
 ;
 
-app.routes.borders_path.cljs$core$IFn$_invoke$arity$variadic = ((function (action__18484__auto___18746){
-return (function (args__18483__auto__){
-return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(secretary.core.render_route_STAR_,"/:lang/borders",args__18483__auto__);
-});})(action__18484__auto___18746))
+app.routes.borders_path.cljs$core$IFn$_invoke$arity$variadic = ((function (action__18413__auto___18675){
+return (function (args__18412__auto__){
+return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(secretary.core.render_route_STAR_,"/:lang/borders",args__18412__auto__);
+});})(action__18413__auto___18675))
 ;
 
 app.routes.borders_path.cljs$lang$maxFixedArity = (0);
 
-app.routes.borders_path.cljs$lang$applyTo = ((function (action__18484__auto___18746){
-return (function (seq18745){
-return app.routes.borders_path.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq18745));
-});})(action__18484__auto___18746))
+app.routes.borders_path.cljs$lang$applyTo = ((function (action__18413__auto___18675){
+return (function (seq18674){
+return app.routes.borders_path.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq18674));
+});})(action__18413__auto___18675))
 ;
 
-var action__18484__auto___18756 = (function (params__18485__auto__){
-if(cljs.core.map_QMARK_(params__18485__auto__)){
-var map__18750 = params__18485__auto__;
-var map__18750__$1 = ((((!((map__18750 == null)))?((((map__18750.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__18750.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__18750):map__18750);
-var lang = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__18750__$1,cljs.core.cst$kw$lang);
+var action__18413__auto___18685 = (function (params__18414__auto__){
+if(cljs.core.map_QMARK_(params__18414__auto__)){
+var map__18679 = params__18414__auto__;
+var map__18679__$1 = ((((!((map__18679 == null)))?((((map__18679.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__18679.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__18679):map__18679);
+var lang = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__18679__$1,cljs.core.cst$kw$lang);
 return app.routes.post_route(lang,cljs.core.cst$kw$tools);
 } else {
-if(cljs.core.vector_QMARK_(params__18485__auto__)){
-var vec__18752 = params__18485__auto__;
-var lang = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18752,(0),null);
+if(cljs.core.vector_QMARK_(params__18414__auto__)){
+var vec__18681 = params__18414__auto__;
+var lang = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18681,(0),null);
 return app.routes.post_route(lang,cljs.core.cst$kw$tools);
 } else {
 return null;
 }
 }
 });
-secretary.core.add_route_BANG_("/:lang/tools",action__18484__auto___18756);
+secretary.core.add_route_BANG_("/:lang/tools",action__18413__auto___18685);
 
-app.routes.tools_path = ((function (action__18484__auto___18756){
+app.routes.tools_path = ((function (action__18413__auto___18685){
 return (function app$routes$tools_path(var_args){
 var args__9129__auto__ = [];
-var len__9122__auto___18757 = arguments.length;
-var i__9123__auto___18758 = (0);
+var len__9122__auto___18686 = arguments.length;
+var i__9123__auto___18687 = (0);
 while(true){
-if((i__9123__auto___18758 < len__9122__auto___18757)){
-args__9129__auto__.push((arguments[i__9123__auto___18758]));
+if((i__9123__auto___18687 < len__9122__auto___18686)){
+args__9129__auto__.push((arguments[i__9123__auto___18687]));
 
-var G__18759 = (i__9123__auto___18758 + (1));
-i__9123__auto___18758 = G__18759;
+var G__18688 = (i__9123__auto___18687 + (1));
+i__9123__auto___18687 = G__18688;
 continue;
 } else {
 }
@@ -705,50 +705,50 @@ break;
 
 var argseq__9130__auto__ = ((((0) < args__9129__auto__.length))?(new cljs.core.IndexedSeq(args__9129__auto__.slice((0)),(0),null)):null);
 return app.routes.tools_path.cljs$core$IFn$_invoke$arity$variadic(argseq__9130__auto__);
-});})(action__18484__auto___18756))
+});})(action__18413__auto___18685))
 ;
 
-app.routes.tools_path.cljs$core$IFn$_invoke$arity$variadic = ((function (action__18484__auto___18756){
-return (function (args__18483__auto__){
-return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(secretary.core.render_route_STAR_,"/:lang/tools",args__18483__auto__);
-});})(action__18484__auto___18756))
+app.routes.tools_path.cljs$core$IFn$_invoke$arity$variadic = ((function (action__18413__auto___18685){
+return (function (args__18412__auto__){
+return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(secretary.core.render_route_STAR_,"/:lang/tools",args__18412__auto__);
+});})(action__18413__auto___18685))
 ;
 
 app.routes.tools_path.cljs$lang$maxFixedArity = (0);
 
-app.routes.tools_path.cljs$lang$applyTo = ((function (action__18484__auto___18756){
-return (function (seq18755){
-return app.routes.tools_path.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq18755));
-});})(action__18484__auto___18756))
+app.routes.tools_path.cljs$lang$applyTo = ((function (action__18413__auto___18685){
+return (function (seq18684){
+return app.routes.tools_path.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq18684));
+});})(action__18413__auto___18685))
 ;
 
-var action__18484__auto___18766 = (function (params__18485__auto__){
-if(cljs.core.map_QMARK_(params__18485__auto__)){
-var map__18760 = params__18485__auto__;
-var map__18760__$1 = ((((!((map__18760 == null)))?((((map__18760.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__18760.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__18760):map__18760);
+var action__18413__auto___18695 = (function (params__18414__auto__){
+if(cljs.core.map_QMARK_(params__18414__auto__)){
+var map__18689 = params__18414__auto__;
+var map__18689__$1 = ((((!((map__18689 == null)))?((((map__18689.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__18689.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__18689):map__18689);
 return app.routes.post_route("en",cljs.core.cst$kw$home);
 } else {
-if(cljs.core.vector_QMARK_(params__18485__auto__)){
-var vec__18762 = params__18485__auto__;
+if(cljs.core.vector_QMARK_(params__18414__auto__)){
+var vec__18691 = params__18414__auto__;
 return app.routes.post_route("en",cljs.core.cst$kw$home);
 } else {
 return null;
 }
 }
 });
-secretary.core.add_route_BANG_("*",action__18484__auto___18766);
+secretary.core.add_route_BANG_("*",action__18413__auto___18695);
 
-app.routes.default_path = ((function (action__18484__auto___18766){
+app.routes.default_path = ((function (action__18413__auto___18695){
 return (function app$routes$default_path(var_args){
 var args__9129__auto__ = [];
-var len__9122__auto___18767 = arguments.length;
-var i__9123__auto___18768 = (0);
+var len__9122__auto___18696 = arguments.length;
+var i__9123__auto___18697 = (0);
 while(true){
-if((i__9123__auto___18768 < len__9122__auto___18767)){
-args__9129__auto__.push((arguments[i__9123__auto___18768]));
+if((i__9123__auto___18697 < len__9122__auto___18696)){
+args__9129__auto__.push((arguments[i__9123__auto___18697]));
 
-var G__18769 = (i__9123__auto___18768 + (1));
-i__9123__auto___18768 = G__18769;
+var G__18698 = (i__9123__auto___18697 + (1));
+i__9123__auto___18697 = G__18698;
 continue;
 } else {
 }
@@ -757,20 +757,20 @@ break;
 
 var argseq__9130__auto__ = ((((0) < args__9129__auto__.length))?(new cljs.core.IndexedSeq(args__9129__auto__.slice((0)),(0),null)):null);
 return app.routes.default_path.cljs$core$IFn$_invoke$arity$variadic(argseq__9130__auto__);
-});})(action__18484__auto___18766))
+});})(action__18413__auto___18695))
 ;
 
-app.routes.default_path.cljs$core$IFn$_invoke$arity$variadic = ((function (action__18484__auto___18766){
-return (function (args__18483__auto__){
-return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(secretary.core.render_route_STAR_,"*",args__18483__auto__);
-});})(action__18484__auto___18766))
+app.routes.default_path.cljs$core$IFn$_invoke$arity$variadic = ((function (action__18413__auto___18695){
+return (function (args__18412__auto__){
+return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(secretary.core.render_route_STAR_,"*",args__18412__auto__);
+});})(action__18413__auto___18695))
 ;
 
 app.routes.default_path.cljs$lang$maxFixedArity = (0);
 
-app.routes.default_path.cljs$lang$applyTo = ((function (action__18484__auto___18766){
-return (function (seq18765){
-return app.routes.default_path.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq18765));
-});})(action__18484__auto___18766))
+app.routes.default_path.cljs$lang$applyTo = ((function (action__18413__auto___18695){
+return (function (seq18694){
+return app.routes.default_path.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq18694));
+});})(action__18413__auto___18695))
 ;
 

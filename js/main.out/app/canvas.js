@@ -75,8 +75,8 @@ return ctx;
  * [ 1 ]   [ 0   0   1  ] [ 1 ]
  */
 app.canvas.transform = (function app$canvas$transform(var_args){
-var G__14867 = arguments.length;
-switch (G__14867) {
+var G__14796 = arguments.length;
+switch (G__14796) {
 case 7:
 return app.canvas.transform.cljs$core$IFn$_invoke$arity$7((arguments[(0)]),(arguments[(1)]),(arguments[(2)]),(arguments[(3)]),(arguments[(4)]),(arguments[(5)]),(arguments[(6)]));
 
@@ -97,15 +97,15 @@ ctx.transform(m11,m12,m21,m22,dx,dy);
 return ctx;
 });
 
-app.canvas.transform.cljs$core$IFn$_invoke$arity$2 = (function (ctx,p__14868){
-var map__14869 = p__14868;
-var map__14869__$1 = ((((!((map__14869 == null)))?((((map__14869.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__14869.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__14869):map__14869);
-var m11 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14869__$1,cljs.core.cst$kw$m11);
-var m12 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14869__$1,cljs.core.cst$kw$m12);
-var m21 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14869__$1,cljs.core.cst$kw$m21);
-var m22 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14869__$1,cljs.core.cst$kw$m22);
-var dx = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14869__$1,cljs.core.cst$kw$dx);
-var dy = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14869__$1,cljs.core.cst$kw$dy);
+app.canvas.transform.cljs$core$IFn$_invoke$arity$2 = (function (ctx,p__14797){
+var map__14798 = p__14797;
+var map__14798__$1 = ((((!((map__14798 == null)))?((((map__14798.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__14798.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__14798):map__14798);
+var m11 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14798__$1,cljs.core.cst$kw$m11);
+var m12 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14798__$1,cljs.core.cst$kw$m12);
+var m21 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14798__$1,cljs.core.cst$kw$m21);
+var m22 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14798__$1,cljs.core.cst$kw$m22);
+var dx = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14798__$1,cljs.core.cst$kw$dx);
+var dy = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14798__$1,cljs.core.cst$kw$dy);
 ctx.transform(m11,m12,m21,m22,dx,dy);
 
 return ctx;
@@ -140,13 +140,13 @@ return ctx;
 /**
  * Path for a rectangle at position (x, y) with a size (w, h).
  */
-app.canvas.rect = (function app$canvas$rect(ctx,p__14872){
-var map__14873 = p__14872;
-var map__14873__$1 = ((((!((map__14873 == null)))?((((map__14873.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__14873.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__14873):map__14873);
-var x = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14873__$1,cljs.core.cst$kw$x);
-var y = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14873__$1,cljs.core.cst$kw$y);
-var w = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14873__$1,cljs.core.cst$kw$w);
-var h = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14873__$1,cljs.core.cst$kw$h);
+app.canvas.rect = (function app$canvas$rect(ctx,p__14801){
+var map__14802 = p__14801;
+var map__14802__$1 = ((((!((map__14802 == null)))?((((map__14802.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__14802.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__14802):map__14802);
+var x = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14802__$1,cljs.core.cst$kw$x);
+var y = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14802__$1,cljs.core.cst$kw$y);
+var w = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14802__$1,cljs.core.cst$kw$w);
+var h = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14802__$1,cljs.core.cst$kw$h);
 ctx.rect(x,y,w,h);
 
 return ctx;
@@ -155,13 +155,13 @@ return ctx;
  * Sets all pixels in the rectangle defined by starting point (x, y)
  * and size (w, h) to transparent black.
  */
-app.canvas.clear_rect = (function app$canvas$clear_rect(ctx,p__14875){
-var map__14876 = p__14875;
-var map__14876__$1 = ((((!((map__14876 == null)))?((((map__14876.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__14876.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__14876):map__14876);
-var x = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14876__$1,cljs.core.cst$kw$x);
-var y = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14876__$1,cljs.core.cst$kw$y);
-var w = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14876__$1,cljs.core.cst$kw$w);
-var h = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14876__$1,cljs.core.cst$kw$h);
+app.canvas.clear_rect = (function app$canvas$clear_rect(ctx,p__14804){
+var map__14805 = p__14804;
+var map__14805__$1 = ((((!((map__14805 == null)))?((((map__14805.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__14805.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__14805):map__14805);
+var x = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14805__$1,cljs.core.cst$kw$x);
+var y = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14805__$1,cljs.core.cst$kw$y);
+var w = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14805__$1,cljs.core.cst$kw$w);
+var h = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14805__$1,cljs.core.cst$kw$h);
 ctx.clearRect(x,y,w,h);
 
 return ctx;
@@ -171,13 +171,13 @@ return ctx;
  * w width and an h height onto the canvas, using the current stroke
  * style.
  */
-app.canvas.stroke_rect = (function app$canvas$stroke_rect(ctx,p__14878){
-var map__14879 = p__14878;
-var map__14879__$1 = ((((!((map__14879 == null)))?((((map__14879.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__14879.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__14879):map__14879);
-var x = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14879__$1,cljs.core.cst$kw$x);
-var y = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14879__$1,cljs.core.cst$kw$y);
-var w = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14879__$1,cljs.core.cst$kw$w);
-var h = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14879__$1,cljs.core.cst$kw$h);
+app.canvas.stroke_rect = (function app$canvas$stroke_rect(ctx,p__14807){
+var map__14808 = p__14807;
+var map__14808__$1 = ((((!((map__14808 == null)))?((((map__14808.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__14808.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__14808):map__14808);
+var x = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14808__$1,cljs.core.cst$kw$x);
+var y = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14808__$1,cljs.core.cst$kw$y);
+var w = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14808__$1,cljs.core.cst$kw$w);
+var h = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14808__$1,cljs.core.cst$kw$h);
 ctx.strokeRect(x,y,w,h);
 
 return ctx;
@@ -186,13 +186,13 @@ return ctx;
  * Draws a filled rectangle at (x, y) position whose size is determined
  * by width w and height h.
  */
-app.canvas.fill_rect = (function app$canvas$fill_rect(ctx,p__14881){
-var map__14882 = p__14881;
-var map__14882__$1 = ((((!((map__14882 == null)))?((((map__14882.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__14882.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__14882):map__14882);
-var x = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14882__$1,cljs.core.cst$kw$x);
-var y = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14882__$1,cljs.core.cst$kw$y);
-var w = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14882__$1,cljs.core.cst$kw$w);
-var h = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14882__$1,cljs.core.cst$kw$h);
+app.canvas.fill_rect = (function app$canvas$fill_rect(ctx,p__14810){
+var map__14811 = p__14810;
+var map__14811__$1 = ((((!((map__14811 == null)))?((((map__14811.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__14811.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__14811):map__14811);
+var x = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14811__$1,cljs.core.cst$kw$x);
+var y = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14811__$1,cljs.core.cst$kw$y);
+var w = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14811__$1,cljs.core.cst$kw$w);
+var h = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14811__$1,cljs.core.cst$kw$h);
 ctx.fillRect(x,y,w,h);
 
 return ctx;
@@ -201,15 +201,15 @@ return ctx;
  * Draws an arc at position (x, y) with radius r, beginning at start-angle,
  * finishing at end-angle, in the direction specified.
  */
-app.canvas.arc = (function app$canvas$arc(ctx,p__14884){
-var map__14885 = p__14884;
-var map__14885__$1 = ((((!((map__14885 == null)))?((((map__14885.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__14885.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__14885):map__14885);
-var x = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14885__$1,cljs.core.cst$kw$x);
-var y = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14885__$1,cljs.core.cst$kw$y);
-var r = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14885__$1,cljs.core.cst$kw$r);
-var start_angle = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14885__$1,cljs.core.cst$kw$start_DASH_angle);
-var end_angle = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14885__$1,cljs.core.cst$kw$end_DASH_angle);
-var counter_clockwise_QMARK_ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14885__$1,cljs.core.cst$kw$counter_DASH_clockwise_QMARK_);
+app.canvas.arc = (function app$canvas$arc(ctx,p__14813){
+var map__14814 = p__14813;
+var map__14814__$1 = ((((!((map__14814 == null)))?((((map__14814.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__14814.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__14814):map__14814);
+var x = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14814__$1,cljs.core.cst$kw$x);
+var y = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14814__$1,cljs.core.cst$kw$y);
+var r = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14814__$1,cljs.core.cst$kw$r);
+var start_angle = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14814__$1,cljs.core.cst$kw$start_DASH_angle);
+var end_angle = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14814__$1,cljs.core.cst$kw$end_DASH_angle);
+var counter_clockwise_QMARK_ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14814__$1,cljs.core.cst$kw$counter_DASH_clockwise_QMARK_);
 ctx.arc(x,y,r,start_angle,end_angle,counter_clockwise_QMARK_);
 
 return ctx;
@@ -218,36 +218,36 @@ app.canvas.two_pi = ((2) * Math.PI);
 /**
  * Draws an ellipse at position (x, y) with radius (rw, rh)
  */
-app.canvas.ellipse = (function app$canvas$ellipse(ctx,p__14887){
-var map__14888 = p__14887;
-var map__14888__$1 = ((((!((map__14888 == null)))?((((map__14888.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__14888.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__14888):map__14888);
-var x = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14888__$1,cljs.core.cst$kw$x);
-var y = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14888__$1,cljs.core.cst$kw$y);
-var rw = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14888__$1,cljs.core.cst$kw$rw);
-var rh = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14888__$1,cljs.core.cst$kw$rh);
+app.canvas.ellipse = (function app$canvas$ellipse(ctx,p__14816){
+var map__14817 = p__14816;
+var map__14817__$1 = ((((!((map__14817 == null)))?((((map__14817.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__14817.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__14817):map__14817);
+var x = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14817__$1,cljs.core.cst$kw$x);
+var y = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14817__$1,cljs.core.cst$kw$y);
+var rw = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14817__$1,cljs.core.cst$kw$rw);
+var rh = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14817__$1,cljs.core.cst$kw$rh);
 return app.canvas.restore(app.canvas.close_path(app.canvas.arc(app.canvas.begin_path(app.canvas.scale(app.canvas.save(ctx),(1),(rh / rw))),new cljs.core.PersistentArrayMap(null, 6, [cljs.core.cst$kw$x,x,cljs.core.cst$kw$y,y,cljs.core.cst$kw$r,rw,cljs.core.cst$kw$start_DASH_angle,(0),cljs.core.cst$kw$end_DASH_angle,app.canvas.two_pi,cljs.core.cst$kw$counter_DASH_clockwise_QMARK_,false], null))));
 });
 /**
  * Draws a circle at position (x, y) with radius r
  */
-app.canvas.circle = (function app$canvas$circle(ctx,p__14890){
-var map__14891 = p__14890;
-var map__14891__$1 = ((((!((map__14891 == null)))?((((map__14891.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__14891.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__14891):map__14891);
-var x = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14891__$1,cljs.core.cst$kw$x);
-var y = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14891__$1,cljs.core.cst$kw$y);
-var r = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14891__$1,cljs.core.cst$kw$r);
+app.canvas.circle = (function app$canvas$circle(ctx,p__14819){
+var map__14820 = p__14819;
+var map__14820__$1 = ((((!((map__14820 == null)))?((((map__14820.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__14820.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__14820):map__14820);
+var x = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14820__$1,cljs.core.cst$kw$x);
+var y = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14820__$1,cljs.core.cst$kw$y);
+var r = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14820__$1,cljs.core.cst$kw$r);
 return app.canvas.close_path(app.canvas.arc(app.canvas.begin_path(ctx),new cljs.core.PersistentArrayMap(null, 6, [cljs.core.cst$kw$x,x,cljs.core.cst$kw$y,y,cljs.core.cst$kw$r,r,cljs.core.cst$kw$start_DASH_angle,(0),cljs.core.cst$kw$end_DASH_angle,app.canvas.two_pi,cljs.core.cst$kw$counter_DASH_clockwise_QMARK_,true], null)));
 });
 /**
  * Paints the given text at a starting point at (x, y), using the
  * current fill style.
  */
-app.canvas.text = (function app$canvas$text(ctx,p__14893){
-var map__14894 = p__14893;
-var map__14894__$1 = ((((!((map__14894 == null)))?((((map__14894.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__14894.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__14894):map__14894);
-var text = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14894__$1,cljs.core.cst$kw$text);
-var x = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14894__$1,cljs.core.cst$kw$x);
-var y = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14894__$1,cljs.core.cst$kw$y);
+app.canvas.text = (function app$canvas$text(ctx,p__14822){
+var map__14823 = p__14822;
+var map__14823__$1 = ((((!((map__14823 == null)))?((((map__14823.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__14823.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__14823):map__14823);
+var text = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14823__$1,cljs.core.cst$kw$text);
+var x = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14823__$1,cljs.core.cst$kw$x);
+var y = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14823__$1,cljs.core.cst$kw$y);
 ctx.fillText(text,x,y);
 
 return ctx;
@@ -373,8 +373,8 @@ return new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$red,(imgd[(0)
  * determine the underlying call to make.
  */
 app.canvas.draw_image = (function app$canvas$draw_image(var_args){
-var G__14897 = arguments.length;
-switch (G__14897) {
+var G__14826 = arguments.length;
+switch (G__14826) {
 case 4:
 return app.canvas.draw_image.cljs$core$IFn$_invoke$arity$4((arguments[(0)]),(arguments[(1)]),(arguments[(2)]),(arguments[(3)]));
 
@@ -395,34 +395,34 @@ ctx.drawImage(img,x,y);
 return ctx;
 });
 
-app.canvas.draw_image.cljs$core$IFn$_invoke$arity$3 = (function (ctx,img,p__14898){
-var map__14899 = p__14898;
-var map__14899__$1 = ((((!((map__14899 == null)))?((((map__14899.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__14899.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__14899):map__14899);
-var params = map__14899__$1;
-var sh = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14899__$1,cljs.core.cst$kw$sh);
-var sw = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14899__$1,cljs.core.cst$kw$sw);
-var x = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14899__$1,cljs.core.cst$kw$x);
-var y = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14899__$1,cljs.core.cst$kw$y);
-var dh = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14899__$1,cljs.core.cst$kw$dh);
-var dx = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14899__$1,cljs.core.cst$kw$dx);
-var w = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14899__$1,cljs.core.cst$kw$w);
-var sy = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14899__$1,cljs.core.cst$kw$sy);
-var dy = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14899__$1,cljs.core.cst$kw$dy);
-var h = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14899__$1,cljs.core.cst$kw$h);
-var dw = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14899__$1,cljs.core.cst$kw$dw);
-var sx = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14899__$1,cljs.core.cst$kw$sx);
-var pred__14901_14905 = cljs.core._EQ_;
-var expr__14902_14906 = cljs.core.count(params);
-if(cljs.core.truth_((pred__14901_14905.cljs$core$IFn$_invoke$arity$2 ? pred__14901_14905.cljs$core$IFn$_invoke$arity$2((2),expr__14902_14906) : pred__14901_14905.call(null,(2),expr__14902_14906)))){
+app.canvas.draw_image.cljs$core$IFn$_invoke$arity$3 = (function (ctx,img,p__14827){
+var map__14828 = p__14827;
+var map__14828__$1 = ((((!((map__14828 == null)))?((((map__14828.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__14828.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__14828):map__14828);
+var params = map__14828__$1;
+var sh = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14828__$1,cljs.core.cst$kw$sh);
+var sw = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14828__$1,cljs.core.cst$kw$sw);
+var x = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14828__$1,cljs.core.cst$kw$x);
+var y = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14828__$1,cljs.core.cst$kw$y);
+var dh = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14828__$1,cljs.core.cst$kw$dh);
+var dx = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14828__$1,cljs.core.cst$kw$dx);
+var w = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14828__$1,cljs.core.cst$kw$w);
+var sy = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14828__$1,cljs.core.cst$kw$sy);
+var dy = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14828__$1,cljs.core.cst$kw$dy);
+var h = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14828__$1,cljs.core.cst$kw$h);
+var dw = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14828__$1,cljs.core.cst$kw$dw);
+var sx = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14828__$1,cljs.core.cst$kw$sx);
+var pred__14830_14834 = cljs.core._EQ_;
+var expr__14831_14835 = cljs.core.count(params);
+if(cljs.core.truth_((pred__14830_14834.cljs$core$IFn$_invoke$arity$2 ? pred__14830_14834.cljs$core$IFn$_invoke$arity$2((2),expr__14831_14835) : pred__14830_14834.call(null,(2),expr__14831_14835)))){
 ctx.drawImage(img,x,y);
 } else {
-if(cljs.core.truth_((pred__14901_14905.cljs$core$IFn$_invoke$arity$2 ? pred__14901_14905.cljs$core$IFn$_invoke$arity$2((4),expr__14902_14906) : pred__14901_14905.call(null,(4),expr__14902_14906)))){
+if(cljs.core.truth_((pred__14830_14834.cljs$core$IFn$_invoke$arity$2 ? pred__14830_14834.cljs$core$IFn$_invoke$arity$2((4),expr__14831_14835) : pred__14830_14834.call(null,(4),expr__14831_14835)))){
 ctx.drawImage(img,x,y,w,h);
 } else {
-if(cljs.core.truth_((pred__14901_14905.cljs$core$IFn$_invoke$arity$2 ? pred__14901_14905.cljs$core$IFn$_invoke$arity$2((8),expr__14902_14906) : pred__14901_14905.call(null,(8),expr__14902_14906)))){
+if(cljs.core.truth_((pred__14830_14834.cljs$core$IFn$_invoke$arity$2 ? pred__14830_14834.cljs$core$IFn$_invoke$arity$2((8),expr__14831_14835) : pred__14830_14834.call(null,(8),expr__14831_14835)))){
 ctx.drawImage(img,sx,sy,sw,sh,dx,dy,dw,dh);
 } else {
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(expr__14902_14906)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(expr__14831_14835)].join('')));
 }
 }
 }
@@ -433,8 +433,8 @@ return ctx;
 app.canvas.draw_image.cljs$lang$maxFixedArity = 4;
 
 app.canvas.quadratic_curve_to = (function app$canvas$quadratic_curve_to(var_args){
-var G__14908 = arguments.length;
-switch (G__14908) {
+var G__14837 = arguments.length;
+switch (G__14837) {
 case 5:
 return app.canvas.quadratic_curve_to.cljs$core$IFn$_invoke$arity$5((arguments[(0)]),(arguments[(1)]),(arguments[(2)]),(arguments[(3)]),(arguments[(4)]));
 
@@ -455,13 +455,13 @@ ctx.quadraticCurveTo(cpx,cpy,x,y);
 return ctx;
 });
 
-app.canvas.quadratic_curve_to.cljs$core$IFn$_invoke$arity$2 = (function (ctx,p__14909){
-var map__14910 = p__14909;
-var map__14910__$1 = ((((!((map__14910 == null)))?((((map__14910.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__14910.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__14910):map__14910);
-var cpx = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14910__$1,cljs.core.cst$kw$cpx);
-var cpy = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14910__$1,cljs.core.cst$kw$cpy);
-var x = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14910__$1,cljs.core.cst$kw$x);
-var y = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14910__$1,cljs.core.cst$kw$y);
+app.canvas.quadratic_curve_to.cljs$core$IFn$_invoke$arity$2 = (function (ctx,p__14838){
+var map__14839 = p__14838;
+var map__14839__$1 = ((((!((map__14839 == null)))?((((map__14839.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__14839.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__14839):map__14839);
+var cpx = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14839__$1,cljs.core.cst$kw$cpx);
+var cpy = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14839__$1,cljs.core.cst$kw$cpy);
+var x = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14839__$1,cljs.core.cst$kw$x);
+var y = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14839__$1,cljs.core.cst$kw$y);
 ctx.quadraticCurveTo(cpx,cpy,x,y);
 
 return ctx;
@@ -470,8 +470,8 @@ return ctx;
 app.canvas.quadratic_curve_to.cljs$lang$maxFixedArity = 5;
 
 app.canvas.bezier_curve_to = (function app$canvas$bezier_curve_to(var_args){
-var G__14914 = arguments.length;
-switch (G__14914) {
+var G__14843 = arguments.length;
+switch (G__14843) {
 case 7:
 return app.canvas.bezier_curve_to.cljs$core$IFn$_invoke$arity$7((arguments[(0)]),(arguments[(1)]),(arguments[(2)]),(arguments[(3)]),(arguments[(4)]),(arguments[(5)]),(arguments[(6)]));
 
@@ -492,15 +492,15 @@ ctx.bezierCurveTo(cp1x,cp1y,cp2x,cp2y,x,y);
 return ctx;
 });
 
-app.canvas.bezier_curve_to.cljs$core$IFn$_invoke$arity$2 = (function (ctx,p__14915){
-var map__14916 = p__14915;
-var map__14916__$1 = ((((!((map__14916 == null)))?((((map__14916.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__14916.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__14916):map__14916);
-var cp1x = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14916__$1,cljs.core.cst$kw$cp1x);
-var cp1y = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14916__$1,cljs.core.cst$kw$cp1y);
-var cp2x = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14916__$1,cljs.core.cst$kw$cp2x);
-var cp2y = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14916__$1,cljs.core.cst$kw$cp2y);
-var x = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14916__$1,cljs.core.cst$kw$x);
-var y = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14916__$1,cljs.core.cst$kw$y);
+app.canvas.bezier_curve_to.cljs$core$IFn$_invoke$arity$2 = (function (ctx,p__14844){
+var map__14845 = p__14844;
+var map__14845__$1 = ((((!((map__14845 == null)))?((((map__14845.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__14845.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__14845):map__14845);
+var cp1x = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14845__$1,cljs.core.cst$kw$cp1x);
+var cp1y = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14845__$1,cljs.core.cst$kw$cp1y);
+var cp2x = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14845__$1,cljs.core.cst$kw$cp2x);
+var cp2y = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14845__$1,cljs.core.cst$kw$cp2y);
+var x = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14845__$1,cljs.core.cst$kw$x);
+var y = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14845__$1,cljs.core.cst$kw$y);
 ctx.bezierCurveTo(cp1x,cp1y,cp2x,cp2y,x,y);
 
 return ctx;
@@ -508,14 +508,14 @@ return ctx;
 
 app.canvas.bezier_curve_to.cljs$lang$maxFixedArity = 7;
 
-app.canvas.rounded_rect = (function app$canvas$rounded_rect(ctx,p__14919){
-var map__14920 = p__14919;
-var map__14920__$1 = ((((!((map__14920 == null)))?((((map__14920.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__14920.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__14920):map__14920);
-var x = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14920__$1,cljs.core.cst$kw$x);
-var y = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14920__$1,cljs.core.cst$kw$y);
-var w = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14920__$1,cljs.core.cst$kw$w);
-var h = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14920__$1,cljs.core.cst$kw$h);
-var r = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14920__$1,cljs.core.cst$kw$r);
+app.canvas.rounded_rect = (function app$canvas$rounded_rect(ctx,p__14848){
+var map__14849 = p__14848;
+var map__14849__$1 = ((((!((map__14849 == null)))?((((map__14849.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__14849.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__14849):map__14849);
+var x = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14849__$1,cljs.core.cst$kw$x);
+var y = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14849__$1,cljs.core.cst$kw$y);
+var w = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14849__$1,cljs.core.cst$kw$w);
+var h = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14849__$1,cljs.core.cst$kw$h);
+var r = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14849__$1,cljs.core.cst$kw$r);
 
 app.canvas.stroke(app.canvas.quadratic_curve_to.cljs$core$IFn$_invoke$arity$5(app.canvas.line_to(app.canvas.quadratic_curve_to.cljs$core$IFn$_invoke$arity$5(app.canvas.line_to(app.canvas.quadratic_curve_to.cljs$core$IFn$_invoke$arity$5(app.canvas.line_to(app.canvas.quadratic_curve_to.cljs$core$IFn$_invoke$arity$5(app.canvas.line_to(app.canvas.move_to(app.canvas.begin_path(ctx),x,(y + r)),x,((y + h) - r)),x,(y + h),(x + r),(y + h)),((x + w) - r),(y + h)),(x + w),(y + h),(x + w),((y + h) - r)),(x + w),(y + r)),(x + w),y,((x + w) - r),y),(x + r),y),x,y,x,(y + r)));
 
@@ -532,14 +532,14 @@ return cljs.core.cst$kw$value.cljs$core$IFn$_invoke$arity$1((cljs.core.cst$kw$en
 });
 app.canvas.update_entity = (function app$canvas$update_entity(var_args){
 var args__9129__auto__ = [];
-var len__9122__auto___14926 = arguments.length;
-var i__9123__auto___14927 = (0);
+var len__9122__auto___14855 = arguments.length;
+var i__9123__auto___14856 = (0);
 while(true){
-if((i__9123__auto___14927 < len__9122__auto___14926)){
-args__9129__auto__.push((arguments[i__9123__auto___14927]));
+if((i__9123__auto___14856 < len__9122__auto___14855)){
+args__9129__auto__.push((arguments[i__9123__auto___14856]));
 
-var G__14928 = (i__9123__auto___14927 + (1));
-i__9123__auto___14927 = G__14928;
+var G__14857 = (i__9123__auto___14856 + (1));
+i__9123__auto___14856 = G__14857;
 continue;
 } else {
 }
@@ -558,63 +558,63 @@ return (cljs.core.cst$kw$entities.cljs$core$IFn$_invoke$arity$1(mc)[k] = res);
 
 app.canvas.update_entity.cljs$lang$maxFixedArity = (3);
 
-app.canvas.update_entity.cljs$lang$applyTo = (function (seq14922){
-var G__14923 = cljs.core.first(seq14922);
-var seq14922__$1 = cljs.core.next(seq14922);
-var G__14924 = cljs.core.first(seq14922__$1);
-var seq14922__$2 = cljs.core.next(seq14922__$1);
-var G__14925 = cljs.core.first(seq14922__$2);
-var seq14922__$3 = cljs.core.next(seq14922__$2);
-return app.canvas.update_entity.cljs$core$IFn$_invoke$arity$variadic(G__14923,G__14924,G__14925,seq14922__$3);
+app.canvas.update_entity.cljs$lang$applyTo = (function (seq14851){
+var G__14852 = cljs.core.first(seq14851);
+var seq14851__$1 = cljs.core.next(seq14851);
+var G__14853 = cljs.core.first(seq14851__$1);
+var seq14851__$2 = cljs.core.next(seq14851__$1);
+var G__14854 = cljs.core.first(seq14851__$2);
+var seq14851__$3 = cljs.core.next(seq14851__$2);
+return app.canvas.update_entity.cljs$core$IFn$_invoke$arity$variadic(G__14852,G__14853,G__14854,seq14851__$3);
 });
 
 app.canvas.clear_BANG_ = (function app$canvas$clear_BANG_(mc){
 var ks = cljs.core.js_keys(cljs.core.cst$kw$entities.cljs$core$IFn$_invoke$arity$1(mc));
-var seq__14929 = cljs.core.seq(ks);
-var chunk__14930 = null;
-var count__14931 = (0);
-var i__14932 = (0);
+var seq__14858 = cljs.core.seq(ks);
+var chunk__14859 = null;
+var count__14860 = (0);
+var i__14861 = (0);
 while(true){
-if((i__14932 < count__14931)){
-var k = chunk__14930.cljs$core$IIndexed$_nth$arity$2(null,i__14932);
+if((i__14861 < count__14860)){
+var k = chunk__14859.cljs$core$IIndexed$_nth$arity$2(null,i__14861);
 app.canvas.remove_entity(mc,k);
 
-var G__14933 = seq__14929;
-var G__14934 = chunk__14930;
-var G__14935 = count__14931;
-var G__14936 = (i__14932 + (1));
-seq__14929 = G__14933;
-chunk__14930 = G__14934;
-count__14931 = G__14935;
-i__14932 = G__14936;
+var G__14862 = seq__14858;
+var G__14863 = chunk__14859;
+var G__14864 = count__14860;
+var G__14865 = (i__14861 + (1));
+seq__14858 = G__14862;
+chunk__14859 = G__14863;
+count__14860 = G__14864;
+i__14861 = G__14865;
 continue;
 } else {
-var temp__4657__auto__ = cljs.core.seq(seq__14929);
+var temp__4657__auto__ = cljs.core.seq(seq__14858);
 if(temp__4657__auto__){
-var seq__14929__$1 = temp__4657__auto__;
-if(cljs.core.chunked_seq_QMARK_(seq__14929__$1)){
-var c__8792__auto__ = cljs.core.chunk_first(seq__14929__$1);
-var G__14937 = cljs.core.chunk_rest(seq__14929__$1);
-var G__14938 = c__8792__auto__;
-var G__14939 = cljs.core.count(c__8792__auto__);
-var G__14940 = (0);
-seq__14929 = G__14937;
-chunk__14930 = G__14938;
-count__14931 = G__14939;
-i__14932 = G__14940;
+var seq__14858__$1 = temp__4657__auto__;
+if(cljs.core.chunked_seq_QMARK_(seq__14858__$1)){
+var c__8792__auto__ = cljs.core.chunk_first(seq__14858__$1);
+var G__14866 = cljs.core.chunk_rest(seq__14858__$1);
+var G__14867 = c__8792__auto__;
+var G__14868 = cljs.core.count(c__8792__auto__);
+var G__14869 = (0);
+seq__14858 = G__14866;
+chunk__14859 = G__14867;
+count__14860 = G__14868;
+i__14861 = G__14869;
 continue;
 } else {
-var k = cljs.core.first(seq__14929__$1);
+var k = cljs.core.first(seq__14858__$1);
 app.canvas.remove_entity(mc,k);
 
-var G__14941 = cljs.core.next(seq__14929__$1);
-var G__14942 = null;
-var G__14943 = (0);
-var G__14944 = (0);
-seq__14929 = G__14941;
-chunk__14930 = G__14942;
-count__14931 = G__14943;
-i__14932 = G__14944;
+var G__14870 = cljs.core.next(seq__14858__$1);
+var G__14871 = null;
+var G__14872 = (0);
+var G__14873 = (0);
+seq__14858 = G__14870;
+chunk__14859 = G__14871;
+count__14860 = G__14872;
+i__14861 = G__14873;
 continue;
 }
 } else {
@@ -630,16 +630,16 @@ return new cljs.core.PersistentArrayMap(null, 3, [cljs.core.cst$kw$value,v,cljs.
 app.canvas.attr = (function app$canvas$attr(e,a){
 return e.getAttribute(a);
 });
-app.canvas.draw_once = (function app$canvas$draw_once(p__14945){
-var map__14946 = p__14945;
-var map__14946__$1 = ((((!((map__14946 == null)))?((((map__14946.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__14946.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__14946):map__14946);
-var mc = map__14946__$1;
-var canvas = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14946__$1,cljs.core.cst$kw$canvas);
-var updating_QMARK_ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14946__$1,cljs.core.cst$kw$updating_QMARK_);
-var ctx = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14946__$1,cljs.core.cst$kw$ctx);
-var active = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14946__$1,cljs.core.cst$kw$active);
-var entities = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14946__$1,cljs.core.cst$kw$entities);
-var last_frame_time = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14946__$1,cljs.core.cst$kw$last_DASH_frame_DASH_time);
+app.canvas.draw_once = (function app$canvas$draw_once(p__14874){
+var map__14875 = p__14874;
+var map__14875__$1 = ((((!((map__14875 == null)))?((((map__14875.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__14875.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__14875):map__14875);
+var mc = map__14875__$1;
+var canvas = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14875__$1,cljs.core.cst$kw$canvas);
+var updating_QMARK_ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14875__$1,cljs.core.cst$kw$updating_QMARK_);
+var ctx = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14875__$1,cljs.core.cst$kw$ctx);
+var active = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14875__$1,cljs.core.cst$kw$active);
+var entities = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14875__$1,cljs.core.cst$kw$entities);
+var last_frame_time = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14875__$1,cljs.core.cst$kw$last_DASH_frame_DASH_time);
 app.canvas.clear_rect(ctx,new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$x,(0),cljs.core.cst$kw$y,(0),cljs.core.cst$kw$w,app.canvas.attr(canvas,"width"),cljs.core.cst$kw$h,app.canvas.attr(canvas,"height")], null));
 
 if(cljs.core.truth_(cljs.core.deref(active))){
@@ -649,28 +649,28 @@ var i = (0);
 while(true){
 if((i < cnt)){
 var k = (ks[i]);
-var map__14948 = (entities[k]);
-var map__14948__$1 = ((((!((map__14948 == null)))?((((map__14948.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__14948.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__14948):map__14948);
-var ent = map__14948__$1;
-var draw = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14948__$1,cljs.core.cst$kw$draw);
-var update = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14948__$1,cljs.core.cst$kw$update);
-var value = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14948__$1,cljs.core.cst$kw$value);
+var map__14877 = (entities[k]);
+var map__14877__$1 = ((((!((map__14877 == null)))?((((map__14877.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__14877.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__14877):map__14877);
+var ent = map__14877__$1;
+var draw = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14877__$1,cljs.core.cst$kw$draw);
+var update = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14877__$1,cljs.core.cst$kw$update);
+var value = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__14877__$1,cljs.core.cst$kw$value);
 if(cljs.core.truth_(draw)){
-try{var G__14951_14953 = ctx;
-var G__14952_14954 = cljs.core.cst$kw$value.cljs$core$IFn$_invoke$arity$1((entities[k]));
-(draw.cljs$core$IFn$_invoke$arity$2 ? draw.cljs$core$IFn$_invoke$arity$2(G__14951_14953,G__14952_14954) : draw.call(null,G__14951_14953,G__14952_14954));
-}catch (e14950){if((e14950 instanceof Error)){
-var e_14955 = e14950;
-console.log(e_14955);
+try{var G__14880_14882 = ctx;
+var G__14881_14883 = cljs.core.cst$kw$value.cljs$core$IFn$_invoke$arity$1((entities[k]));
+(draw.cljs$core$IFn$_invoke$arity$2 ? draw.cljs$core$IFn$_invoke$arity$2(G__14880_14882,G__14881_14883) : draw.call(null,G__14880_14882,G__14881_14883));
+}catch (e14879){if((e14879 instanceof Error)){
+var e_14884 = e14879;
+console.log(e_14884);
 } else {
-throw e14950;
+throw e14879;
 
 }
 }} else {
 }
 
-var G__14956 = (i + (1));
-i = G__14956;
+var G__14885 = (i + (1));
+i = G__14885;
 continue;
 } else {
 return null;
@@ -694,14 +694,14 @@ return new cljs.core.PersistentArrayMap(null, 6, [cljs.core.cst$kw$canvas,elem,c
 });
 app.canvas.init = (function app$canvas$init(var_args){
 var args__9129__auto__ = [];
-var len__9122__auto___14965 = arguments.length;
-var i__9123__auto___14966 = (0);
+var len__9122__auto___14894 = arguments.length;
+var i__9123__auto___14895 = (0);
 while(true){
-if((i__9123__auto___14966 < len__9122__auto___14965)){
-args__9129__auto__.push((arguments[i__9123__auto___14966]));
+if((i__9123__auto___14895 < len__9122__auto___14894)){
+args__9129__auto__.push((arguments[i__9123__auto___14895]));
 
-var G__14967 = (i__9123__auto___14966 + (1));
-i__9123__auto___14966 = G__14967;
+var G__14896 = (i__9123__auto___14895 + (1));
+i__9123__auto___14895 = G__14896;
 continue;
 } else {
 }
@@ -712,9 +712,9 @@ var argseq__9130__auto__ = ((((1) < args__9129__auto__.length))?(new cljs.core.I
 return app.canvas.init.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)]),argseq__9130__auto__);
 });
 
-app.canvas.init.cljs$core$IFn$_invoke$arity$variadic = (function (canvas,p__14961){
-var vec__14962 = p__14961;
-var context_type = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__14962,(0),null);
+app.canvas.init.cljs$core$IFn$_invoke$arity$variadic = (function (canvas,p__14890){
+var vec__14891 = p__14890;
+var context_type = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__14891,(0),null);
 var mc = app.canvas.monet_canvas(canvas,context_type);
 app.canvas.draw_once(mc);
 
@@ -723,9 +723,9 @@ return mc;
 
 app.canvas.init.cljs$lang$maxFixedArity = (1);
 
-app.canvas.init.cljs$lang$applyTo = (function (seq14959){
-var G__14960 = cljs.core.first(seq14959);
-var seq14959__$1 = cljs.core.next(seq14959);
-return app.canvas.init.cljs$core$IFn$_invoke$arity$variadic(G__14960,seq14959__$1);
+app.canvas.init.cljs$lang$applyTo = (function (seq14888){
+var G__14889 = cljs.core.first(seq14888);
+var seq14888__$1 = cljs.core.next(seq14888);
+return app.canvas.init.cljs$core$IFn$_invoke$arity$variadic(G__14889,seq14888__$1);
 });
 
