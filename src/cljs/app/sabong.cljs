@@ -10,7 +10,7 @@
    [app.helpers :as h]
    [app.text :refer [text]]))
 
-(defn draw-sabong-pattern [data]
+(defn draw-sabong-pattern-appended-border [data]
   (let [sabong (:sabong @data)
         title (:title sabong)
         ;; values from the SVG for positioning
@@ -211,6 +211,214 @@
     (canvas/draw-once monet-canvas)
     ))
 
+(defn draw-sabong-pattern-included-border [data]
+  (let [sabong (:sabong @data)
+        title (:title sabong)
+        ;; values from the SVG for positioning
+        ;; don't use a hash, not very readable in the expressions
+        pos-pattern-width 232
+        pos-pattern-height 102
+        pos-img-offset-x 5
+        pos-img-offset-y 10
+        pos-text-offset-x (+ 0.0 pos-img-offset-x)
+        pos-text-offset-y (+ 0.0 pos-img-offset-y)
+        pos-buffer-width 1.0
+        pos-border-width 12.5
+        pos-kusi-width 6.0
+        pos-mandala-width 36.2
+        pos-mandala-height 21.0
+        ;; scale
+        pattern-scale 14
+        ;; calcualted size values to display, these could be user inputs
+        ;; don't use a hash, not very readable in the expressions
+        val-buffer-width (js/Number (:buffer-width sabong))
+        val-inner-width (js/Number (:width sabong))
+        val-inner-height (js/Number (:height sabong))
+        val-kusi-width (js/Number (:kusi-width sabong))
+        [val-cut-width
+         val-cut-height
+         val-mandala-width
+         val-mandala-height
+         val-border-width
+         val-border-height] (h/calc-sabong-shrinking-lengths (:sabong @data))
+
+        text (fn [ctx s x y]
+               (h/draw-text
+                ctx s x y pattern-scale pos-text-offset-x pos-text-offset-y pos-pattern-height))
+
+        text-title (fn [ctx s size x y]
+                     (h/draw-text-title
+                      ctx s size x y pattern-scale pos-text-offset-x pos-text-offset-y pos-pattern-height))
+
+        text-num (fn [ctx s x y]
+                   (text ctx (h/num-pad s) x y))
+
+        text-mandala-width (fn [ctx n]
+                             (text-num ctx val-mandala-width
+                                       (- (+ pos-buffer-width
+                                             pos-border-width
+                                             (* n (+ pos-mandala-width pos-kusi-width))
+                                             (/ pos-mandala-width 2)) 1)
+                                       10.2))
+
+        text-kusi-width (fn [ctx n]
+                          (text-num ctx val-kusi-width
+                                    (- (+ pos-buffer-width
+                                          pos-border-width
+                                          pos-mandala-width
+                                          (* n (+ pos-mandala-width pos-kusi-width))
+                                          (/ pos-kusi-width 2)) 1)
+                                    10.2))
+
+        text-kusi-height (fn [ctx n]
+                           (text-num ctx val-kusi-width
+                                     9.0
+                                     (- (+ pos-buffer-width
+                                           pos-border-width
+                                           pos-mandala-height
+                                           (* n (+ pos-mandala-height pos-kusi-width))
+                                           (/ pos-kusi-width 2)) 1)))
+
+        text-mandala-height (fn [ctx n]
+                              (text-num ctx val-mandala-height
+                                        9.0
+                                        (- (+ pos-buffer-width
+                                              pos-border-width
+                                              (* n (+ pos-mandala-height pos-kusi-width))
+                                              (/ pos-mandala-height 2)) 1)))
+
+        ;; mandala, kusi, border, cut buffer
+        text-accumulate-horiz (fn [ctx m k b c x-offset]
+                                (text-num ctx (+ (* m val-mandala-width)
+                                                 (* k val-kusi-width)
+                                                 (* b val-border-width)
+                                                 (* c val-buffer-width))
+                                          (+ 0.5 x-offset
+                                             (* m pos-mandala-width)
+                                             (* k pos-kusi-width)
+                                             (* b pos-border-width)
+                                             (* c pos-buffer-width))
+                                          99))
+
+        ;; mandala, kusi, border, cut buffer
+        text-accumulate-vert (fn [ctx m k b c y-offset]
+                                (text-num ctx (+ (* m val-mandala-height)
+                                                 (* k val-kusi-width)
+                                                 (* b val-border-height)
+                                                 (* c val-buffer-width))
+                                          226
+                                          (+ 1.0 y-offset
+                                             (* m pos-mandala-height)
+                                             (* k pos-kusi-width)
+                                             (* b pos-border-width)
+                                             (* c pos-buffer-width))))
+
+        [monet-canvas img] (h/init-canvas :#sabong-pattern-canvas "img/sabong-pattern.svg")]
+
+    (canvas/add-entity monet-canvas :background
+     (canvas/entity nil nil
+      (fn [ctx val]
+        (-> ctx
+            (canvas/draw-image img {:x (* pos-img-offset-x pattern-scale)
+                                    :y (* pos-img-offset-y pattern-scale)
+                                    :w (* pos-pattern-width pattern-scale)
+                                    :h (* pos-pattern-height pattern-scale)})
+
+            (text-title title "60px" 0 -8.0)
+
+            (text-title "WORK IN PROGRESS" "100px" 10.0 90.0)
+
+            (text (str "Final Width: " (h/num-pad val-inner-width)
+                       ", Final Height: " (h/num-pad val-inner-height))
+                  50.0 -8.0)
+
+            (text (str "Cut Width: " (h/num-pad val-cut-width)
+                       ", Cut Height: " (h/num-pad val-cut-height))
+                  50.0 -11.0)
+
+            (text (str "a, border width: " (h/num-pad val-border-width))
+                  100.0 -8.0)
+            (text (str "b, border height: " (h/num-pad val-border-height))
+                  100.0 -11.0)
+            (text (str "c, cutting buffer: " (h/num-pad val-buffer-width))
+                  100.0 -14.0)
+            (text (str "k, kusi width: " (h/num-pad val-kusi-width))
+                  100.0 -17.0)
+            (text (str "m, mandala width: " (h/num-pad val-mandala-width))
+                  100.0 -20.0)
+            (text (str "d, mandala height: " (h/num-pad val-mandala-height))
+                  100.0 -23.0)
+
+            ;; buffer at the edges
+            (text-num val-buffer-width 1.5 10.2)
+            (text-num val-buffer-width (- (- pos-pattern-width 2.5) 1) 10.2)
+
+            ;; border width
+            (text-num val-border-width 6.0 10.2)
+            (text-num val-border-width (- (- pos-pattern-width 7.5) 1) 10.2)
+
+            ;; border height
+            (text-num val-border-height 9.0 5.4)
+            (text-num val-border-height (- (- pos-pattern-width 11.0) 1) 5.4)
+
+            ;; mandala width
+            (text-mandala-width 0)
+            (text-mandala-width 1)
+            (text-mandala-width 2)
+            (text-mandala-width 3)
+            (text-mandala-width 4)
+
+            ;; kusi width
+            (text-kusi-width 0)
+            (text-kusi-width 1)
+            (text-kusi-width 2)
+            (text-kusi-width 3)
+
+            ;; kusi
+            (text-kusi-height 0)
+            (text-kusi-height 1)
+
+            ;; mandala height
+            (text-mandala-height 0)
+            (text-mandala-height 1)
+            (text-mandala-height 2)
+
+            ;; horizontal accumulative length
+            (text-accumulate-horiz 0 0 0 1 0)
+            (text-accumulate-horiz 0 0 1 1 0)
+            (text-accumulate-horiz 1 0 1 1 0)
+            (text-accumulate-horiz 1 1 1 1 0)
+            (text-accumulate-horiz 2 1 1 1 0)
+            (text-accumulate-horiz 2 2 1 1 0)
+            (text-accumulate-horiz 3 2 1 1 0)
+            (text-accumulate-horiz 3 3 1 1 0)
+            (text-accumulate-horiz 4 3 1 1 0)
+            (text-accumulate-horiz 4 4 1 1 0)
+            (text-accumulate-horiz 5 4 1 1 0)
+            (text-accumulate-horiz 5 4 2 1 -6.0)
+            (text-accumulate-horiz 5 4 2 2 0)
+
+            ;; vertical accumulative length
+            (text-accumulate-vert 0 0 0 1 0)
+            (text-accumulate-vert 0 0 1 1 0)
+            (text-accumulate-vert 1 0 1 1 0)
+            (text-accumulate-vert 1 1 1 1 0)
+            (text-accumulate-vert 2 1 1 1 0)
+            (text-accumulate-vert 2 2 1 1 0)
+            (text-accumulate-vert 3 2 1 1 0)
+            (text-accumulate-vert 3 2 2 1 -6.0)
+            (text-accumulate-vert 3 2 2 2 0)
+
+            ))))
+
+    (canvas/draw-once monet-canvas)
+    ))
+
+(defn draw-sabong-pattern [data]
+  (if (get-in @data [:sabong :border-included])
+    (draw-sabong-pattern-included-border data)
+    (draw-sabong-pattern-appended-border data)))
+
 (defn sabong-update [data]
   (h/render-markdown)
   (draw-sabong-pattern data))
@@ -246,6 +454,20 @@
                                    :on-change (fn [e]
                                                 (do (swap! data assoc-in [:sabong :title] (.-target.value e))
                                                     (draw-sabong-pattern data)))}]]]
+
+             [:div.columns
+              [:div.col-12
+               [:form.form-horizontal
+                [:div.form-group
+                 [:label.form-switch {:for "border_included"}
+                  [:input {:id "border_included" :type "checkbox"
+                           :checked (:border-included sabong)
+                           :on-change (fn [e]
+                                        (do (swap! data assoc-in [:sabong :border-included] (.-target.checked e))
+                                            (draw-sabong-pattern data)))}]
+                  [:i.form-icon]
+                  (text :border-included-in-side-panel-width)]
+                 ]]]]
 
              [:div.columns
               [:div.col-4

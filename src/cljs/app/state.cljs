@@ -9,7 +9,8 @@
                     :border-width 12
                     :kusi-width 6.0
                     :shrink-percent-width 0
-                    :shrink-percent-height 0}
+                    :shrink-percent-height 0
+                    :border-included false}
            :civara {:title (str "Civara " (.getFullYear (js/Date.)))
                     :width 355
                     :height 214

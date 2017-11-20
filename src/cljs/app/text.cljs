@@ -29,6 +29,7 @@
                        :border "Border"
                        :cutting-buffer "Cutting buffer"
                        :vertical-cutting-buffer "Vertical cutting buffer"
+                       :border-included-in-side-panel-width "Border included in side panel width"
                        }
 
                   :th {:sabong-guide-content (ac/th-sabong-md)
@@ -58,6 +59,7 @@
                        :border "ขนาดอนุวาต"
                        :cutting-buffer "ขนาดเผื่อการตัดเย็บ"
                        :vertical-cutting-buffer "Vertical cutting buffer"
+                       :border-included-in-side-panel-width "Border included in side panel width"
                        }})
 
 (defn text [key]
