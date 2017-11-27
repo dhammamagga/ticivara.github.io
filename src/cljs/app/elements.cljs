@@ -58,6 +58,8 @@
      [:li.divider]
      [:li.menu-item
       [:a {:href (h/href-to "tools")} (text :tools)]]
+     [:li.menu-item
+      [:a {:href (h/href-to "dyeing")} (text :dyeing)]]
 
      [:li.menu-item
       [<lang-links>]]]]

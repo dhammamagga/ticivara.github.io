@@ -56,6 +56,7 @@
 
    :borders #'<page-key>
    :tools #'<page-key>
+   :dyeing #'<page-key>
    })
 
 (defn get-pagekey []

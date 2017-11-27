@@ -19,6 +19,9 @@
 (defmacro en-tools-md []
   (slurp "./content/en/tools.md"))
 
+(defmacro en-dyeing-md []
+  (slurp "./content/en/dyeing.md"))
+
 (defmacro en-robe-size-note-md []
   (slurp "./content/en/robe-size-note.md"))
 
@@ -39,6 +42,9 @@
 
 (defmacro th-tools-md []
   (slurp "./content/th/tools.md"))
+
+(defmacro th-dyeing-md []
+  (slurp "./content/th/dyeing.md"))
 
 (defmacro th-robe-size-note-md []
   (slurp "./content/th/robe-size-note.md"))

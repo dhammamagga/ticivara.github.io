@@ -57,6 +57,9 @@
 (secretary/defroute tools-path "/:lang/tools" [lang]
   (post-route lang :tools))
 
+(secretary/defroute dyeing-path "/:lang/dyeing" [lang]
+  (post-route lang :dyeing))
+
 ;; === Default path ===
 
 (secretary/defroute default-path "*" []
