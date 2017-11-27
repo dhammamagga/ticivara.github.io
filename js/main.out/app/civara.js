@@ -21,50 +21,50 @@ var pos_img_offset_y = (10);
 var pos_text_offset_x = (0.0 + pos_img_offset_x);
 var pos_text_offset_y = (0.0 + pos_img_offset_y);
 var pattern_scale = (12);
-var val_buffer_width = (function (){var G__18398 = cljs.core.cst$kw$buffer_DASH_width.cljs$core$IFn$_invoke$arity$1(civara);
-return Number(G__18398);
+var val_buffer_width = (function (){var G__18408 = cljs.core.cst$kw$buffer_DASH_width.cljs$core$IFn$_invoke$arity$1(civara);
+return Number(G__18408);
 })();
-var val_vertical_buffer_width = (function (){var G__18399 = cljs.core.cst$kw$vertical_DASH_buffer_DASH_width.cljs$core$IFn$_invoke$arity$1(civara);
-return Number(G__18399);
+var val_vertical_buffer_width = (function (){var G__18409 = cljs.core.cst$kw$vertical_DASH_buffer_DASH_width.cljs$core$IFn$_invoke$arity$1(civara);
+return Number(G__18409);
 })();
-var val_inner_width = (function (){var G__18400 = cljs.core.cst$kw$width.cljs$core$IFn$_invoke$arity$1(civara);
-return Number(G__18400);
+var val_inner_width = (function (){var G__18410 = cljs.core.cst$kw$width.cljs$core$IFn$_invoke$arity$1(civara);
+return Number(G__18410);
 })();
-var val_inner_height = (function (){var G__18401 = cljs.core.cst$kw$height.cljs$core$IFn$_invoke$arity$1(civara);
-return Number(G__18401);
+var val_inner_height = (function (){var G__18411 = cljs.core.cst$kw$height.cljs$core$IFn$_invoke$arity$1(civara);
+return Number(G__18411);
 })();
-var val_kusi_width = (function (){var G__18402 = cljs.core.cst$kw$kusi_DASH_width.cljs$core$IFn$_invoke$arity$1(civara);
-return Number(G__18402);
+var val_kusi_width = (function (){var G__18412 = cljs.core.cst$kw$kusi_DASH_width.cljs$core$IFn$_invoke$arity$1(civara);
+return Number(G__18412);
 })();
-var vec__18392 = app.helpers.calc_civara_shrinking_lengths(cljs.core.cst$kw$civara.cljs$core$IFn$_invoke$arity$1(cljs.core.deref(data)));
-var val_cut_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18392,(0),null);
-var val_cut_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18392,(1),null);
-var val_mandala_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18392,(2),null);
-var val_mandala_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18392,(3),null);
-var val_border_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18392,(4),null);
-var val_border_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18392,(5),null);
-var text = ((function (civara,title,pos_pattern_width,pos_pattern_height,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18392,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height){
+var vec__18402 = app.helpers.calc_civara_shrinking_lengths(cljs.core.cst$kw$civara.cljs$core$IFn$_invoke$arity$1(cljs.core.deref(data)));
+var val_cut_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18402,(0),null);
+var val_cut_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18402,(1),null);
+var val_mandala_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18402,(2),null);
+var val_mandala_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18402,(3),null);
+var val_border_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18402,(4),null);
+var val_border_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18402,(5),null);
+var text = ((function (civara,title,pos_pattern_width,pos_pattern_height,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18402,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height){
 return (function (ctx,s,x,y){
 return app.helpers.draw_text(ctx,s,x,y,pattern_scale,pos_text_offset_x,pos_text_offset_y,pos_pattern_height);
-});})(civara,title,pos_pattern_width,pos_pattern_height,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18392,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height))
+});})(civara,title,pos_pattern_width,pos_pattern_height,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18402,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height))
 ;
-var text_title = ((function (civara,title,pos_pattern_width,pos_pattern_height,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18392,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text){
+var text_title = ((function (civara,title,pos_pattern_width,pos_pattern_height,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18402,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text){
 return (function (ctx,s,size,x,y){
 return app.helpers.draw_text_title(ctx,s,size,x,y,pattern_scale,pos_text_offset_x,pos_text_offset_y,pos_pattern_height);
-});})(civara,title,pos_pattern_width,pos_pattern_height,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18392,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text))
+});})(civara,title,pos_pattern_width,pos_pattern_height,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18402,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text))
 ;
-var text_num = ((function (civara,title,pos_pattern_width,pos_pattern_height,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18392,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_title){
+var text_num = ((function (civara,title,pos_pattern_width,pos_pattern_height,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18402,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_title){
 return (function (ctx,s,x,y){
 return text(ctx,app.helpers.num_pad(s),x,y);
-});})(civara,title,pos_pattern_width,pos_pattern_height,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18392,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_title))
+});})(civara,title,pos_pattern_width,pos_pattern_height,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18402,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_title))
 ;
-var vec__18395 = app.helpers.init_canvas(cljs.core.cst$kw$_SHARP_civara_DASH_guide_DASH_canvas,"img/civara-guide.svg");
-var canvas_guide = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18395,(0),null);
-var img_guide = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18395,(1),null);
-app.canvas.add_entity(canvas_guide,cljs.core.cst$kw$background,app.canvas.entity(null,null,((function (civara,title,pos_pattern_width,pos_pattern_height,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18392,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_title,text_num,vec__18395,canvas_guide,img_guide){
+var vec__18405 = app.helpers.init_canvas(cljs.core.cst$kw$_SHARP_civara_DASH_guide_DASH_canvas,"img/civara-guide.svg");
+var canvas_guide = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18405,(0),null);
+var img_guide = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18405,(1),null);
+app.canvas.add_entity(canvas_guide,cljs.core.cst$kw$background,app.canvas.entity(null,null,((function (civara,title,pos_pattern_width,pos_pattern_height,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18402,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_title,text_num,vec__18405,canvas_guide,img_guide){
 return (function (ctx,val){
 return text_num(text_num(text_num(text_num(text_num(text_num(text_num(text(text(text(text(text(text(text(text(text(text(text(text_title(app.canvas.draw_image.cljs$core$IFn$_invoke$arity$3(ctx,img_guide,new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$x,(pos_img_offset_x * pattern_scale),cljs.core.cst$kw$y,(pos_img_offset_y * pattern_scale),cljs.core.cst$kw$w,(pos_pattern_width * pattern_scale),cljs.core.cst$kw$h,(pos_pattern_height * pattern_scale)], null)),title,"120px",-0.5,(168)),["Final width: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(app.helpers.num_pad(val_inner_width))].join(''),(5),(140)),["Final height: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(app.helpers.num_pad(val_inner_height))].join(''),(5),(136)),["Cut width: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(app.helpers.num_pad(val_cut_width))].join(''),(5),(132)),["Cut height: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(app.helpers.num_pad(val_cut_height))].join(''),(5),(128)),["a, border width: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(app.helpers.num_pad(val_border_width))].join(''),(5),(122)),["b, border height: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(app.helpers.num_pad(val_border_height))].join(''),(5),(118)),["cutting buffer: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(app.helpers.num_pad(val_buffer_width))].join(''),(5),(114)),["vertical cutting buffer: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(app.helpers.num_pad(val_vertical_buffer_width))].join(''),(5),(110)),["k, kusi width: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(app.helpers.num_pad(val_kusi_width))].join(''),(5),(106)),["m, mandala width: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(app.helpers.num_pad(val_mandala_width))].join(''),(5),(102)),["d, mandala height: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(app.helpers.num_pad(val_mandala_height))].join(''),(5),(98)),val_cut_width,(245),(164)),val_cut_height,(255),(155)),val_border_width,104.5,(82)),val_border_height,(112),74.2),val_kusi_width,(122),74.2),val_mandala_width,(130),(82)),val_mandala_height,(130),(89));
-});})(civara,title,pos_pattern_width,pos_pattern_height,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18392,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_title,text_num,vec__18395,canvas_guide,img_guide))
+});})(civara,title,pos_pattern_width,pos_pattern_height,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18402,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_title,text_num,vec__18405,canvas_guide,img_guide))
 ));
 
 return app.canvas.draw_once(canvas_guide);
@@ -84,55 +84,55 @@ var pos_img_offset_y = (20);
 var pos_text_offset_x = (0.0 + pos_img_offset_x);
 var pos_text_offset_y = (0.0 + pos_img_offset_y);
 var pattern_scale = (12);
-var val_buffer_width = (function (){var G__18409 = cljs.core.cst$kw$buffer_DASH_width.cljs$core$IFn$_invoke$arity$1(civara);
-return Number(G__18409);
+var val_buffer_width = (function (){var G__18419 = cljs.core.cst$kw$buffer_DASH_width.cljs$core$IFn$_invoke$arity$1(civara);
+return Number(G__18419);
 })();
-var val_vertical_buffer_width = (function (){var G__18410 = cljs.core.cst$kw$vertical_DASH_buffer_DASH_width.cljs$core$IFn$_invoke$arity$1(civara);
-return Number(G__18410);
+var val_vertical_buffer_width = (function (){var G__18420 = cljs.core.cst$kw$vertical_DASH_buffer_DASH_width.cljs$core$IFn$_invoke$arity$1(civara);
+return Number(G__18420);
 })();
-var val_inner_width = (function (){var G__18411 = cljs.core.cst$kw$width.cljs$core$IFn$_invoke$arity$1(civara);
-return Number(G__18411);
+var val_inner_width = (function (){var G__18421 = cljs.core.cst$kw$width.cljs$core$IFn$_invoke$arity$1(civara);
+return Number(G__18421);
 })();
-var val_inner_height = (function (){var G__18412 = cljs.core.cst$kw$height.cljs$core$IFn$_invoke$arity$1(civara);
-return Number(G__18412);
+var val_inner_height = (function (){var G__18422 = cljs.core.cst$kw$height.cljs$core$IFn$_invoke$arity$1(civara);
+return Number(G__18422);
 })();
-var val_kusi_width = (function (){var G__18413 = cljs.core.cst$kw$kusi_DASH_width.cljs$core$IFn$_invoke$arity$1(civara);
-return Number(G__18413);
+var val_kusi_width = (function (){var G__18423 = cljs.core.cst$kw$kusi_DASH_width.cljs$core$IFn$_invoke$arity$1(civara);
+return Number(G__18423);
 })();
-var vec__18403 = app.helpers.calc_civara_shrinking_lengths(cljs.core.cst$kw$civara.cljs$core$IFn$_invoke$arity$1(cljs.core.deref(data)));
-var val_cut_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18403,(0),null);
-var val_cut_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18403,(1),null);
-var val_mandala_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18403,(2),null);
-var val_mandala_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18403,(3),null);
-var val_border_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18403,(4),null);
-var val_border_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18403,(5),null);
-var text = ((function (civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18403,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height){
+var vec__18413 = app.helpers.calc_civara_shrinking_lengths(cljs.core.cst$kw$civara.cljs$core$IFn$_invoke$arity$1(cljs.core.deref(data)));
+var val_cut_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18413,(0),null);
+var val_cut_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18413,(1),null);
+var val_mandala_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18413,(2),null);
+var val_mandala_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18413,(3),null);
+var val_border_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18413,(4),null);
+var val_border_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18413,(5),null);
+var text = ((function (civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18413,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height){
 return (function (ctx,s,x,y){
 return app.helpers.draw_text(ctx,s,x,y,pattern_scale,pos_text_offset_x,pos_text_offset_y,pos_pattern_height);
-});})(civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18403,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height))
+});})(civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18413,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height))
 ;
-var text_num = ((function (civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18403,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text){
+var text_num = ((function (civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18413,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text){
 return (function (ctx,s,x,y){
 return text(ctx,app.helpers.num_pad(s),x,y);
-});})(civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18403,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text))
+});})(civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18413,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text))
 ;
-var text_accumulate_horiz = ((function (civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18403,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num){
+var text_accumulate_horiz = ((function (civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18413,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num){
 return (function (ctx,m,k,b,c,x_offset){
 return text_num(ctx,((((m * val_mandala_height) + (k * val_kusi_width)) + (b * val_border_height)) + (c * val_vertical_buffer_width)),(((((0.5 + x_offset) + (m * pos_mandala_width)) + (k * pos_kusi_width)) + (b * pos_border_width)) + (c * pos_vertical_buffer_width)),-2.0);
-});})(civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18403,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num))
+});})(civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18413,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num))
 ;
-var text_accumulate_vert = ((function (civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18403,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz){
+var text_accumulate_vert = ((function (civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18413,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz){
 return (function (ctx,m,k,b,c,y_offset){
 return text_num(ctx,((((m * val_mandala_width) + (k * val_kusi_width)) + (b * val_border_width)) + (c * val_buffer_width)),(1.0 + pos_pattern_width),(((((1.0 + y_offset) + (m * pos_mandala_height)) + (k * pos_kusi_width)) + (b * pos_border_width)) + (c * pos_buffer_width)));
-});})(civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18403,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz))
+});})(civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18413,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz))
 ;
-var vec__18406 = app.helpers.init_canvas(cljs.core.cst$kw$_SHARP_civara_DASH_panels_DASH_1_DASH_2_DASH_3_DASH_canvas,"img/civara-panels-1-2-3.svg");
-var canvas_panels_1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18406,(0),null);
-var img_1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18406,(1),null);
-app.canvas.add_entity(canvas_panels_1,cljs.core.cst$kw$background,app.canvas.entity(null,null,((function (civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18403,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz,text_accumulate_vert,vec__18406,canvas_panels_1,img_1){
+var vec__18416 = app.helpers.init_canvas(cljs.core.cst$kw$_SHARP_civara_DASH_panels_DASH_1_DASH_2_DASH_3_DASH_canvas,"img/civara-panels-1-2-3.svg");
+var canvas_panels_1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18416,(0),null);
+var img_1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18416,(1),null);
+app.canvas.add_entity(canvas_panels_1,cljs.core.cst$kw$background,app.canvas.entity(null,null,((function (civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18413,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz,text_accumulate_vert,vec__18416,canvas_panels_1,img_1){
 return (function (ctx,val){
 return text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_horiz(text_accumulate_horiz(text_accumulate_horiz(text_accumulate_horiz(text_accumulate_horiz(text_accumulate_horiz(text_accumulate_horiz(text_accumulate_horiz(text_accumulate_horiz(app.canvas.draw_image.cljs$core$IFn$_invoke$arity$3(ctx,img_1,new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$x,(pos_img_offset_x * pattern_scale),cljs.core.cst$kw$y,(pos_img_offset_y * pattern_scale),cljs.core.cst$kw$w,(pos_pattern_width * pattern_scale),cljs.core.cst$kw$h,(pos_pattern_height * pattern_scale)], null)),(0),(0),(0),(1),(0)),(0),(0),(1),(1),(0)),(1),(0),(1),(1),(0)),(1),(1),(1),(1),(0)),(2),(1),(1),(1),(0)),(2),(2),(1),(1),(0)),(3),(2),(1),(1),(0)),(3),(2),(2),(1),(0)),(3),(2),(2),(2),(0)),(0),(0),(0),(1),(0)),(0),(0),(1),(1),(0)),(1),(0),(1),(1),(0)),(1),(1),(1),(1),(0)),(2),(1),(1),(1),(0)),(2),(2),(1),(1),(0)),(3),(2),(1),(1),(0)),(3),(2),(1),(2),2.0);
-});})(civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18403,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz,text_accumulate_vert,vec__18406,canvas_panels_1,img_1))
+});})(civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18413,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz,text_accumulate_vert,vec__18416,canvas_panels_1,img_1))
 ));
 
 return app.canvas.draw_once(canvas_panels_1);
@@ -152,55 +152,55 @@ var pos_img_offset_y = (20);
 var pos_text_offset_x = (0.0 + pos_img_offset_x);
 var pos_text_offset_y = (0.0 + pos_img_offset_y);
 var pattern_scale = (12);
-var val_buffer_width = (function (){var G__18420 = cljs.core.cst$kw$buffer_DASH_width.cljs$core$IFn$_invoke$arity$1(civara);
-return Number(G__18420);
+var val_buffer_width = (function (){var G__18430 = cljs.core.cst$kw$buffer_DASH_width.cljs$core$IFn$_invoke$arity$1(civara);
+return Number(G__18430);
 })();
-var val_vertical_buffer_width = (function (){var G__18421 = cljs.core.cst$kw$vertical_DASH_buffer_DASH_width.cljs$core$IFn$_invoke$arity$1(civara);
-return Number(G__18421);
+var val_vertical_buffer_width = (function (){var G__18431 = cljs.core.cst$kw$vertical_DASH_buffer_DASH_width.cljs$core$IFn$_invoke$arity$1(civara);
+return Number(G__18431);
 })();
-var val_inner_width = (function (){var G__18422 = cljs.core.cst$kw$width.cljs$core$IFn$_invoke$arity$1(civara);
-return Number(G__18422);
+var val_inner_width = (function (){var G__18432 = cljs.core.cst$kw$width.cljs$core$IFn$_invoke$arity$1(civara);
+return Number(G__18432);
 })();
-var val_inner_height = (function (){var G__18423 = cljs.core.cst$kw$height.cljs$core$IFn$_invoke$arity$1(civara);
-return Number(G__18423);
+var val_inner_height = (function (){var G__18433 = cljs.core.cst$kw$height.cljs$core$IFn$_invoke$arity$1(civara);
+return Number(G__18433);
 })();
-var val_kusi_width = (function (){var G__18424 = cljs.core.cst$kw$kusi_DASH_width.cljs$core$IFn$_invoke$arity$1(civara);
-return Number(G__18424);
+var val_kusi_width = (function (){var G__18434 = cljs.core.cst$kw$kusi_DASH_width.cljs$core$IFn$_invoke$arity$1(civara);
+return Number(G__18434);
 })();
-var vec__18414 = app.helpers.calc_civara_shrinking_lengths(cljs.core.cst$kw$civara.cljs$core$IFn$_invoke$arity$1(cljs.core.deref(data)));
-var val_cut_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18414,(0),null);
-var val_cut_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18414,(1),null);
-var val_mandala_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18414,(2),null);
-var val_mandala_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18414,(3),null);
-var val_border_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18414,(4),null);
-var val_border_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18414,(5),null);
-var text = ((function (civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18414,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height){
+var vec__18424 = app.helpers.calc_civara_shrinking_lengths(cljs.core.cst$kw$civara.cljs$core$IFn$_invoke$arity$1(cljs.core.deref(data)));
+var val_cut_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18424,(0),null);
+var val_cut_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18424,(1),null);
+var val_mandala_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18424,(2),null);
+var val_mandala_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18424,(3),null);
+var val_border_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18424,(4),null);
+var val_border_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18424,(5),null);
+var text = ((function (civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18424,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height){
 return (function (ctx,s,x,y){
 return app.helpers.draw_text(ctx,s,x,y,pattern_scale,pos_text_offset_x,pos_text_offset_y,pos_pattern_height);
-});})(civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18414,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height))
+});})(civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18424,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height))
 ;
-var text_num = ((function (civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18414,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text){
+var text_num = ((function (civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18424,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text){
 return (function (ctx,s,x,y){
 return text(ctx,app.helpers.num_pad(s),x,y);
-});})(civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18414,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text))
+});})(civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18424,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text))
 ;
-var text_accumulate_horiz = ((function (civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18414,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num){
+var text_accumulate_horiz = ((function (civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18424,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num){
 return (function (ctx,m,k,b,c,x_offset){
 return text_num(ctx,((((m * val_mandala_height) + (k * val_kusi_width)) + (b * val_border_height)) + (c * val_vertical_buffer_width)),(((((0.5 + x_offset) + (m * pos_mandala_width)) + (k * pos_kusi_width)) + (b * pos_border_width)) + (c * pos_vertical_buffer_width)),0.0);
-});})(civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18414,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num))
+});})(civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18424,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num))
 ;
-var text_accumulate_vert = ((function (civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18414,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz){
+var text_accumulate_vert = ((function (civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18424,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz){
 return (function (ctx,m,k,b,c,y_offset){
 return text_num(ctx,((((m * val_mandala_width) + (k * val_kusi_width)) + (b * val_border_width)) + (c * val_buffer_width)),(1.0 + pos_pattern_width),(((((3.0 + y_offset) + (m * pos_mandala_height)) + (k * pos_kusi_width)) + (b * pos_border_width)) + (c * pos_buffer_width)));
-});})(civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18414,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz))
+});})(civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18424,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz))
 ;
-var vec__18417 = app.helpers.init_canvas(cljs.core.cst$kw$_SHARP_civara_DASH_panels_DASH_4_DASH_5_DASH_6_DASH_canvas,"img/civara-panels-4-5-6.svg");
-var canvas_panels_4 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18417,(0),null);
-var img_4 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18417,(1),null);
-app.canvas.add_entity(canvas_panels_4,cljs.core.cst$kw$background,app.canvas.entity(null,null,((function (civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18414,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz,text_accumulate_vert,vec__18417,canvas_panels_4,img_4){
+var vec__18427 = app.helpers.init_canvas(cljs.core.cst$kw$_SHARP_civara_DASH_panels_DASH_4_DASH_5_DASH_6_DASH_canvas,"img/civara-panels-4-5-6.svg");
+var canvas_panels_4 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18427,(0),null);
+var img_4 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18427,(1),null);
+app.canvas.add_entity(canvas_panels_4,cljs.core.cst$kw$background,app.canvas.entity(null,null,((function (civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18424,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz,text_accumulate_vert,vec__18427,canvas_panels_4,img_4){
 return (function (ctx,val){
 return text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_horiz(text_accumulate_horiz(text_accumulate_horiz(text_accumulate_horiz(text_accumulate_horiz(text_accumulate_horiz(text_accumulate_horiz(text_accumulate_horiz(text_accumulate_horiz(app.canvas.draw_image.cljs$core$IFn$_invoke$arity$3(ctx,img_4,new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$x,(pos_img_offset_x * pattern_scale),cljs.core.cst$kw$y,(pos_img_offset_y * pattern_scale),cljs.core.cst$kw$w,(pos_pattern_width * pattern_scale),cljs.core.cst$kw$h,(pos_pattern_height * pattern_scale)], null)),(0),(0),(0),(1),(0)),(0),(0),(1),(1),(0)),(1),(0),(1),(1),(0)),(1),(1),(1),(1),(0)),(2),(1),(1),(1),(0)),(2),(2),(1),(1),(0)),(3),(2),(1),(1),(0)),(3),(2),(2),(1),(0)),(3),(2),(2),(2),(0)),(0),(0),(0),(1),(0)),(0),(1),(0),(1),(0)),(1),(1),(0),(1),(0)),(1),(2),(0),(1),(0)),(2),(2),(0),(1),(0)),(2),(3),(0),(1),(0)),(3),(3),(0),(1),(0)),(3),(4),(0),(1),(0)),(3),(4),(0),(2),2.0);
-});})(civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18414,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz,text_accumulate_vert,vec__18417,canvas_panels_4,img_4))
+});})(civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18424,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz,text_accumulate_vert,vec__18427,canvas_panels_4,img_4))
 ));
 
 return app.canvas.draw_once(canvas_panels_4);
@@ -220,55 +220,55 @@ var pos_img_offset_y = (20);
 var pos_text_offset_x = (0.0 + pos_img_offset_x);
 var pos_text_offset_y = (0.0 + pos_img_offset_y);
 var pattern_scale = (12);
-var val_buffer_width = (function (){var G__18431 = cljs.core.cst$kw$buffer_DASH_width.cljs$core$IFn$_invoke$arity$1(civara);
-return Number(G__18431);
+var val_buffer_width = (function (){var G__18441 = cljs.core.cst$kw$buffer_DASH_width.cljs$core$IFn$_invoke$arity$1(civara);
+return Number(G__18441);
 })();
-var val_vertical_buffer_width = (function (){var G__18432 = cljs.core.cst$kw$vertical_DASH_buffer_DASH_width.cljs$core$IFn$_invoke$arity$1(civara);
-return Number(G__18432);
+var val_vertical_buffer_width = (function (){var G__18442 = cljs.core.cst$kw$vertical_DASH_buffer_DASH_width.cljs$core$IFn$_invoke$arity$1(civara);
+return Number(G__18442);
 })();
-var val_inner_width = (function (){var G__18433 = cljs.core.cst$kw$width.cljs$core$IFn$_invoke$arity$1(civara);
-return Number(G__18433);
+var val_inner_width = (function (){var G__18443 = cljs.core.cst$kw$width.cljs$core$IFn$_invoke$arity$1(civara);
+return Number(G__18443);
 })();
-var val_inner_height = (function (){var G__18434 = cljs.core.cst$kw$height.cljs$core$IFn$_invoke$arity$1(civara);
-return Number(G__18434);
+var val_inner_height = (function (){var G__18444 = cljs.core.cst$kw$height.cljs$core$IFn$_invoke$arity$1(civara);
+return Number(G__18444);
 })();
-var val_kusi_width = (function (){var G__18435 = cljs.core.cst$kw$kusi_DASH_width.cljs$core$IFn$_invoke$arity$1(civara);
-return Number(G__18435);
+var val_kusi_width = (function (){var G__18445 = cljs.core.cst$kw$kusi_DASH_width.cljs$core$IFn$_invoke$arity$1(civara);
+return Number(G__18445);
 })();
-var vec__18425 = app.helpers.calc_civara_shrinking_lengths(cljs.core.cst$kw$civara.cljs$core$IFn$_invoke$arity$1(cljs.core.deref(data)));
-var val_cut_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18425,(0),null);
-var val_cut_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18425,(1),null);
-var val_mandala_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18425,(2),null);
-var val_mandala_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18425,(3),null);
-var val_border_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18425,(4),null);
-var val_border_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18425,(5),null);
-var text = ((function (civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18425,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height){
+var vec__18435 = app.helpers.calc_civara_shrinking_lengths(cljs.core.cst$kw$civara.cljs$core$IFn$_invoke$arity$1(cljs.core.deref(data)));
+var val_cut_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18435,(0),null);
+var val_cut_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18435,(1),null);
+var val_mandala_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18435,(2),null);
+var val_mandala_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18435,(3),null);
+var val_border_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18435,(4),null);
+var val_border_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18435,(5),null);
+var text = ((function (civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18435,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height){
 return (function (ctx,s,x,y){
 return app.helpers.draw_text(ctx,s,x,y,pattern_scale,pos_text_offset_x,pos_text_offset_y,pos_pattern_height);
-});})(civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18425,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height))
+});})(civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18435,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height))
 ;
-var text_num = ((function (civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18425,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text){
+var text_num = ((function (civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18435,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text){
 return (function (ctx,s,x,y){
 return text(ctx,app.helpers.num_pad(s),x,y);
-});})(civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18425,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text))
+});})(civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18435,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text))
 ;
-var text_accumulate_horiz = ((function (civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18425,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num){
+var text_accumulate_horiz = ((function (civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18435,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num){
 return (function (ctx,m,k,b,c,x_offset){
 return text_num(ctx,((((m * val_mandala_height) + (k * val_kusi_width)) + (b * val_border_height)) + (c * val_vertical_buffer_width)),(((((0.5 + x_offset) + (m * pos_mandala_width)) + (k * pos_kusi_width)) + (b * pos_border_width)) + (c * pos_vertical_buffer_width)),-2.0);
-});})(civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18425,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num))
+});})(civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18435,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num))
 ;
-var text_accumulate_vert = ((function (civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18425,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz){
+var text_accumulate_vert = ((function (civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18435,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz){
 return (function (ctx,m,k,b,c,y_offset){
 return text_num(ctx,((((m * val_mandala_width) + (k * val_kusi_width)) + (b * val_border_width)) + (c * val_buffer_width)),(1.0 + pos_pattern_width),(((((1.0 + y_offset) + (m * pos_mandala_height)) + (k * pos_kusi_width)) + (b * pos_border_width)) + (c * pos_buffer_width)));
-});})(civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18425,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz))
+});})(civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18435,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz))
 ;
-var vec__18428 = app.helpers.init_canvas(cljs.core.cst$kw$_SHARP_civara_DASH_panels_DASH_7_DASH_8_DASH_9_DASH_canvas,"img/civara-panels-7-8-9.svg");
-var canvas_panels_7 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18428,(0),null);
-var img_7 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18428,(1),null);
-app.canvas.add_entity(canvas_panels_7,cljs.core.cst$kw$background,app.canvas.entity(null,null,((function (civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18425,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz,text_accumulate_vert,vec__18428,canvas_panels_7,img_7){
+var vec__18438 = app.helpers.init_canvas(cljs.core.cst$kw$_SHARP_civara_DASH_panels_DASH_7_DASH_8_DASH_9_DASH_canvas,"img/civara-panels-7-8-9.svg");
+var canvas_panels_7 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18438,(0),null);
+var img_7 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18438,(1),null);
+app.canvas.add_entity(canvas_panels_7,cljs.core.cst$kw$background,app.canvas.entity(null,null,((function (civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18435,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz,text_accumulate_vert,vec__18438,canvas_panels_7,img_7){
 return (function (ctx,val){
 return text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_horiz(text_accumulate_horiz(text_accumulate_horiz(text_accumulate_horiz(text_accumulate_horiz(text_accumulate_horiz(text_accumulate_horiz(text_accumulate_horiz(text_accumulate_horiz(app.canvas.draw_image.cljs$core$IFn$_invoke$arity$3(ctx,img_7,new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$x,(pos_img_offset_x * pattern_scale),cljs.core.cst$kw$y,(pos_img_offset_y * pattern_scale),cljs.core.cst$kw$w,(pos_pattern_width * pattern_scale),cljs.core.cst$kw$h,(pos_pattern_height * pattern_scale)], null)),(0),(0),(0),(1),(0)),(0),(0),(1),(1),(0)),(1),(0),(1),(1),(0)),(1),(1),(1),(1),(0)),(2),(1),(1),(1),(0)),(2),(2),(1),(1),(0)),(3),(2),(1),(1),(0)),(3),(2),(2),(1),(0)),(3),(2),(2),(2),(0)),(0),(0),(0),(1),(0)),(0),(0),(1),(1),(0)),(1),(0),(1),(1),(0)),(1),(1),(1),(1),(0)),(2),(1),(1),(1),(0)),(2),(2),(1),(1),(0)),(3),(2),(1),(1),(0)),(3),(2),(1),(2),2.0);
-});})(civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18425,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz,text_accumulate_vert,vec__18428,canvas_panels_7,img_7))
+});})(civara,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18435,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz,text_accumulate_vert,vec__18438,canvas_panels_7,img_7))
 ));
 
 return app.canvas.draw_once(canvas_panels_7);
