@@ -48,7 +48,7 @@
                        :sanghati "สังฆาฏิ"
                        :borders "อนุวาต"
                        :tools "อุปกรณ์ที่ใช้"
-                       :dyeing "Dyeing"
+                       :dyeing "การย้อม"
                        :pattern "แบบในการขีด"
                        :notes "ข้อควรสังเกต"
                        :download-pdf "ดาวน์โหลด PDF"
