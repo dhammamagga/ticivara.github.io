@@ -1,3 +1,0 @@
-# Dyeing Robe Fabric
-
-TODO
