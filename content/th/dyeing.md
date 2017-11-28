@@ -13,12 +13,12 @@
 (4) ภาชนะสำหรับย้อม เช่นกาละมัง ในที่นี้ใช้รางไม้ขุด
 
 <figure>
-  <img src="/img/dyeing/photo/th-dyeing-equipement01.jpg" title="รางย้อมผ้า" alt="Dyeing bowl" width="500">
+  <img src="/img/dyeing/photo/th-dyeing-equipment01.jpg" title="รางย้อมผ้า" alt="Dyeing bowl" width="500">
   <figcaption>รางย้อมผ้าและอุปกรณ์ที่ใช้ในการย้อม</figcaption>
 </figure>
 
 <figure>
-  <img src="/img/dyeing/photos/th-dyeing-eguipement02.jpg" title="อุปกรณ์ต่าง ๆ" alt="Dyeing tools" width="500">
+  <img src="/img/dyeing/photos/th-dyeing-equipment02.jpg" title="อุปกรณ์ต่าง ๆ" alt="Dyeing tools" width="500">
   <figcaption>อุปกรณ์การต้มน้ำย้อมผ้า ที่พอหาได้</figcaption>
 </figure>
  
