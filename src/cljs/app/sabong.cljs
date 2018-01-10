@@ -127,11 +127,11 @@
 
             (text (str "Final Width: " (h/num-pad val-inner-width)
                        ", Final Height: " (h/num-pad val-inner-height))
-                  50.0 -8.0)
+                  0 -15.0)
 
             (text (str "Cut Width: " (h/num-pad val-cut-width)
                        ", Cut Height: " (h/num-pad val-cut-height))
-                  50.0 -11.0)
+                  0 -18.0)
 
             (text (str "a, border width: " (h/num-pad val-border-width))
                   100.0 -8.0)
