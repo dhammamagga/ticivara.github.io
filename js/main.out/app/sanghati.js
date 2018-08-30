@@ -21,50 +21,50 @@ var pos_img_offset_y = (10);
 var pos_text_offset_x = (0.0 + pos_img_offset_x);
 var pos_text_offset_y = (0.0 + pos_img_offset_y);
 var pattern_scale = (12);
-var val_buffer_width = (function (){var G__18454 = cljs.core.cst$kw$buffer_DASH_width.cljs$core$IFn$_invoke$arity$1(sanghati);
-return Number(G__18454);
+var val_buffer_width = (function (){var G__18761 = cljs.core.cst$kw$buffer_DASH_width.cljs$core$IFn$_invoke$arity$1(sanghati);
+return Number(G__18761);
 })();
-var val_vertical_buffer_width = (function (){var G__18455 = cljs.core.cst$kw$vertical_DASH_buffer_DASH_width.cljs$core$IFn$_invoke$arity$1(sanghati);
-return Number(G__18455);
+var val_vertical_buffer_width = (function (){var G__18762 = cljs.core.cst$kw$vertical_DASH_buffer_DASH_width.cljs$core$IFn$_invoke$arity$1(sanghati);
+return Number(G__18762);
 })();
-var val_inner_width = (function (){var G__18456 = cljs.core.cst$kw$width.cljs$core$IFn$_invoke$arity$1(sanghati);
-return Number(G__18456);
+var val_inner_width = (function (){var G__18763 = cljs.core.cst$kw$width.cljs$core$IFn$_invoke$arity$1(sanghati);
+return Number(G__18763);
 })();
-var val_inner_height = (function (){var G__18457 = cljs.core.cst$kw$height.cljs$core$IFn$_invoke$arity$1(sanghati);
-return Number(G__18457);
+var val_inner_height = (function (){var G__18764 = cljs.core.cst$kw$height.cljs$core$IFn$_invoke$arity$1(sanghati);
+return Number(G__18764);
 })();
-var val_kusi_width = (function (){var G__18458 = cljs.core.cst$kw$kusi_DASH_width.cljs$core$IFn$_invoke$arity$1(sanghati);
-return Number(G__18458);
+var val_kusi_width = (function (){var G__18765 = cljs.core.cst$kw$kusi_DASH_width.cljs$core$IFn$_invoke$arity$1(sanghati);
+return Number(G__18765);
 })();
-var vec__18448 = app.helpers.calc_sanghati_shrinking_lengths(cljs.core.cst$kw$sanghati.cljs$core$IFn$_invoke$arity$1(cljs.core.deref(data)));
-var val_cut_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18448,(0),null);
-var val_cut_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18448,(1),null);
-var val_mandala_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18448,(2),null);
-var val_mandala_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18448,(3),null);
-var val_border_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18448,(4),null);
-var val_border_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18448,(5),null);
-var text = ((function (sanghati,title,pos_pattern_width,pos_pattern_height,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18448,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height){
+var vec__18755 = app.helpers.calc_sanghati_shrinking_lengths(cljs.core.cst$kw$sanghati.cljs$core$IFn$_invoke$arity$1(cljs.core.deref(data)));
+var val_cut_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18755,(0),null);
+var val_cut_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18755,(1),null);
+var val_mandala_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18755,(2),null);
+var val_mandala_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18755,(3),null);
+var val_border_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18755,(4),null);
+var val_border_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18755,(5),null);
+var text = ((function (sanghati,title,pos_pattern_width,pos_pattern_height,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18755,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height){
 return (function (ctx,s,x,y){
 return app.helpers.draw_text(ctx,s,x,y,pattern_scale,pos_text_offset_x,pos_text_offset_y,pos_pattern_height);
-});})(sanghati,title,pos_pattern_width,pos_pattern_height,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18448,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height))
+});})(sanghati,title,pos_pattern_width,pos_pattern_height,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18755,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height))
 ;
-var text_title = ((function (sanghati,title,pos_pattern_width,pos_pattern_height,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18448,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text){
+var text_title = ((function (sanghati,title,pos_pattern_width,pos_pattern_height,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18755,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text){
 return (function (ctx,s,size,x,y){
 return app.helpers.draw_text_title(ctx,s,size,x,y,pattern_scale,pos_text_offset_x,pos_text_offset_y,pos_pattern_height);
-});})(sanghati,title,pos_pattern_width,pos_pattern_height,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18448,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text))
+});})(sanghati,title,pos_pattern_width,pos_pattern_height,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18755,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text))
 ;
-var text_num = ((function (sanghati,title,pos_pattern_width,pos_pattern_height,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18448,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_title){
+var text_num = ((function (sanghati,title,pos_pattern_width,pos_pattern_height,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18755,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_title){
 return (function (ctx,s,x,y){
 return text(ctx,app.helpers.num_pad(s),x,y);
-});})(sanghati,title,pos_pattern_width,pos_pattern_height,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18448,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_title))
+});})(sanghati,title,pos_pattern_width,pos_pattern_height,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18755,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_title))
 ;
-var vec__18451 = app.helpers.init_canvas(cljs.core.cst$kw$_SHARP_sanghati_DASH_guide_DASH_canvas,"img/sanghati-guide.svg");
-var canvas_guide = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18451,(0),null);
-var img_guide = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18451,(1),null);
-app.canvas.add_entity(canvas_guide,cljs.core.cst$kw$background,app.canvas.entity(null,null,((function (sanghati,title,pos_pattern_width,pos_pattern_height,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18448,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_title,text_num,vec__18451,canvas_guide,img_guide){
+var vec__18758 = app.helpers.init_canvas(cljs.core.cst$kw$_SHARP_sanghati_DASH_guide_DASH_canvas,"img/sanghati-guide.svg");
+var canvas_guide = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18758,(0),null);
+var img_guide = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18758,(1),null);
+app.canvas.add_entity(canvas_guide,cljs.core.cst$kw$background,app.canvas.entity(null,null,((function (sanghati,title,pos_pattern_width,pos_pattern_height,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18755,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_title,text_num,vec__18758,canvas_guide,img_guide){
 return (function (ctx,val){
 return text_num(text_num(text_num(text_num(text_num(text_num(text_num(text(text(text(text(text(text(text(text(text(text(text(text_title(app.canvas.draw_image.cljs$core$IFn$_invoke$arity$3(ctx,img_guide,new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$x,(pos_img_offset_x * pattern_scale),cljs.core.cst$kw$y,(pos_img_offset_y * pattern_scale),cljs.core.cst$kw$w,(pos_pattern_width * pattern_scale),cljs.core.cst$kw$h,(pos_pattern_height * pattern_scale)], null)),title,"120px",-0.5,(168)),["Final width: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(app.helpers.num_pad(val_inner_width))].join(''),(5),(140)),["Final height: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(app.helpers.num_pad(val_inner_height))].join(''),(5),(136)),["Cut width: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(app.helpers.num_pad(val_cut_width))].join(''),(5),(132)),["Cut height: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(app.helpers.num_pad(val_cut_height))].join(''),(5),(128)),["a, border width: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(app.helpers.num_pad(val_border_width))].join(''),(5),(122)),["b, border height: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(app.helpers.num_pad(val_border_height))].join(''),(5),(118)),["cutting buffer: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(app.helpers.num_pad(val_buffer_width))].join(''),(5),(114)),["vertical cutting buffer: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(app.helpers.num_pad(val_vertical_buffer_width))].join(''),(5),(110)),["k, kusi width: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(app.helpers.num_pad(val_kusi_width))].join(''),(5),(106)),["m, mandala width: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(app.helpers.num_pad(val_mandala_width))].join(''),(5),(102)),["d, mandala height: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(app.helpers.num_pad(val_mandala_height))].join(''),(5),(98)),val_cut_width,(245),(164)),val_cut_height,(255),(155)),val_border_width,104.5,(82)),val_border_height,(112),74.2),val_kusi_width,(122),74.2),val_mandala_width,(130),(82)),val_mandala_height,(130),(89));
-});})(sanghati,title,pos_pattern_width,pos_pattern_height,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18448,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_title,text_num,vec__18451,canvas_guide,img_guide))
+});})(sanghati,title,pos_pattern_width,pos_pattern_height,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18755,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_title,text_num,vec__18758,canvas_guide,img_guide))
 ));
 
 return app.canvas.draw_once(canvas_guide);
@@ -84,55 +84,55 @@ var pos_img_offset_y = (20);
 var pos_text_offset_x = (5.0 + pos_img_offset_x);
 var pos_text_offset_y = (0.0 + pos_img_offset_y);
 var pattern_scale = (12);
-var val_buffer_width = (function (){var G__18465 = cljs.core.cst$kw$buffer_DASH_width.cljs$core$IFn$_invoke$arity$1(sanghati);
-return Number(G__18465);
+var val_buffer_width = (function (){var G__18772 = cljs.core.cst$kw$buffer_DASH_width.cljs$core$IFn$_invoke$arity$1(sanghati);
+return Number(G__18772);
 })();
-var val_vertical_buffer_width = (function (){var G__18466 = cljs.core.cst$kw$vertical_DASH_buffer_DASH_width.cljs$core$IFn$_invoke$arity$1(sanghati);
-return Number(G__18466);
+var val_vertical_buffer_width = (function (){var G__18773 = cljs.core.cst$kw$vertical_DASH_buffer_DASH_width.cljs$core$IFn$_invoke$arity$1(sanghati);
+return Number(G__18773);
 })();
-var val_inner_width = (function (){var G__18467 = cljs.core.cst$kw$width.cljs$core$IFn$_invoke$arity$1(sanghati);
-return Number(G__18467);
+var val_inner_width = (function (){var G__18774 = cljs.core.cst$kw$width.cljs$core$IFn$_invoke$arity$1(sanghati);
+return Number(G__18774);
 })();
-var val_inner_height = (function (){var G__18468 = cljs.core.cst$kw$height.cljs$core$IFn$_invoke$arity$1(sanghati);
-return Number(G__18468);
+var val_inner_height = (function (){var G__18775 = cljs.core.cst$kw$height.cljs$core$IFn$_invoke$arity$1(sanghati);
+return Number(G__18775);
 })();
-var val_kusi_width = (function (){var G__18469 = cljs.core.cst$kw$kusi_DASH_width.cljs$core$IFn$_invoke$arity$1(sanghati);
-return Number(G__18469);
+var val_kusi_width = (function (){var G__18776 = cljs.core.cst$kw$kusi_DASH_width.cljs$core$IFn$_invoke$arity$1(sanghati);
+return Number(G__18776);
 })();
-var vec__18459 = app.helpers.calc_sanghati_shrinking_lengths(cljs.core.cst$kw$sanghati.cljs$core$IFn$_invoke$arity$1(cljs.core.deref(data)));
-var val_cut_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18459,(0),null);
-var val_cut_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18459,(1),null);
-var val_mandala_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18459,(2),null);
-var val_mandala_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18459,(3),null);
-var val_border_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18459,(4),null);
-var val_border_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18459,(5),null);
-var text = ((function (sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18459,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height){
+var vec__18766 = app.helpers.calc_sanghati_shrinking_lengths(cljs.core.cst$kw$sanghati.cljs$core$IFn$_invoke$arity$1(cljs.core.deref(data)));
+var val_cut_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18766,(0),null);
+var val_cut_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18766,(1),null);
+var val_mandala_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18766,(2),null);
+var val_mandala_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18766,(3),null);
+var val_border_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18766,(4),null);
+var val_border_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18766,(5),null);
+var text = ((function (sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18766,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height){
 return (function (ctx,s,x,y){
 return app.helpers.draw_text(ctx,s,x,y,pattern_scale,pos_text_offset_x,pos_text_offset_y,pos_pattern_height);
-});})(sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18459,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height))
+});})(sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18766,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height))
 ;
-var text_num = ((function (sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18459,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text){
+var text_num = ((function (sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18766,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text){
 return (function (ctx,s,x,y){
 return text(ctx,app.helpers.num_pad(s),x,y);
-});})(sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18459,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text))
+});})(sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18766,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text))
 ;
-var text_accumulate_horiz = ((function (sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18459,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num){
+var text_accumulate_horiz = ((function (sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18766,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num){
 return (function (ctx,m,k,b,c,x_offset){
 return text_num(ctx,((((m * val_mandala_height) + (k * val_kusi_width)) + (b * val_border_height)) + (c * val_vertical_buffer_width)),(((((0.5 + x_offset) + (m * pos_mandala_width)) + (k * pos_kusi_width)) + (b * pos_border_width)) + (c * pos_vertical_buffer_width)),-2.0);
-});})(sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18459,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num))
+});})(sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18766,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num))
 ;
-var text_accumulate_vert = ((function (sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18459,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz){
+var text_accumulate_vert = ((function (sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18766,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz){
 return (function (ctx,m,k,b,c,y_offset){
 return text_num(ctx,((((m * val_mandala_width) + (k * val_kusi_width)) + (b * val_border_width)) + (c * val_buffer_width)),(-9.0 + pos_pattern_width),(((((1.0 + y_offset) + (m * pos_mandala_height)) + (k * pos_kusi_width)) + (b * pos_border_width)) + (c * pos_buffer_width)));
-});})(sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18459,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz))
+});})(sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18766,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz))
 ;
-var vec__18462 = app.helpers.init_canvas(cljs.core.cst$kw$_SHARP_sanghati_DASH_panels_DASH_1_DASH_2_DASH_3_DASH_canvas,"img/sanghati-panels-1-2-3.svg");
-var canvas_panels_1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18462,(0),null);
-var img_1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18462,(1),null);
-app.canvas.add_entity(canvas_panels_1,cljs.core.cst$kw$background,app.canvas.entity(null,null,((function (sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18459,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz,text_accumulate_vert,vec__18462,canvas_panels_1,img_1){
+var vec__18769 = app.helpers.init_canvas(cljs.core.cst$kw$_SHARP_sanghati_DASH_panels_DASH_1_DASH_2_DASH_3_DASH_canvas,"img/sanghati-panels-1-2-3.svg");
+var canvas_panels_1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18769,(0),null);
+var img_1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18769,(1),null);
+app.canvas.add_entity(canvas_panels_1,cljs.core.cst$kw$background,app.canvas.entity(null,null,((function (sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18766,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz,text_accumulate_vert,vec__18769,canvas_panels_1,img_1){
 return (function (ctx,val){
 return text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_horiz(text_accumulate_horiz(text_accumulate_horiz(text_accumulate_horiz(text_accumulate_horiz(text_accumulate_horiz(text_accumulate_horiz(text_accumulate_horiz(text_accumulate_horiz(app.canvas.draw_image.cljs$core$IFn$_invoke$arity$3(ctx,img_1,new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$x,(pos_img_offset_x * pattern_scale),cljs.core.cst$kw$y,(pos_img_offset_y * pattern_scale),cljs.core.cst$kw$w,(pos_pattern_width * pattern_scale),cljs.core.cst$kw$h,(pos_pattern_height * pattern_scale)], null)),(0),(0),(0),(1),(0)),(0),(0),(1),(1),(0)),(1),(0),(1),(1),(0)),(1),(1),(1),(1),(0)),(2),(1),(1),(1),(0)),(2),(2),(1),(1),(0)),(3),(2),(1),(1),(0)),(3),(2),(2),(1),(0)),(3),(2),(2),(2),(0)),(0),(0),(0),(1),(0)),(0),(0),(1),(1),(0)),(1),(0),(1),(1),(-1)),(1),(0),(1),(3),(0)),(1),(1),(1),(3),(0)),(2),(1),(1),(3),(-1)),(2),(1),(1),(5),(0)),(2),(2),(1),(5),(0)),(3),(2),(1),(5),(0)),(3),(2),(1),(6),2.0);
-});})(sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18459,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz,text_accumulate_vert,vec__18462,canvas_panels_1,img_1))
+});})(sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18766,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz,text_accumulate_vert,vec__18769,canvas_panels_1,img_1))
 ));
 
 return app.canvas.draw_once(canvas_panels_1);
@@ -152,55 +152,55 @@ var pos_img_offset_y = (20);
 var pos_text_offset_x = (5.0 + pos_img_offset_x);
 var pos_text_offset_y = (0.0 + pos_img_offset_y);
 var pattern_scale = (12);
-var val_buffer_width = (function (){var G__18476 = cljs.core.cst$kw$buffer_DASH_width.cljs$core$IFn$_invoke$arity$1(sanghati);
-return Number(G__18476);
+var val_buffer_width = (function (){var G__18783 = cljs.core.cst$kw$buffer_DASH_width.cljs$core$IFn$_invoke$arity$1(sanghati);
+return Number(G__18783);
 })();
-var val_vertical_buffer_width = (function (){var G__18477 = cljs.core.cst$kw$vertical_DASH_buffer_DASH_width.cljs$core$IFn$_invoke$arity$1(sanghati);
-return Number(G__18477);
+var val_vertical_buffer_width = (function (){var G__18784 = cljs.core.cst$kw$vertical_DASH_buffer_DASH_width.cljs$core$IFn$_invoke$arity$1(sanghati);
+return Number(G__18784);
 })();
-var val_inner_width = (function (){var G__18478 = cljs.core.cst$kw$width.cljs$core$IFn$_invoke$arity$1(sanghati);
-return Number(G__18478);
+var val_inner_width = (function (){var G__18785 = cljs.core.cst$kw$width.cljs$core$IFn$_invoke$arity$1(sanghati);
+return Number(G__18785);
 })();
-var val_inner_height = (function (){var G__18479 = cljs.core.cst$kw$height.cljs$core$IFn$_invoke$arity$1(sanghati);
-return Number(G__18479);
+var val_inner_height = (function (){var G__18786 = cljs.core.cst$kw$height.cljs$core$IFn$_invoke$arity$1(sanghati);
+return Number(G__18786);
 })();
-var val_kusi_width = (function (){var G__18480 = cljs.core.cst$kw$kusi_DASH_width.cljs$core$IFn$_invoke$arity$1(sanghati);
-return Number(G__18480);
+var val_kusi_width = (function (){var G__18787 = cljs.core.cst$kw$kusi_DASH_width.cljs$core$IFn$_invoke$arity$1(sanghati);
+return Number(G__18787);
 })();
-var vec__18470 = app.helpers.calc_sanghati_shrinking_lengths(cljs.core.cst$kw$sanghati.cljs$core$IFn$_invoke$arity$1(cljs.core.deref(data)));
-var val_cut_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18470,(0),null);
-var val_cut_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18470,(1),null);
-var val_mandala_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18470,(2),null);
-var val_mandala_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18470,(3),null);
-var val_border_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18470,(4),null);
-var val_border_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18470,(5),null);
-var text = ((function (sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18470,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height){
+var vec__18777 = app.helpers.calc_sanghati_shrinking_lengths(cljs.core.cst$kw$sanghati.cljs$core$IFn$_invoke$arity$1(cljs.core.deref(data)));
+var val_cut_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18777,(0),null);
+var val_cut_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18777,(1),null);
+var val_mandala_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18777,(2),null);
+var val_mandala_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18777,(3),null);
+var val_border_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18777,(4),null);
+var val_border_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18777,(5),null);
+var text = ((function (sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18777,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height){
 return (function (ctx,s,x,y){
 return app.helpers.draw_text(ctx,s,x,y,pattern_scale,pos_text_offset_x,pos_text_offset_y,pos_pattern_height);
-});})(sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18470,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height))
+});})(sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18777,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height))
 ;
-var text_num = ((function (sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18470,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text){
+var text_num = ((function (sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18777,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text){
 return (function (ctx,s,x,y){
 return text(ctx,app.helpers.num_pad(s),x,y);
-});})(sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18470,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text))
+});})(sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18777,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text))
 ;
-var text_accumulate_horiz = ((function (sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18470,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num){
+var text_accumulate_horiz = ((function (sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18777,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num){
 return (function (ctx,m,k,b,c,x_offset){
 return text_num(ctx,((((m * val_mandala_height) + (k * val_kusi_width)) + (b * val_border_height)) + (c * val_vertical_buffer_width)),(((((0.5 + x_offset) + (m * pos_mandala_width)) + (k * pos_kusi_width)) + (b * pos_border_width)) + (c * pos_vertical_buffer_width)),-2.0);
-});})(sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18470,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num))
+});})(sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18777,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num))
 ;
-var text_accumulate_vert = ((function (sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18470,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz){
+var text_accumulate_vert = ((function (sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18777,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz){
 return (function (ctx,m,k,b,c,y_offset){
 return text_num(ctx,((((m * val_mandala_width) + (k * val_kusi_width)) + (b * val_border_width)) + (c * val_buffer_width)),(-9.0 + pos_pattern_width),(((((1.0 + y_offset) + (m * pos_mandala_height)) + (k * pos_kusi_width)) + (b * pos_border_width)) + (c * pos_buffer_width)));
-});})(sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18470,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz))
+});})(sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18777,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz))
 ;
-var vec__18473 = app.helpers.init_canvas(cljs.core.cst$kw$_SHARP_sanghati_DASH_panels_DASH_4_DASH_5_DASH_6_DASH_canvas,"img/sanghati-panels-4-5-6.svg");
-var canvas_panels_4 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18473,(0),null);
-var img_4 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18473,(1),null);
-app.canvas.add_entity(canvas_panels_4,cljs.core.cst$kw$background,app.canvas.entity(null,null,((function (sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18470,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz,text_accumulate_vert,vec__18473,canvas_panels_4,img_4){
+var vec__18780 = app.helpers.init_canvas(cljs.core.cst$kw$_SHARP_sanghati_DASH_panels_DASH_4_DASH_5_DASH_6_DASH_canvas,"img/sanghati-panels-4-5-6.svg");
+var canvas_panels_4 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18780,(0),null);
+var img_4 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18780,(1),null);
+app.canvas.add_entity(canvas_panels_4,cljs.core.cst$kw$background,app.canvas.entity(null,null,((function (sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18777,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz,text_accumulate_vert,vec__18780,canvas_panels_4,img_4){
 return (function (ctx,val){
 return text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_horiz(text_accumulate_horiz(text_accumulate_horiz(text_accumulate_horiz(text_accumulate_horiz(text_accumulate_horiz(text_accumulate_horiz(text_accumulate_horiz(text_accumulate_horiz(app.canvas.draw_image.cljs$core$IFn$_invoke$arity$3(ctx,img_4,new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$x,(pos_img_offset_x * pattern_scale),cljs.core.cst$kw$y,(pos_img_offset_y * pattern_scale),cljs.core.cst$kw$w,(pos_pattern_width * pattern_scale),cljs.core.cst$kw$h,(pos_pattern_height * pattern_scale)], null)),(0),(0),(0),(1),(0)),(0),(0),(1),(1),(0)),(1),(0),(1),(1),(0)),(1),(1),(1),(1),(0)),(2),(1),(1),(1),(0)),(2),(2),(1),(1),(0)),(3),(2),(1),(1),(0)),(3),(2),(2),(1),(0)),(3),(2),(2),(2),(0)),(0),(0),(0),(1),(0)),(0),(1),(0),(1),(0)),(1),(1),(0),(1),(-2)),(1),(1),(0),(3),(0)),(1),(2),(0),(3),(0)),(2),(2),(0),(3),(0)),(2),(3),(0),(3),(-2)),(2),(3),(0),(5),(0)),(3),(3),(0),(5),(0)),(3),(4),(0),(5),(0)),(3),(4),(0),(6),2.0);
-});})(sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18470,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz,text_accumulate_vert,vec__18473,canvas_panels_4,img_4))
+});})(sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18777,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz,text_accumulate_vert,vec__18780,canvas_panels_4,img_4))
 ));
 
 return app.canvas.draw_once(canvas_panels_4);
@@ -220,55 +220,55 @@ var pos_img_offset_y = (20);
 var pos_text_offset_x = (5.0 + pos_img_offset_x);
 var pos_text_offset_y = (0.0 + pos_img_offset_y);
 var pattern_scale = (12);
-var val_buffer_width = (function (){var G__18487 = cljs.core.cst$kw$buffer_DASH_width.cljs$core$IFn$_invoke$arity$1(sanghati);
-return Number(G__18487);
+var val_buffer_width = (function (){var G__18794 = cljs.core.cst$kw$buffer_DASH_width.cljs$core$IFn$_invoke$arity$1(sanghati);
+return Number(G__18794);
 })();
-var val_vertical_buffer_width = (function (){var G__18488 = cljs.core.cst$kw$vertical_DASH_buffer_DASH_width.cljs$core$IFn$_invoke$arity$1(sanghati);
-return Number(G__18488);
+var val_vertical_buffer_width = (function (){var G__18795 = cljs.core.cst$kw$vertical_DASH_buffer_DASH_width.cljs$core$IFn$_invoke$arity$1(sanghati);
+return Number(G__18795);
 })();
-var val_inner_width = (function (){var G__18489 = cljs.core.cst$kw$width.cljs$core$IFn$_invoke$arity$1(sanghati);
-return Number(G__18489);
+var val_inner_width = (function (){var G__18796 = cljs.core.cst$kw$width.cljs$core$IFn$_invoke$arity$1(sanghati);
+return Number(G__18796);
 })();
-var val_inner_height = (function (){var G__18490 = cljs.core.cst$kw$height.cljs$core$IFn$_invoke$arity$1(sanghati);
-return Number(G__18490);
+var val_inner_height = (function (){var G__18797 = cljs.core.cst$kw$height.cljs$core$IFn$_invoke$arity$1(sanghati);
+return Number(G__18797);
 })();
-var val_kusi_width = (function (){var G__18491 = cljs.core.cst$kw$kusi_DASH_width.cljs$core$IFn$_invoke$arity$1(sanghati);
-return Number(G__18491);
+var val_kusi_width = (function (){var G__18798 = cljs.core.cst$kw$kusi_DASH_width.cljs$core$IFn$_invoke$arity$1(sanghati);
+return Number(G__18798);
 })();
-var vec__18481 = app.helpers.calc_sanghati_shrinking_lengths(cljs.core.cst$kw$sanghati.cljs$core$IFn$_invoke$arity$1(cljs.core.deref(data)));
-var val_cut_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18481,(0),null);
-var val_cut_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18481,(1),null);
-var val_mandala_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18481,(2),null);
-var val_mandala_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18481,(3),null);
-var val_border_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18481,(4),null);
-var val_border_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18481,(5),null);
-var text = ((function (sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18481,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height){
+var vec__18788 = app.helpers.calc_sanghati_shrinking_lengths(cljs.core.cst$kw$sanghati.cljs$core$IFn$_invoke$arity$1(cljs.core.deref(data)));
+var val_cut_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18788,(0),null);
+var val_cut_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18788,(1),null);
+var val_mandala_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18788,(2),null);
+var val_mandala_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18788,(3),null);
+var val_border_width = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18788,(4),null);
+var val_border_height = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18788,(5),null);
+var text = ((function (sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18788,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height){
 return (function (ctx,s,x,y){
 return app.helpers.draw_text(ctx,s,x,y,pattern_scale,pos_text_offset_x,pos_text_offset_y,pos_pattern_height);
-});})(sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18481,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height))
+});})(sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18788,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height))
 ;
-var text_num = ((function (sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18481,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text){
+var text_num = ((function (sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18788,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text){
 return (function (ctx,s,x,y){
 return text(ctx,app.helpers.num_pad(s),x,y);
-});})(sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18481,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text))
+});})(sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18788,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text))
 ;
-var text_accumulate_horiz = ((function (sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18481,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num){
+var text_accumulate_horiz = ((function (sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18788,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num){
 return (function (ctx,m,k,b,c,x_offset){
 return text_num(ctx,((((m * val_mandala_height) + (k * val_kusi_width)) + (b * val_border_height)) + (c * val_vertical_buffer_width)),(((((0.5 + x_offset) + (m * pos_mandala_width)) + (k * pos_kusi_width)) + (b * pos_border_width)) + (c * pos_vertical_buffer_width)),-2.0);
-});})(sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18481,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num))
+});})(sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18788,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num))
 ;
-var text_accumulate_vert = ((function (sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18481,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz){
+var text_accumulate_vert = ((function (sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18788,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz){
 return (function (ctx,m,k,b,c,y_offset){
 return text_num(ctx,((((m * val_mandala_width) + (k * val_kusi_width)) + (b * val_border_width)) + (c * val_buffer_width)),(-9.0 + pos_pattern_width),(((((1.0 + y_offset) + (m * pos_mandala_height)) + (k * pos_kusi_width)) + (b * pos_border_width)) + (c * pos_buffer_width)));
-});})(sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18481,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz))
+});})(sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18788,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz))
 ;
-var vec__18484 = app.helpers.init_canvas(cljs.core.cst$kw$_SHARP_sanghati_DASH_panels_DASH_7_DASH_8_DASH_9_DASH_canvas,"img/sanghati-panels-7-8-9.svg");
-var canvas_panels_7 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18484,(0),null);
-var img_7 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18484,(1),null);
-app.canvas.add_entity(canvas_panels_7,cljs.core.cst$kw$background,app.canvas.entity(null,null,((function (sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18481,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz,text_accumulate_vert,vec__18484,canvas_panels_7,img_7){
+var vec__18791 = app.helpers.init_canvas(cljs.core.cst$kw$_SHARP_sanghati_DASH_panels_DASH_7_DASH_8_DASH_9_DASH_canvas,"img/sanghati-panels-7-8-9.svg");
+var canvas_panels_7 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18791,(0),null);
+var img_7 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__18791,(1),null);
+app.canvas.add_entity(canvas_panels_7,cljs.core.cst$kw$background,app.canvas.entity(null,null,((function (sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18788,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz,text_accumulate_vert,vec__18791,canvas_panels_7,img_7){
 return (function (ctx,val){
 return text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_vert(text_accumulate_horiz(text_accumulate_horiz(text_accumulate_horiz(text_accumulate_horiz(text_accumulate_horiz(text_accumulate_horiz(text_accumulate_horiz(text_accumulate_horiz(text_accumulate_horiz(app.canvas.draw_image.cljs$core$IFn$_invoke$arity$3(ctx,img_7,new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$x,(pos_img_offset_x * pattern_scale),cljs.core.cst$kw$y,(pos_img_offset_y * pattern_scale),cljs.core.cst$kw$w,(pos_pattern_width * pattern_scale),cljs.core.cst$kw$h,(pos_pattern_height * pattern_scale)], null)),(0),(0),(0),(1),(0)),(0),(0),(1),(1),(0)),(1),(0),(1),(1),(0)),(1),(1),(1),(1),(0)),(2),(1),(1),(1),(0)),(2),(2),(1),(1),(0)),(3),(2),(1),(1),(0)),(3),(2),(2),(1),(0)),(3),(2),(2),(2),(0)),(0),(0),(0),(1),(0)),(0),(0),(1),(1),(0)),(1),(0),(1),(1),(-1)),(1),(0),(1),(3),(0)),(1),(1),(1),(3),(0)),(2),(1),(1),(3),(-1)),(2),(1),(1),(5),(0)),(2),(2),(1),(5),(0)),(3),(2),(1),(5),(0)),(3),(2),(1),(6),2.0);
-});})(sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18481,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz,text_accumulate_vert,vec__18484,canvas_panels_7,img_7))
+});})(sanghati,pos_pattern_width,pos_pattern_height,pos_buffer_width,pos_vertical_buffer_width,pos_border_width,pos_kusi_width,pos_mandala_width,pos_mandala_height,pos_img_offset_x,pos_img_offset_y,pos_text_offset_x,pos_text_offset_y,pattern_scale,val_buffer_width,val_vertical_buffer_width,val_inner_width,val_inner_height,val_kusi_width,vec__18788,val_cut_width,val_cut_height,val_mandala_width,val_mandala_height,val_border_width,val_border_height,text,text_num,text_accumulate_horiz,text_accumulate_vert,vec__18791,canvas_panels_7,img_7))
 ));
 
 return app.canvas.draw_once(canvas_panels_7);
