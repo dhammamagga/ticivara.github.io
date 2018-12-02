@@ -8,7 +8,7 @@ The current version is *v1.3, 1 Dec. 2018*.
 
 Downloads:
 
-- [Dyeing Manual (PDF)](/dyeing-manual/Dyeing Manual.pdf)
-- [Spreadsheet (MS Excel)](/dyeing-manual/Dyeing Manual - Excel.xlsm)
-- [Spreadsheet (LibreOffice)](/dyeing-manual/Dyeing Manual.ods)
+- [Dyeing Manual (PDF)](/dyeing-manual/Dyeing-Manual.pdf)
+- [Spreadsheet (MS Excel)](/dyeing-manual/Dyeing-Manual-Excel.xlsm)
+- [Spreadsheet (LibreOffice)](/dyeing-manual/Dyeing-Manual.ods)
 
